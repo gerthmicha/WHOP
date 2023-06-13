@@ -1,0 +1,10 @@
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - prokka =1.14.6 
+  - orthofinder =2.5.4    
+  - phipack =1.1
+  - mafft =7.487
+  - phyx =1.1  
+  - checkm-genome =1.1.3  

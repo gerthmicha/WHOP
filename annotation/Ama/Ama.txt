@@ -1,0 +1,7 @@
+organism: Wolbachia sp. Ama 
+contigs: 1
+bases: 1202435
+CDS: 1015
+rRNA: 3
+tRNA: 37
+tmRNA: 1

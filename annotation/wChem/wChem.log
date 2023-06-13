@@ -1,0 +1,256 @@
+[14:34:38] This is prokka 1.14.6
+[14:34:38] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[14:34:38] Homepage is https://github.com/tseemann/prokka
+[14:34:38] Local time is Fri Mar  4 14:34:38 2022
+[14:34:38] You are gerth
+[14:34:38] Operating system is linux
+[14:34:38] You have BioPerl 1.007002
+[14:34:38] System has 64 cores.
+[14:34:38] Will use maximum of 8 cores.
+[14:34:38] Annotating as >>> Bacteria <<<
+[14:34:38] Re-using existing --outdir annotation/wChem
+[14:34:38] Using filename prefix: wChem.XXX
+[14:34:38] Setting HMMER_NCPU=1
+[14:34:38] Writing log to: annotation/wChem/wChem.log
+[14:34:38] Command: /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/prokka --outdir annotation/wChem --force --prefix wChem --locustag wChem --cpus 8 --genus Wolbachia --species sp. --strain wChem genome_fastas/wChem.fas
+[14:34:38] Appending to PATH: /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin
+[14:34:38] Looking for 'aragorn' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/aragorn
+[14:34:38] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[14:34:38] Looking for 'barrnap' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/barrnap
+[14:34:38] Determined barrnap version is 000009 from 'barrnap 0.9'
+[14:34:38] Looking for 'blastp' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/blastp
+[14:34:39] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[14:34:39] Looking for 'cmpress' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/cmpress
+[14:34:39] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[14:34:39] Looking for 'cmscan' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/cmscan
+[14:34:39] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[14:34:39] Looking for 'egrep' - found /bin/egrep
+[14:34:39] Looking for 'find' - found /usr/bin/find
+[14:34:39] Looking for 'grep' - found /bin/grep
+[14:34:39] Looking for 'hmmpress' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/hmmpress
+[14:34:39] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[14:34:39] Looking for 'hmmscan' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/hmmscan
+[14:34:39] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[14:34:39] Looking for 'java' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/java
+[14:34:39] Looking for 'makeblastdb' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/makeblastdb
+[14:34:40] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[14:34:40] Looking for 'minced' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/minced
+[14:34:40] Determined minced version is 004002 from 'minced 0.4.2'
+[14:34:40] Looking for 'parallel' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/parallel
+[14:34:40] Determined parallel version is 20211022 from 'GNU parallel 20211022'
+[14:34:40] Looking for 'prodigal' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/prodigal
+[14:34:40] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[14:34:40] Looking for 'prokka-genbank_to_fasta_db' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/prokka-genbank_to_fasta_db
+[14:34:40] Looking for 'sed' - found /bin/sed
+[14:34:40] Looking for 'tbl2asn' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/tbl2asn
+[14:34:40] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[14:34:40] Using genetic code table 11.
+[14:34:40] Loading and checking input file: genome_fastas/wChem.fas
+[14:34:40] Wrote 1 contigs totalling 1291339 bp.
+[14:34:40] Predicting tRNAs and tmRNAs
+[14:34:40] Running: aragorn -l -gc11  -w annotation\/wChem\/wChem\.fna
+[14:34:40] 1 tRNA-His c[201,276] 34 (gtg)
+[14:34:40] 2 tRNA-Arg [47602,47675] 35 (cct)
+[14:34:40] 3 tRNA-Trp c[171920,171993] 34 (cca)
+[14:34:40] 4 tRNA-Leu [212233,212315] 35 (tag)
+[14:34:40] 5 tRNA-Gly [219261,219334] 34 (gcc)
+[14:34:40] 6 tRNA-Ser [301073,301161] 36 (gga)
+[14:34:40] 7 tRNA-Asn [306845,306919] 34 (gtt)
+[14:34:40] 8 tRNA-Ser c[396749,396838] 36 (tga)
+[14:34:40] 9 tmRNA* [405266,405600] 197,244 ANDNFAAEDNVALAA*
+[14:34:40] 10 tRNA-Arg c[411347,411421] 36 (acg)
+[14:34:40] 11 tRNA-Leu [413894,413979] 35 (cag)
+[14:34:40] 12 tRNA-Gln c[421411,421485] 33 (ttg)
+[14:34:40] 13 tRNA-Met [451122,451198] 35 (cat)
+[14:34:40] 14 tRNA-Val c[554858,554930] 34 (tac)
+[14:34:40] 15 tRNA-Thr c[579215,579288] 34 (ggt)
+[14:34:40] 16 tRNA-Arg [591933,592009] 35 (tct)
+[14:34:40] 17 tRNA-Met [685810,685884] 34 (cat)
+[14:34:40] 18 tRNA-Met [773639,773715] 35 (cat)
+[14:34:40] 19 tRNA-Pro c[783751,783826] 36 (tgg)
+[14:34:40] 20 tRNA-Ala c[797772,797847] 34 (tgc)
+[14:34:40] 21 tRNA-Lys [798029,798102] 34 (ttt)
+[14:34:40] 22 tRNA-Cys [818143,818215] 34 (gca)
+[14:34:40] 23 tRNA-Val [822995,823068] 34 (gac)
+[14:34:40] 24 tRNA-Ile [868046,868122] 35 (gat)
+[14:34:40] 25 tRNA-Leu [913445,913528] 34 (caa)
+[14:34:40] 26 tRNA-Thr c[938229,938302] 34 (tgt)
+[14:34:40] 27 tRNA-Glu c[939237,939309] 34 (ttc)
+[14:34:40] 28 tRNA-Ser c[968955,969046] 35 (gct)
+[14:34:40] 29 tRNA-Phe c[1056783,1056856] 34 (gaa)
+[14:34:40] 30 tRNA-Asp [1062464,1062538] 35 (gtc)
+[14:34:40] 31 tRNA-Leu [1104223,1104310] 35 (gag)
+[14:34:40] 32 tRNA-Leu c[1243480,1243566] 35 (taa)
+[14:34:40] 33 tRNA-Arg [1282830,1282904] 35 (ccg)
+[14:34:40] Found 33 tRNAs
+[14:34:40] Predicting Ribosomal RNAs
+[14:34:40] Running Barrnap with 8 threads
+[14:34:41] 1 CP061738.1 534508 16S ribosomal RNA
+[14:34:41] 2 CP061738.1 544628 5S ribosomal RNA
+[14:34:41] 3 CP061738.1 544802 23S ribosomal RNA
+[14:34:41] Found 3 rRNAs
+[14:34:41] Skipping ncRNA search, enable with --rfam if desired.
+[14:34:41] Total of 35 tRNA + rRNA features
+[14:34:41] Searching for CRISPR repeats
+[14:34:41] Found 0 CRISPRs
+[14:34:41] Predicting coding sequences
+[14:34:41] Contigs total 1291339 bp, so using single mode
+[14:34:41] Running: prodigal -i annotation\/wChem\/wChem\.fna -c -m -g 11 -p single -f sco -q
+[14:34:43] Excluding CDS which overlaps existing RNA (tRNA) at CP061738.1:396676..396831 on - strand
+[14:34:43] Excluding CDS which overlaps existing RNA (tRNA) at CP061738.1:421476..421811 on - strand
+[14:34:43] Excluding CDS which overlaps existing RNA (tRNA) at CP061738.1:684518..685810 on + strand
+[14:34:43] Excluding CDS which overlaps existing RNA (tRNA) at CP061738.1:772542..773675 on - strand
+[14:34:43] Excluding CDS which overlaps existing RNA (tRNA) at CP061738.1:913459..914145 on + strand
+[14:34:43] Excluding CDS which overlaps existing RNA (tRNA) at CP061738.1:938145..938264 on + strand
+[14:34:43] Excluding CDS which overlaps existing RNA (tRNA) at CP061738.1:1243265..1243489 on - strand
+[14:34:43] Found 1266 CDS
+[14:34:43] Connecting features back to sequences
+[14:34:43] Not using genus-specific database. Try --usegenus to enable it.
+[14:34:43] Annotating CDS, please be patient.
+[14:34:43] Will use 8 CPUs for similarity searching.
+[14:34:44] There are still 1266 unannotated CDS left (started with 1266)
+[14:34:44] Will use blast to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/IS with 8 CPUs
+[14:34:44] Running: cat annotation\/wChem\/wChem\.IS\.tmp\.71187\.faa | parallel --gnu --plain -j 8 --block 22675 --recstart '>' --pipe blastp -query - -db /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/wChem\/wChem\.IS\.tmp\.71187\.blast 2> /dev/null
+[14:35:18] Deleting unwanted file: annotation/wChem/wChem.IS.tmp.71187.faa
+[14:35:18] Deleting unwanted file: annotation/wChem/wChem.IS.tmp.71187.blast
+[14:35:18] There are still 1130 unannotated CDS left (started with 1266)
+[14:35:18] Will use blast to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/AMR with 8 CPUs
+[14:35:18] Running: cat annotation\/wChem\/wChem\.AMR\.tmp\.71187\.faa | parallel --gnu --plain -j 8 --block 21027 --recstart '>' --pipe blastp -query - -db /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/wChem\/wChem\.AMR\.tmp\.71187\.blast 2> /dev/null
+[14:35:52] Deleting unwanted file: annotation/wChem/wChem.AMR.tmp.71187.faa
+[14:35:52] Deleting unwanted file: annotation/wChem/wChem.AMR.tmp.71187.blast
+[14:35:52] There are still 1130 unannotated CDS left (started with 1266)
+[14:35:52] Will use blast to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/sprot with 8 CPUs
+[14:35:52] Running: cat annotation\/wChem\/wChem\.sprot\.tmp\.71187\.faa | parallel --gnu --plain -j 8 --block 21027 --recstart '>' --pipe blastp -query - -db /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/wChem\/wChem\.sprot\.tmp\.71187\.blast 2> /dev/null
+[14:36:28] Modify product: Uncharacterized protein NMB0459 => putative protein
+[14:36:28] Modify product: SCO1 protein homolog => SCO1 protein 
+[14:36:28] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[14:36:28] Modify product: Cytochrome b561 homolog 2 => Cytochrome b561 
+[14:36:28] Modify product: Probable chromosome-partitioning protein ParB => putative chromosome-partitioning protein ParB
+[14:36:28] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[14:36:28] Modify product: UPF0053 protein HI_0107 => hypothetical protein
+[14:36:28] Modify product: UPF0335 protein CCNA_03428 => hypothetical protein
+[14:36:28] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[14:36:28] Modify product: Probable murein peptide carboxypeptidase => putative murein peptide carboxypeptidase
+[14:36:28] Modify product: UPF0758 protein => hypothetical protein
+[14:36:28] Modify product: Probable lipid II flippase MurJ => putative lipid II flippase MurJ
+[14:36:28] Modify product: Uncharacterized metal-dependent hydrolase YcfH => putative metal-dependent hydrolase YcfH
+[14:36:28] Modify product: Uncharacterized protein RP812 => putative protein RP812
+[14:36:28] Modify product: Probable transcriptional regulatory protein aq_1575 => putative transcriptional regulatory protein
+[14:36:28] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[14:36:28] Modify product: Probable peptidoglycan D,D-transpeptidase FtsI => putative peptidoglycan D,D-transpeptidase FtsI
+[14:36:28] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[14:36:28] Modify product: Probable ribonucleotide transport ATP-binding protein mkl => putative ribonucleotide transport ATP-binding protein mkl
+[14:36:28] Modify product: UPF0758 protein => hypothetical protein
+[14:36:28] Modify product: Probable protein kinase UbiB => putative protein kinase UbiB
+[14:36:28] Modify product: UPF0758 protein => hypothetical protein
+[14:36:28] Modify product: Probable peptidoglycan glycosyltransferase FtsW => putative peptidoglycan glycosyltransferase FtsW
+[14:36:28] Modify product: Probable oxidoreductase CT_610 => putative oxidoreductase CT_610
+[14:36:28] Modify product: Uncharacterized oxidoreductase YciK => putative oxidoreductase YciK
+[14:36:28] Modify product: UPF0176 protein lpg2838 => hypothetical protein
+[14:36:28] Modify product: UPF0053 inner membrane protein YoaE => hypothetical protein
+[14:36:28] Modify product: Probable GTP-binding protein EngB => putative GTP-binding protein EngB
+[14:36:28] Modify product: Co-chaperone protein HscB homolog => Co-chaperone protein HscB 
+[14:36:28] Modify product: Uncharacterized HIT-like protein HP_0404 => putative HIT-like protein
+[14:36:28] Cleaned 30 /product names
+[14:36:28] Deleting unwanted file: annotation/wChem/wChem.sprot.tmp.71187.faa
+[14:36:28] Deleting unwanted file: annotation/wChem/wChem.sprot.tmp.71187.blast
+[14:36:29] There are still 636 unannotated CDS left (started with 1266)
+[14:36:29] Will use hmmer3 to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/hmm/HAMAP.hmm with 8 CPUs
+[14:36:29] Running: cat annotation\/wChem\/wChem\.HAMAP\.hmm\.tmp\.71187\.faa | parallel --gnu --plain -j 8 --block 9931 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/hmm/HAMAP.hmm /dev/stdin > annotation\/wChem\/wChem\.HAMAP\.hmm\.tmp\.71187\.hmmer3 2> /dev/null
+[14:36:34] Deleting unwanted file: annotation/wChem/wChem.HAMAP.hmm.tmp.71187.faa
+[14:36:34] Deleting unwanted file: annotation/wChem/wChem.HAMAP.hmm.tmp.71187.hmmer3
+[14:36:34] Labelling remaining 578 proteins as 'hypothetical protein'
+[14:36:34] Possible /pseudo 'IS256 family transposase ISWpi15' at CP061738.1 position 27263
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 51000
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 100190
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 140485
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 152813
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 195566
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 196016
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 196543
+[14:36:34] Possible /pseudo 'IS5 family transposase ISCaa6' at CP061738.1 position 244048
+[14:36:34] Possible /pseudo 'IS256 family transposase ISWpi15' at CP061738.1 position 282596
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 310279
+[14:36:34] Possible /pseudo 'IS5 family transposase ISCaa6' at CP061738.1 position 315140
+[14:36:34] Possible /pseudo 'IS256 family transposase ISWpi15' at CP061738.1 position 318330
+[14:36:34] Possible /pseudo 'IS5 family transposase ISCaa6' at CP061738.1 position 323541
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 324662
+[14:36:34] Possible /pseudo 'ATP synthase subunit b' at CP061738.1 position 345622
+[14:36:34] Possible /pseudo 'IS256 family transposase ISWpi15' at CP061738.1 position 419928
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 439304
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 445780
+[14:36:34] Possible /pseudo 'Arginine/agmatine antiporter' at CP061738.1 position 478108
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 486819
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 505380
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 512192
+[14:36:34] Possible /pseudo 'IS256 family transposase ISWpi15' at CP061738.1 position 726414
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 732861
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 772250
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 786668
+[14:36:34] Possible /pseudo 'Amino-acid carrier protein AlsT' at CP061738.1 position 827602
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 845107
+[14:36:34] Possible /pseudo 'IS256 family transposase ISWpi15' at CP061738.1 position 847521
+[14:36:34] Possible /pseudo 'IS256 family transposase ISWpi15' at CP061738.1 position 847972
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 863718
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 897023
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 1014358
+[14:36:34] Possible /pseudo 'IS256 family transposase ISWpi15' at CP061738.1 position 1048205
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 1049809
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 1096282
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 1099459
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 1154678
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 1161349
+[14:36:34] Possible /pseudo 'IS630 family transposase ISWpi11' at CP061738.1 position 1283864
+[14:36:34] Found 503 unique /gene codes.
+[14:36:34] Fixed 2 duplicate /gene - adiC_1 adiC_2
+[14:36:34] Fixed 2 duplicate /gene - virB4_1 virB4_2
+[14:36:34] Fixed 2 duplicate /gene - algA_1 algA_2
+[14:36:34] Fixed 2 duplicate /gene - surA_1 surA_2
+[14:36:34] Fixed 2 duplicate /gene - ruvB_1 ruvB_2
+[14:36:34] Fixed 2 duplicate /gene - argD_1 argD_2
+[14:36:34] Fixed 2 duplicate /gene - rcsC_1 rcsC_2
+[14:36:34] Fixed 2 duplicate /gene - guaB_1 guaB_2
+[14:36:34] Fixed 2 duplicate /gene - dnaJ_1 dnaJ_2
+[14:36:34] Fixed 2 duplicate /gene - gltX1_1 gltX1_2
+[14:36:34] Fixed 3 duplicate /gene - proP_1 proP_2 proP_3
+[14:36:34] Fixed 2 duplicate /gene - atpF_1 atpF_2
+[14:36:34] Fixed 2 duplicate /gene - atpD_1 atpD_2
+[14:36:34] Fixed 2 duplicate /gene - COQ3_1 COQ3_2
+[14:36:34] Fixed 2 duplicate /gene - purL_1 purL_2
+[14:36:34] Fixed 3 duplicate /gene - alsT_1 alsT_2 alsT_3
+[14:36:34] Fixed 2 duplicate /gene - rnd_1 rnd_2
+[14:36:34] Fixed 3 duplicate /gene - smc_1 smc_2 smc_3
+[14:36:34] Fixed 18 colliding /gene names.
+[14:36:34] Adding /locus_tag identifiers
+[14:36:34] Assigned 1302 locus_tags to CDS and RNA features.
+[14:36:34] Writing outputs to annotation/wChem/
+[14:36:34] Generating annotation statistics file
+[14:36:34] Generating Genbank and Sequin files
+[14:36:34] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z annotation\/wChem\/wChem\.err -i annotation\/wChem\/wChem\.fsa 2> /dev/null
+[14:36:36] Deleting unwanted file: annotation/wChem/errorsummary.val
+[14:36:36] Deleting unwanted file: annotation/wChem/wChem.dr
+[14:36:36] Deleting unwanted file: annotation/wChem/wChem.fixedproducts
+[14:36:36] Deleting unwanted file: annotation/wChem/wChem.ecn
+[14:36:36] Deleting unwanted file: annotation/wChem/wChem.val
+[14:36:36] Repairing broken .GBK output that tbl2asn produces...
+[14:36:36] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < annotation\/wChem\/wChem\.gbf > annotation\/wChem\/wChem\.gbk
+[14:36:36] Deleting unwanted file: annotation/wChem/wChem.gbf
+[14:36:36] Output files:
+[14:36:36] annotation/wChem/wChem.fsa
+[14:36:36] annotation/wChem/wChem.faa
+[14:36:36] annotation/wChem/wChem.gbk
+[14:36:36] annotation/wChem/wChem.tsv
+[14:36:36] annotation/wChem/wChem.tbl
+[14:36:36] annotation/wChem/wChem.log
+[14:36:36] annotation/wChem/wChem.sqn
+[14:36:36] annotation/wChem/wChem.gff
+[14:36:36] annotation/wChem/wChem.err
+[14:36:36] annotation/wChem/wChem.txt
+[14:36:36] annotation/wChem/wChem.ffn
+[14:36:36] annotation/wChem/wChem.fna
+[14:36:36] Annotation finished successfully.
+[14:36:36] Walltime used: 1.97 minutes
+[14:36:36] If you use this result please cite the Prokka paper:
+[14:36:36] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[14:36:36] Type 'prokka --citation' for more details.
+[14:36:36] Thank you, come again.

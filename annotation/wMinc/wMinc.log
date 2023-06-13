@@ -1,0 +1,223 @@
+[14:32:25] This is prokka 1.14.6
+[14:32:25] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[14:32:25] Homepage is https://github.com/tseemann/prokka
+[14:32:25] Local time is Fri Mar  4 14:32:25 2022
+[14:32:25] You are gerth
+[14:32:25] Operating system is linux
+[14:32:25] You have BioPerl 1.007002
+[14:32:25] System has 64 cores.
+[14:32:25] Will use maximum of 8 cores.
+[14:32:25] Annotating as >>> Bacteria <<<
+[14:32:25] Re-using existing --outdir annotation/wMinc
+[14:32:25] Using filename prefix: wMinc.XXX
+[14:32:25] Setting HMMER_NCPU=1
+[14:32:25] Writing log to: annotation/wMinc/wMinc.log
+[14:32:25] Command: /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/prokka --outdir annotation/wMinc --force --prefix wMinc --locustag wMinc --cpus 8 --genus Wolbachia --species sp. --strain wMinc genome_fastas/wMinc.fas
+[14:32:25] Appending to PATH: /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin
+[14:32:25] Looking for 'aragorn' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/aragorn
+[14:32:25] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[14:32:25] Looking for 'barrnap' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/barrnap
+[14:32:25] Determined barrnap version is 000009 from 'barrnap 0.9'
+[14:32:25] Looking for 'blastp' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/blastp
+[14:32:26] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[14:32:26] Looking for 'cmpress' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/cmpress
+[14:32:26] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[14:32:26] Looking for 'cmscan' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/cmscan
+[14:32:26] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[14:32:26] Looking for 'egrep' - found /bin/egrep
+[14:32:26] Looking for 'find' - found /usr/bin/find
+[14:32:26] Looking for 'grep' - found /bin/grep
+[14:32:26] Looking for 'hmmpress' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/hmmpress
+[14:32:26] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[14:32:26] Looking for 'hmmscan' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/hmmscan
+[14:32:26] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[14:32:26] Looking for 'java' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/java
+[14:32:26] Looking for 'makeblastdb' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/makeblastdb
+[14:32:27] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[14:32:27] Looking for 'minced' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/minced
+[14:32:27] Determined minced version is 004002 from 'minced 0.4.2'
+[14:32:27] Looking for 'parallel' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/parallel
+[14:32:27] Determined parallel version is 20211022 from 'GNU parallel 20211022'
+[14:32:27] Looking for 'prodigal' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/prodigal
+[14:32:27] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[14:32:27] Looking for 'prokka-genbank_to_fasta_db' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/prokka-genbank_to_fasta_db
+[14:32:27] Looking for 'sed' - found /bin/sed
+[14:32:27] Looking for 'tbl2asn' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/tbl2asn
+[14:32:27] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[14:32:27] Using genetic code table 11.
+[14:32:27] Loading and checking input file: genome_fastas/wMinc.fas
+[14:32:27] Wrote 66 contigs totalling 1474024 bp.
+[14:32:27] Predicting tRNAs and tmRNAs
+[14:32:27] Running: aragorn -l -gc11  -w annotation\/wMinc\/wMinc\.fna
+[14:32:27] 1 tRNA-Gln c[130383,130457] 33 (ttg)
+[14:32:27] 2 tRNA-Lys [144931,145004] 34 (ttt)
+[14:32:27] 3 tRNA-Lys [204169,204244] 34 (ctt)
+[14:32:27] 1 tmRNA* [24897,25224] 190,237 ANDNFAADRVELAAA*
+[14:32:27] 2 tRNA-Ser c[65705,65793] 36 (gga)
+[14:32:27] 3 tRNA-Arg [101175,101250] 36 (acg)
+[14:32:27] 1 tRNA-Leu c[77313,77396] 35 (tag)
+[14:32:27] 2 tRNA-Val [108667,108740] 34 (gac)
+[14:32:27] 1 tRNA-His [23089,23164] 34 (gtg)
+[14:32:27] 2 tRNA-Leu [30654,30741] 35 (gag)
+[14:32:27] 3 tRNA-Asn [85103,85175] 33 (gtt)
+[14:32:27] 4 tRNA-Leu [103720,103805] 35 (cag)
+[14:32:27] 1 tRNA-Phe [52019,52092] 34 (gaa)
+[14:32:27] 2 tRNA-Ser [53338,53408] 33 (tga)
+[14:32:27] 3 tRNA-Gly c[68586,68659] 34 (gcc)
+[14:32:27] 4 tRNA-Cys [73067,73139] 34 (gca)
+[14:32:27] 1 tRNA-Ser [7119,7207] 35 (tga)
+[14:32:27] 2 tRNA-Met [35572,35648] 35 (cat)
+[14:32:27] 3 tRNA-Thr [40081,40154] 34 (tgt)
+[14:32:27] 4 tRNA-Arg c[50147,50221] 35 (tct)
+[14:32:27] 5 tRNA-Val [53955,54027] 34 (tac)
+[14:32:27] 6 tRNA-Thr c[58829,58902] 34 (ggt)
+[14:32:27] 1 tRNA-Arg c[25410,25484] 35 (ccg)
+[14:32:27] 2 tRNA-Trp c[64005,64078] 34 (cca)
+[14:32:27] 1 tRNA-Pro c[33162,33238] 37 (tgg)
+[14:32:27] 2 tRNA-Met [37792,37868] 35 (cat)
+[14:32:27] 1 tRNA-Ser c[20345,20437] 36 (gct)
+[14:32:27] 2 tRNA-Ala [21306,21380] 35 (tgc)
+[14:32:27] 1 tRNA-Met [22518,22591] 33 (cat)
+[14:32:27] 1 tRNA-Glu c[3339,3413] 34 (ttc)
+[14:32:27] 2 tRNA-Ile [22018,22094] 36 (gat)
+[14:32:27] 1 tRNA-Asp c[7391,7467] 35 (gtc)
+[14:32:27] 1 tRNA-Leu c[16262,16345] 34 (caa)
+[14:32:27] 1 tRNA-Leu [4860,4945] 34 (taa)
+[14:32:27] 2 tRNA-Tyr [17851,17933] 35 (gta)
+[14:32:27] 3 tRNA-Gly [17938,18009] 33 (tcc)
+[14:32:27] Found 36 tRNAs
+[14:32:27] Predicting Ribosomal RNAs
+[14:32:27] Running Barrnap with 8 threads
+[14:32:28] 1 NODE_2_length_183218_cov_9.009077 121099 16S ribosomal RNA
+[14:32:28] 2 NODE_3_length_122299_cov_8.082606 86739 5S ribosomal RNA
+[14:32:28] 3 NODE_3_length_122299_cov_8.082606 86907 23S ribosomal RNA
+[14:32:28] Found 3 rRNAs
+[14:32:28] Skipping ncRNA search, enable with --rfam if desired.
+[14:32:28] Total of 38 tRNA + rRNA features
+[14:32:28] Searching for CRISPR repeats
+[14:32:28] Found 0 CRISPRs
+[14:32:28] Predicting coding sequences
+[14:32:28] Contigs total 1474024 bp, so using single mode
+[14:32:28] Running: prodigal -i annotation\/wMinc\/wMinc\.fna -c -m -g 11 -p single -f sco -q
+[14:32:29] Excluding CDS which overlaps existing RNA (rRNA) at NODE_3_length_122299_cov_8.082606:88560..88832 on - strand
+[14:32:29] Excluding CDS which overlaps existing RNA (tRNA) at NODE_3_length_122299_cov_8.082606:108703..109662 on + strand
+[14:32:29] Excluding CDS which overlaps existing RNA (tRNA) at NODE_4_length_112777_cov_8.653968:30697..31851 on + strand
+[14:32:30] Excluding CDS which overlaps existing RNA (tRNA) at NODE_7_length_66243_cov_7.554925:7125..7259 on + strand
+[14:32:30] Excluding CDS which overlaps existing RNA (tRNA) at NODE_11_length_29487_cov_8.125911:21226..22527 on + strand
+[14:32:30] Found 1270 CDS
+[14:32:30] Connecting features back to sequences
+[14:32:30] Not using genus-specific database. Try --usegenus to enable it.
+[14:32:30] Annotating CDS, please be patient.
+[14:32:30] Will use 8 CPUs for similarity searching.
+[14:32:30] There are still 1270 unannotated CDS left (started with 1270)
+[14:32:30] Will use blast to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/IS with 8 CPUs
+[14:32:30] Running: cat annotation\/wMinc\/wMinc\.IS\.tmp\.55008\.faa | parallel --gnu --plain -j 8 --block 25877 --recstart '>' --pipe blastp -query - -db /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/wMinc\/wMinc\.IS\.tmp\.55008\.blast 2> /dev/null
+[14:32:36] Deleting unwanted file: annotation/wMinc/wMinc.IS.tmp.55008.faa
+[14:32:36] Deleting unwanted file: annotation/wMinc/wMinc.IS.tmp.55008.blast
+[14:32:36] There are still 1261 unannotated CDS left (started with 1270)
+[14:32:36] Will use blast to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/AMR with 8 CPUs
+[14:32:36] Running: cat annotation\/wMinc\/wMinc\.AMR\.tmp\.55008\.faa | parallel --gnu --plain -j 8 --block 25681 --recstart '>' --pipe blastp -query - -db /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/wMinc\/wMinc\.AMR\.tmp\.55008\.blast 2> /dev/null
+[14:32:42] Deleting unwanted file: annotation/wMinc/wMinc.AMR.tmp.55008.faa
+[14:32:42] Deleting unwanted file: annotation/wMinc/wMinc.AMR.tmp.55008.blast
+[14:32:42] There are still 1261 unannotated CDS left (started with 1270)
+[14:32:42] Will use blast to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/sprot with 8 CPUs
+[14:32:42] Running: cat annotation\/wMinc\/wMinc\.sprot\.tmp\.55008\.faa | parallel --gnu --plain -j 8 --block 25681 --recstart '>' --pipe blastp -query - -db /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/wMinc\/wMinc\.sprot\.tmp\.55008\.blast 2> /dev/null
+[14:33:18] Modify product: Uncharacterized oxidoreductase YciK => putative oxidoreductase YciK
+[14:33:18] Modify product: Uncharacterized protein RP812 => putative protein RP812
+[14:33:18] Modify product: UPF0758 protein => hypothetical protein
+[14:33:18] Modify product: Probable GTP-binding protein EngB => putative GTP-binding protein EngB
+[14:33:18] Modify product: UPF0758 protein => hypothetical protein
+[14:33:18] Modify product: Probable peptidoglycan glycosyltransferase FtsW => putative peptidoglycan glycosyltransferase FtsW
+[14:33:18] Modify product: Probable transcriptional regulatory protein aq_1575 => putative transcriptional regulatory protein
+[14:33:18] Modify product: Uncharacterized metal-dependent hydrolase YcfH => putative metal-dependent hydrolase YcfH
+[14:33:19] Modify product: Probable lipid II flippase MurJ => putative lipid II flippase MurJ
+[14:33:19] Modify product: Cytochrome b561 homolog 2 => Cytochrome b561 
+[14:33:19] Modify product: Probable peptidoglycan D,D-transpeptidase FtsI => putative peptidoglycan D,D-transpeptidase FtsI
+[14:33:19] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[14:33:19] Modify product: Uncharacterized HIT-like protein HP_0404 => putative HIT-like protein
+[14:33:19] Modify product: UPF0053 protein HI_0107 => hypothetical protein
+[14:33:19] Modify product: UPF0335 protein CCNA_03428 => hypothetical protein
+[14:33:19] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[14:33:19] Modify product: Uncharacterized ABC transporter ATP-binding protein TM_0288 => putative ABC transporter ATP-binding protein
+[14:33:19] Modify product: Probable ribonucleotide transport ATP-binding protein mkl => putative ribonucleotide transport ATP-binding protein mkl
+[14:33:19] Modify product: UPF0176 protein lpg2838 => hypothetical protein
+[14:33:19] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[14:33:19] Modify product: UPF0758 protein => hypothetical protein
+[14:33:19] Modify product: Co-chaperone protein HscB homolog => Co-chaperone protein HscB 
+[14:33:19] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[14:33:19] Modify product: Uncharacterized protein NMB0459 => putative protein
+[14:33:19] Modify product: UPF0758 protein => hypothetical protein
+[14:33:19] Modify product: UPF0758 protein => hypothetical protein
+[14:33:19] Modify product: Probable chromosome-partitioning protein ParB => putative chromosome-partitioning protein ParB
+[14:33:19] Modify product: UPF0053 inner membrane protein YoaE => hypothetical protein
+[14:33:19] Modify product: Probable murein peptide carboxypeptidase => putative murein peptide carboxypeptidase
+[14:33:19] Cleaned 29 /product names
+[14:33:19] Deleting unwanted file: annotation/wMinc/wMinc.sprot.tmp.55008.faa
+[14:33:19] Deleting unwanted file: annotation/wMinc/wMinc.sprot.tmp.55008.blast
+[14:33:19] There are still 771 unannotated CDS left (started with 1270)
+[14:33:19] Will use hmmer3 to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/hmm/HAMAP.hmm with 8 CPUs
+[14:33:19] Running: cat annotation\/wMinc\/wMinc\.HAMAP\.hmm\.tmp\.55008\.faa | parallel --gnu --plain -j 8 --block 15151 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/hmm/HAMAP.hmm /dev/stdin > annotation\/wMinc\/wMinc\.HAMAP\.hmm\.tmp\.55008\.hmmer3 2> /dev/null
+[14:33:26] Deleting unwanted file: annotation/wMinc/wMinc.HAMAP.hmm.tmp.55008.faa
+[14:33:26] Deleting unwanted file: annotation/wMinc/wMinc.HAMAP.hmm.tmp.55008.hmmer3
+[14:33:26] Labelling remaining 701 proteins as 'hypothetical protein'
+[14:33:26] Possible /pseudo 'Disulfide bond formation protein B' at NODE_1_length_205765_cov_8.190398 position 23302
+[14:33:26] Possible /pseudo 'Cysteine desulfurase IscS' at NODE_3_length_122299_cov_8.082606 position 18205
+[14:33:26] Possible /pseudo 'Amino-acid carrier protein AlsT' at NODE_3_length_122299_cov_8.082606 position 115189
+[14:33:26] Possible /pseudo 'IS66 family transposase ISWen3' at NODE_29_length_8664_cov_11.096642 position 2557
+[14:33:26] Found 501 unique /gene codes.
+[14:33:26] Fixed 2 duplicate /gene - argD_1 argD_2
+[14:33:26] Fixed 3 duplicate /gene - gpFI_1 gpFI_2 gpFI_3
+[14:33:26] Fixed 2 duplicate /gene - dnaA_1 dnaA_2
+[14:33:26] Fixed 2 duplicate /gene - iscS_1 iscS_2
+[14:33:26] Fixed 2 duplicate /gene - purL_1 purL_2
+[14:33:26] Fixed 2 duplicate /gene - gltX1_1 gltX1_2
+[14:33:26] Fixed 2 duplicate /gene - rcsC_1 rcsC_2
+[14:33:26] Fixed 2 duplicate /gene - rnd_1 rnd_2
+[14:33:26] Fixed 2 duplicate /gene - ruvB_1 ruvB_2
+[14:33:26] Fixed 2 duplicate /gene - surA_1 surA_2
+[14:33:26] Fixed 3 duplicate /gene - proP_1 proP_2 proP_3
+[14:33:26] Fixed 3 duplicate /gene - dnaJ_1 dnaJ_2 dnaJ_3
+[14:33:26] Fixed 2 duplicate /gene - tatC_1 tatC_2
+[14:33:26] Fixed 2 duplicate /gene - ndhB_1 ndhB_2
+[14:33:26] Fixed 3 duplicate /gene - alsT_1 alsT_2 alsT_3
+[14:33:26] Fixed 2 duplicate /gene - gdx_1 gdx_2
+[14:33:26] Fixed 2 duplicate /gene - dsbB_1 dsbB_2
+[14:33:26] Fixed 2 duplicate /gene - tufA_1 tufA_2
+[14:33:26] Fixed 2 duplicate /gene - atpH_1 atpH_2
+[14:33:26] Fixed 2 duplicate /gene - COQ3_1 COQ3_2
+[14:33:26] Fixed 4 duplicate /gene - smc_1 smc_2 smc_3 smc_4
+[14:33:26] Fixed 2 duplicate /gene - virB4_1 virB4_2
+[14:33:26] Fixed 22 colliding /gene names.
+[14:33:26] Adding /locus_tag identifiers
+[14:33:26] Assigned 1309 locus_tags to CDS and RNA features.
+[14:33:26] Writing outputs to annotation/wMinc/
+[14:33:26] Generating annotation statistics file
+[14:33:26] Generating Genbank and Sequin files
+[14:33:26] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z annotation\/wMinc\/wMinc\.err -i annotation\/wMinc\/wMinc\.fsa 2> /dev/null
+[14:33:30] Deleting unwanted file: annotation/wMinc/errorsummary.val
+[14:33:30] Deleting unwanted file: annotation/wMinc/wMinc.dr
+[14:33:30] Deleting unwanted file: annotation/wMinc/wMinc.fixedproducts
+[14:33:30] Deleting unwanted file: annotation/wMinc/wMinc.ecn
+[14:33:30] Deleting unwanted file: annotation/wMinc/wMinc.val
+[14:33:30] Repairing broken .GBK output that tbl2asn produces...
+[14:33:30] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < annotation\/wMinc\/wMinc\.gbf > annotation\/wMinc\/wMinc\.gbk
+[14:33:30] Deleting unwanted file: annotation/wMinc/wMinc.gbf
+[14:33:30] Output files:
+[14:33:30] annotation/wMinc/wMinc.ffn
+[14:33:30] annotation/wMinc/wMinc.faa
+[14:33:30] annotation/wMinc/wMinc.gff
+[14:33:30] annotation/wMinc/wMinc.gbk
+[14:33:30] annotation/wMinc/wMinc.log
+[14:33:30] annotation/wMinc/wMinc.err
+[14:33:30] annotation/wMinc/wMinc.tsv
+[14:33:30] annotation/wMinc/wMinc.fna
+[14:33:30] annotation/wMinc/wMinc.fsa
+[14:33:30] annotation/wMinc/wMinc.tbl
+[14:33:30] annotation/wMinc/wMinc.txt
+[14:33:30] annotation/wMinc/wMinc.sqn
+[14:33:30] Annotation finished successfully.
+[14:33:30] Walltime used: 1.08 minutes
+[14:33:30] If you use this result please cite the Prokka paper:
+[14:33:30] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[14:33:30] Type 'prokka --citation' for more details.
+[14:33:30] Share and enjoy!

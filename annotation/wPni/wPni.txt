@@ -1,0 +1,8 @@
+organism: Wolbachia sp. wPni 
+contigs: 182
+bases: 1457187
+CDS: 1315
+rRNA: 3
+repeat_region: 1
+tRNA: 36
+tmRNA: 1

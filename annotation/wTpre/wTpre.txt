@@ -1,0 +1,7 @@
+organism: Wolbachia sp. wTpre 
+contigs: 1
+bases: 1133809
+CDS: 1252
+rRNA: 3
+tRNA: 35
+tmRNA: 1

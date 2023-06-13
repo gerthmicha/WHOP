@@ -1,0 +1,7 @@
+organism: Wolbachia sp. Eru 
+contigs: 1
+bases: 1516355
+CDS: 961
+rRNA: 3
+tRNA: 36
+tmRNA: 1

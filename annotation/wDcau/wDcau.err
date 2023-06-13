@@ -1,0 +1,3463 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:647 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 647 present
+DISC_FEATURE_COUNT:tRNA: 33 present
+DISC_FEATURE_COUNT:rRNA: 3 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:683 features have inconsistent gene locations.
+OVERLAPPING_CDS:2 coding regions overlap another coding region with a similar or identical name.
+SUSPECT_PRODUCT_NAMES:3 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+		1 features Contains underscore
+	FATAL: Remove organism from product name
+		1 features contains 'ECOLI'
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+FATAL: DISC_SUSPECT_RRNA_PRODUCTS:1 rRNA product names contain suspect phrase
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:23 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:648 sequences do not include project.
+FATAL: RRNA_NAME_CONFLICTS:1 rRNA product names are not standard. Correct the names to the standard format, eg "16S ribosomal RNA"
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::647 proteins have invalid IDs.
+annotation/wDcau/wDcau:CP046580.1_1 (length 92)
+annotation/wDcau/wDcau:CP046580.1_2 (length 350)
+annotation/wDcau/wDcau:CP046580.1_3 (length 397)
+annotation/wDcau/wDcau:CP046580.1_4 (length 36)
+annotation/wDcau/wDcau:CP046580.1_5 (length 404)
+annotation/wDcau/wDcau:CP046580.1_6 (length 425)
+annotation/wDcau/wDcau:CP046580.1_7 (length 316)
+annotation/wDcau/wDcau:CP046580.1_8 (length 436)
+annotation/wDcau/wDcau:CP046580.1_9 (length 425)
+annotation/wDcau/wDcau:CP046580.1_10 (length 423)
+annotation/wDcau/wDcau:CP046580.1_11 (length 519)
+annotation/wDcau/wDcau:CP046580.1_12 (length 115)
+annotation/wDcau/wDcau:CP046580.1_13 (length 62)
+annotation/wDcau/wDcau:CP046580.1_14 (length 47)
+annotation/wDcau/wDcau:CP046580.1_15 (length 180)
+annotation/wDcau/wDcau:CP046580.1_16 (length 190)
+annotation/wDcau/wDcau:CP046580.1_17 (length 436)
+annotation/wDcau/wDcau:CP046580.1_18 (length 445)
+annotation/wDcau/wDcau:CP046580.1_19 (length 159)
+annotation/wDcau/wDcau:CP046580.1_20 (length 310)
+annotation/wDcau/wDcau:CP046580.1_21 (length 122)
+annotation/wDcau/wDcau:CP046580.1_22 (length 89)
+annotation/wDcau/wDcau:CP046580.1_23 (length 169)
+annotation/wDcau/wDcau:CP046580.1_24 (length 190)
+annotation/wDcau/wDcau:CP046580.1_25 (length 488)
+annotation/wDcau/wDcau:CP046580.1_26 (length 256)
+annotation/wDcau/wDcau:CP046580.1_27 (length 230)
+annotation/wDcau/wDcau:CP046580.1_28 (length 345)
+annotation/wDcau/wDcau:CP046580.1_29 (length 236)
+annotation/wDcau/wDcau:CP046580.1_30 (length 491)
+annotation/wDcau/wDcau:CP046580.1_31 (length 309)
+annotation/wDcau/wDcau:CP046580.1_32 (length 421)
+annotation/wDcau/wDcau:CP046580.1_33 (length 91)
+annotation/wDcau/wDcau:CP046580.1_34 (length 266)
+annotation/wDcau/wDcau:CP046580.1_35 (length 303)
+annotation/wDcau/wDcau:CP046580.1_36 (length 503)
+annotation/wDcau/wDcau:CP046580.1_37 (length 395)
+annotation/wDcau/wDcau:CP046580.1_38 (length 166)
+annotation/wDcau/wDcau:CP046580.1_39 (length 431)
+annotation/wDcau/wDcau:CP046580.1_40 (length 403)
+annotation/wDcau/wDcau:CP046580.1_41 (length 236)
+annotation/wDcau/wDcau:CP046580.1_42 (length 299)
+annotation/wDcau/wDcau:CP046580.1_43 (length 207)
+annotation/wDcau/wDcau:CP046580.1_44 (length 278)
+annotation/wDcau/wDcau:CP046580.1_45 (length 177)
+annotation/wDcau/wDcau:CP046580.1_46 (length 196)
+annotation/wDcau/wDcau:CP046580.1_47 (length 326)
+annotation/wDcau/wDcau:CP046580.1_48 (length 709)
+annotation/wDcau/wDcau:CP046580.1_49 (length 94)
+annotation/wDcau/wDcau:CP046580.1_50 (length 399)
+annotation/wDcau/wDcau:CP046580.1_51 (length 245)
+annotation/wDcau/wDcau:CP046580.1_52 (length 550)
+annotation/wDcau/wDcau:CP046580.1_53 (length 92)
+annotation/wDcau/wDcau:CP046580.1_54 (length 374)
+annotation/wDcau/wDcau:CP046580.1_55 (length 781)
+annotation/wDcau/wDcau:CP046580.1_56 (length 186)
+annotation/wDcau/wDcau:CP046580.1_57 (length 147)
+annotation/wDcau/wDcau:CP046580.1_58 (length 977)
+annotation/wDcau/wDcau:CP046580.1_59 (length 516)
+annotation/wDcau/wDcau:CP046580.1_60 (length 447)
+annotation/wDcau/wDcau:CP046580.1_61 (length 230)
+annotation/wDcau/wDcau:CP046580.1_62 (length 115)
+annotation/wDcau/wDcau:CP046580.1_63 (length 394)
+annotation/wDcau/wDcau:CP046580.1_64 (length 62)
+annotation/wDcau/wDcau:CP046580.1_65 (length 30)
+annotation/wDcau/wDcau:CP046580.1_66 (length 208)
+annotation/wDcau/wDcau:CP046580.1_67 (length 307)
+annotation/wDcau/wDcau:CP046580.1_68 (length 47)
+annotation/wDcau/wDcau:CP046580.1_69 (length 527)
+annotation/wDcau/wDcau:CP046580.1_70 (length 396)
+annotation/wDcau/wDcau:CP046580.1_71 (length 424)
+annotation/wDcau/wDcau:CP046580.1_72 (length 125)
+annotation/wDcau/wDcau:CP046580.1_73 (length 426)
+annotation/wDcau/wDcau:CP046580.1_74 (length 286)
+annotation/wDcau/wDcau:CP046580.1_75 (length 901)
+annotation/wDcau/wDcau:CP046580.1_76 (length 200)
+annotation/wDcau/wDcau:CP046580.1_77 (length 381)
+annotation/wDcau/wDcau:CP046580.1_78 (length 455)
+annotation/wDcau/wDcau:CP046580.1_79 (length 220)
+annotation/wDcau/wDcau:CP046580.1_80 (length 188)
+annotation/wDcau/wDcau:CP046580.1_81 (length 572)
+annotation/wDcau/wDcau:CP046580.1_82 (length 425)
+annotation/wDcau/wDcau:CP046580.1_83 (length 93)
+annotation/wDcau/wDcau:CP046580.1_84 (length 342)
+annotation/wDcau/wDcau:CP046580.1_85 (length 349)
+annotation/wDcau/wDcau:CP046580.1_86 (length 134)
+annotation/wDcau/wDcau:CP046580.1_87 (length 54)
+annotation/wDcau/wDcau:CP046580.1_88 (length 36)
+annotation/wDcau/wDcau:CP046580.1_89 (length 271)
+annotation/wDcau/wDcau:CP046580.1_90 (length 816)
+annotation/wDcau/wDcau:CP046580.1_91 (length 46)
+annotation/wDcau/wDcau:CP046580.1_92 (length 309)
+annotation/wDcau/wDcau:CP046580.1_93 (length 263)
+annotation/wDcau/wDcau:CP046580.1_94 (length 585)
+annotation/wDcau/wDcau:CP046580.1_95 (length 164)
+annotation/wDcau/wDcau:CP046580.1_96 (length 135)
+annotation/wDcau/wDcau:CP046580.1_97 (length 130)
+annotation/wDcau/wDcau:CP046580.1_98 (length 303)
+annotation/wDcau/wDcau:CP046580.1_99 (length 113)
+annotation/wDcau/wDcau:CP046580.1_100 (length 329)
+annotation/wDcau/wDcau:CP046580.1_101 (length 188)
+annotation/wDcau/wDcau:CP046580.1_102 (length 340)
+annotation/wDcau/wDcau:CP046580.1_103 (length 50)
+annotation/wDcau/wDcau:CP046580.1_104 (length 81)
+annotation/wDcau/wDcau:CP046580.1_105 (length 417)
+annotation/wDcau/wDcau:CP046580.1_106 (length 90)
+annotation/wDcau/wDcau:CP046580.1_107 (length 786)
+annotation/wDcau/wDcau:CP046580.1_108 (length 123)
+annotation/wDcau/wDcau:CP046580.1_109 (length 328)
+annotation/wDcau/wDcau:CP046580.1_110 (length 157)
+annotation/wDcau/wDcau:CP046580.1_111 (length 424)
+annotation/wDcau/wDcau:CP046580.1_112 (length 200)
+annotation/wDcau/wDcau:CP046580.1_113 (length 206)
+annotation/wDcau/wDcau:CP046580.1_114 (length 388)
+annotation/wDcau/wDcau:CP046580.1_115 (length 883)
+annotation/wDcau/wDcau:CP046580.1_116 (length 329)
+annotation/wDcau/wDcau:CP046580.1_117 (length 112)
+annotation/wDcau/wDcau:CP046580.1_118 (length 206)
+annotation/wDcau/wDcau:CP046580.1_119 (length 106)
+annotation/wDcau/wDcau:CP046580.1_120 (length 637)
+annotation/wDcau/wDcau:CP046580.1_121 (length 325)
+annotation/wDcau/wDcau:CP046580.1_122 (length 206)
+annotation/wDcau/wDcau:CP046580.1_123 (length 271)
+annotation/wDcau/wDcau:CP046580.1_124 (length 508)
+annotation/wDcau/wDcau:CP046580.1_125 (length 214)
+annotation/wDcau/wDcau:CP046580.1_126 (length 144)
+annotation/wDcau/wDcau:CP046580.1_127 (length 601)
+annotation/wDcau/wDcau:CP046580.1_128 (length 418)
+annotation/wDcau/wDcau:CP046580.1_129 (length 169)
+annotation/wDcau/wDcau:CP046580.1_130 (length 633)
+annotation/wDcau/wDcau:CP046580.1_131 (length 160)
+annotation/wDcau/wDcau:CP046580.1_132 (length 265)
+annotation/wDcau/wDcau:CP046580.1_133 (length 544)
+annotation/wDcau/wDcau:CP046580.1_134 (length 424)
+annotation/wDcau/wDcau:CP046580.1_135 (length 212)
+annotation/wDcau/wDcau:CP046580.1_136 (length 476)
+annotation/wDcau/wDcau:CP046580.1_137 (length 390)
+annotation/wDcau/wDcau:CP046580.1_138 (length 262)
+annotation/wDcau/wDcau:CP046580.1_139 (length 264)
+annotation/wDcau/wDcau:CP046580.1_140 (length 155)
+annotation/wDcau/wDcau:CP046580.1_141 (length 185)
+annotation/wDcau/wDcau:CP046580.1_142 (length 199)
+annotation/wDcau/wDcau:CP046580.1_143 (length 347)
+annotation/wDcau/wDcau:CP046580.1_144 (length 418)
+annotation/wDcau/wDcau:CP046580.1_145 (length 205)
+annotation/wDcau/wDcau:CP046580.1_146 (length 195)
+annotation/wDcau/wDcau:CP046580.1_147 (length 848)
+annotation/wDcau/wDcau:CP046580.1_148 (length 641)
+annotation/wDcau/wDcau:CP046580.1_149 (length 109)
+annotation/wDcau/wDcau:CP046580.1_150 (length 142)
+annotation/wDcau/wDcau:CP046580.1_151 (length 176)
+annotation/wDcau/wDcau:CP046580.1_152 (length 95)
+annotation/wDcau/wDcau:CP046580.1_153 (length 84)
+annotation/wDcau/wDcau:CP046580.1_154 (length 125)
+annotation/wDcau/wDcau:CP046580.1_155 (length 93)
+annotation/wDcau/wDcau:CP046580.1_156 (length 164)
+annotation/wDcau/wDcau:CP046580.1_157 (length 625)
+annotation/wDcau/wDcau:CP046580.1_158 (length 292)
+annotation/wDcau/wDcau:CP046580.1_159 (length 445)
+annotation/wDcau/wDcau:CP046580.1_160 (length 84)
+annotation/wDcau/wDcau:CP046580.1_161 (length 263)
+annotation/wDcau/wDcau:CP046580.1_162 (length 2839)
+annotation/wDcau/wDcau:CP046580.1_163 (length 133)
+annotation/wDcau/wDcau:CP046580.1_164 (length 173)
+annotation/wDcau/wDcau:CP046580.1_165 (length 220)
+annotation/wDcau/wDcau:CP046580.1_166 (length 146)
+annotation/wDcau/wDcau:CP046580.1_167 (length 277)
+annotation/wDcau/wDcau:CP046580.1_168 (length 66)
+annotation/wDcau/wDcau:CP046580.1_169 (length 390)
+annotation/wDcau/wDcau:CP046580.1_170 (length 688)
+annotation/wDcau/wDcau:CP046580.1_171 (length 159)
+annotation/wDcau/wDcau:CP046580.1_172 (length 124)
+annotation/wDcau/wDcau:CP046580.1_173 (length 31)
+annotation/wDcau/wDcau:CP046580.1_174 (length 302)
+annotation/wDcau/wDcau:CP046580.1_175 (length 335)
+annotation/wDcau/wDcau:CP046580.1_176 (length 583)
+annotation/wDcau/wDcau:CP046580.1_177 (length 242)
+annotation/wDcau/wDcau:CP046580.1_178 (length 157)
+annotation/wDcau/wDcau:CP046580.1_179 (length 318)
+annotation/wDcau/wDcau:CP046580.1_180 (length 334)
+annotation/wDcau/wDcau:CP046580.1_181 (length 415)
+annotation/wDcau/wDcau:CP046580.1_182 (length 869)
+annotation/wDcau/wDcau:CP046580.1_183 (length 522)
+annotation/wDcau/wDcau:CP046580.1_184 (length 781)
+annotation/wDcau/wDcau:CP046580.1_185 (length 117)
+annotation/wDcau/wDcau:CP046580.1_186 (length 276)
+annotation/wDcau/wDcau:CP046580.1_187 (length 581)
+annotation/wDcau/wDcau:CP046580.1_188 (length 199)
+annotation/wDcau/wDcau:CP046580.1_189 (length 471)
+annotation/wDcau/wDcau:CP046580.1_190 (length 487)
+annotation/wDcau/wDcau:CP046580.1_191 (length 217)
+annotation/wDcau/wDcau:CP046580.1_192 (length 278)
+annotation/wDcau/wDcau:CP046580.1_193 (length 237)
+annotation/wDcau/wDcau:CP046580.1_194 (length 622)
+annotation/wDcau/wDcau:CP046580.1_195 (length 195)
+annotation/wDcau/wDcau:CP046580.1_196 (length 102)
+annotation/wDcau/wDcau:CP046580.1_197 (length 620)
+annotation/wDcau/wDcau:CP046580.1_198 (length 483)
+annotation/wDcau/wDcau:CP046580.1_199 (length 464)
+annotation/wDcau/wDcau:CP046580.1_200 (length 263)
+annotation/wDcau/wDcau:CP046580.1_201 (length 42)
+annotation/wDcau/wDcau:CP046580.1_202 (length 119)
+annotation/wDcau/wDcau:CP046580.1_203 (length 70)
+annotation/wDcau/wDcau:CP046580.1_204 (length 342)
+annotation/wDcau/wDcau:CP046580.1_205 (length 330)
+annotation/wDcau/wDcau:CP046580.1_206 (length 122)
+annotation/wDcau/wDcau:CP046580.1_207 (length 587)
+annotation/wDcau/wDcau:CP046580.1_208 (length 640)
+annotation/wDcau/wDcau:CP046580.1_209 (length 415)
+annotation/wDcau/wDcau:CP046580.1_210 (length 399)
+annotation/wDcau/wDcau:CP046580.1_211 (length 150)
+annotation/wDcau/wDcau:CP046580.1_212 (length 224)
+annotation/wDcau/wDcau:CP046580.1_213 (length 77)
+annotation/wDcau/wDcau:CP046580.1_214 (length 232)
+annotation/wDcau/wDcau:CP046580.1_215 (length 388)
+annotation/wDcau/wDcau:CP046580.1_216 (length 237)
+annotation/wDcau/wDcau:CP046580.1_217 (length 90)
+annotation/wDcau/wDcau:CP046580.1_218 (length 758)
+annotation/wDcau/wDcau:CP046580.1_219 (length 225)
+annotation/wDcau/wDcau:CP046580.1_220 (length 496)
+annotation/wDcau/wDcau:CP046580.1_221 (length 304)
+annotation/wDcau/wDcau:CP046580.1_222 (length 122)
+annotation/wDcau/wDcau:CP046580.1_223 (length 118)
+annotation/wDcau/wDcau:CP046580.1_224 (length 168)
+annotation/wDcau/wDcau:CP046580.1_225 (length 188)
+annotation/wDcau/wDcau:CP046580.1_226 (length 317)
+annotation/wDcau/wDcau:CP046580.1_227 (length 262)
+annotation/wDcau/wDcau:CP046580.1_228 (length 161)
+annotation/wDcau/wDcau:CP046580.1_229 (length 50)
+annotation/wDcau/wDcau:CP046580.1_230 (length 110)
+annotation/wDcau/wDcau:CP046580.1_231 (length 417)
+annotation/wDcau/wDcau:CP046580.1_232 (length 387)
+annotation/wDcau/wDcau:CP046580.1_233 (length 47)
+annotation/wDcau/wDcau:CP046580.1_234 (length 434)
+annotation/wDcau/wDcau:CP046580.1_235 (length 250)
+annotation/wDcau/wDcau:CP046580.1_236 (length 92)
+annotation/wDcau/wDcau:CP046580.1_237 (length 216)
+annotation/wDcau/wDcau:CP046580.1_238 (length 493)
+annotation/wDcau/wDcau:CP046580.1_239 (length 110)
+annotation/wDcau/wDcau:CP046580.1_240 (length 236)
+annotation/wDcau/wDcau:CP046580.1_241 (length 296)
+annotation/wDcau/wDcau:CP046580.1_242 (length 165)
+annotation/wDcau/wDcau:CP046580.1_243 (length 413)
+annotation/wDcau/wDcau:CP046580.1_244 (length 194)
+annotation/wDcau/wDcau:CP046580.1_245 (length 461)
+annotation/wDcau/wDcau:CP046580.1_246 (length 46)
+annotation/wDcau/wDcau:CP046580.1_247 (length 900)
+annotation/wDcau/wDcau:CP046580.1_248 (length 1014)
+annotation/wDcau/wDcau:CP046580.1_249 (length 417)
+annotation/wDcau/wDcau:CP046580.1_250 (length 227)
+annotation/wDcau/wDcau:CP046580.1_251 (length 268)
+annotation/wDcau/wDcau:CP046580.1_252 (length 486)
+annotation/wDcau/wDcau:CP046580.1_253 (length 333)
+annotation/wDcau/wDcau:CP046580.1_254 (length 651)
+annotation/wDcau/wDcau:CP046580.1_255 (length 102)
+annotation/wDcau/wDcau:CP046580.1_256 (length 198)
+annotation/wDcau/wDcau:CP046580.1_257 (length 198)
+annotation/wDcau/wDcau:CP046580.1_258 (length 87)
+annotation/wDcau/wDcau:CP046580.1_259 (length 156)
+annotation/wDcau/wDcau:CP046580.1_260 (length 142)
+annotation/wDcau/wDcau:CP046580.1_261 (length 572)
+annotation/wDcau/wDcau:CP046580.1_262 (length 293)
+annotation/wDcau/wDcau:CP046580.1_263 (length 663)
+annotation/wDcau/wDcau:CP046580.1_264 (length 278)
+annotation/wDcau/wDcau:CP046580.1_265 (length 675)
+annotation/wDcau/wDcau:CP046580.1_266 (length 204)
+annotation/wDcau/wDcau:CP046580.1_267 (length 64)
+annotation/wDcau/wDcau:CP046580.1_268 (length 100)
+annotation/wDcau/wDcau:CP046580.1_269 (length 298)
+annotation/wDcau/wDcau:CP046580.1_270 (length 853)
+annotation/wDcau/wDcau:CP046580.1_271 (length 1579)
+annotation/wDcau/wDcau:CP046580.1_272 (length 98)
+annotation/wDcau/wDcau:CP046580.1_273 (length 460)
+annotation/wDcau/wDcau:CP046580.1_274 (length 250)
+annotation/wDcau/wDcau:CP046580.1_275 (length 694)
+annotation/wDcau/wDcau:CP046580.1_276 (length 51)
+annotation/wDcau/wDcau:CP046580.1_277 (length 128)
+annotation/wDcau/wDcau:CP046580.1_278 (length 433)
+annotation/wDcau/wDcau:CP046580.1_279 (length 158)
+annotation/wDcau/wDcau:CP046580.1_280 (length 644)
+annotation/wDcau/wDcau:CP046580.1_281 (length 255)
+annotation/wDcau/wDcau:CP046580.1_282 (length 410)
+annotation/wDcau/wDcau:CP046580.1_283 (length 107)
+annotation/wDcau/wDcau:CP046580.1_284 (length 72)
+annotation/wDcau/wDcau:CP046580.1_285 (length 439)
+annotation/wDcau/wDcau:CP046580.1_286 (length 180)
+annotation/wDcau/wDcau:CP046580.1_287 (length 244)
+annotation/wDcau/wDcau:CP046580.1_288 (length 246)
+annotation/wDcau/wDcau:CP046580.1_289 (length 465)
+annotation/wDcau/wDcau:CP046580.1_290 (length 597)
+annotation/wDcau/wDcau:CP046580.1_291 (length 428)
+annotation/wDcau/wDcau:CP046580.1_292 (length 217)
+annotation/wDcau/wDcau:CP046580.1_293 (length 295)
+annotation/wDcau/wDcau:CP046580.1_294 (length 292)
+annotation/wDcau/wDcau:CP046580.1_295 (length 505)
+annotation/wDcau/wDcau:CP046580.1_296 (length 198)
+annotation/wDcau/wDcau:CP046580.1_297 (length 476)
+annotation/wDcau/wDcau:CP046580.1_298 (length 246)
+annotation/wDcau/wDcau:CP046580.1_299 (length 290)
+annotation/wDcau/wDcau:CP046580.1_300 (length 141)
+annotation/wDcau/wDcau:CP046580.1_301 (length 265)
+annotation/wDcau/wDcau:CP046580.1_302 (length 340)
+annotation/wDcau/wDcau:CP046580.1_303 (length 281)
+annotation/wDcau/wDcau:CP046580.1_304 (length 386)
+annotation/wDcau/wDcau:CP046580.1_305 (length 184)
+annotation/wDcau/wDcau:CP046580.1_306 (length 501)
+annotation/wDcau/wDcau:CP046580.1_307 (length 477)
+annotation/wDcau/wDcau:CP046580.1_308 (length 301)
+annotation/wDcau/wDcau:CP046580.1_309 (length 475)
+annotation/wDcau/wDcau:CP046580.1_310 (length 235)
+annotation/wDcau/wDcau:CP046580.1_311 (length 259)
+annotation/wDcau/wDcau:CP046580.1_312 (length 228)
+annotation/wDcau/wDcau:CP046580.1_313 (length 39)
+annotation/wDcau/wDcau:CP046580.1_314 (length 454)
+annotation/wDcau/wDcau:CP046580.1_315 (length 185)
+annotation/wDcau/wDcau:CP046580.1_316 (length 583)
+annotation/wDcau/wDcau:CP046580.1_317 (length 568)
+annotation/wDcau/wDcau:CP046580.1_318 (length 37)
+annotation/wDcau/wDcau:CP046580.1_319 (length 314)
+annotation/wDcau/wDcau:CP046580.1_320 (length 337)
+annotation/wDcau/wDcau:CP046580.1_321 (length 143)
+annotation/wDcau/wDcau:CP046580.1_322 (length 168)
+annotation/wDcau/wDcau:CP046580.1_323 (length 390)
+annotation/wDcau/wDcau:CP046580.1_324 (length 253)
+annotation/wDcau/wDcau:CP046580.1_325 (length 264)
+annotation/wDcau/wDcau:CP046580.1_326 (length 334)
+annotation/wDcau/wDcau:CP046580.1_327 (length 269)
+annotation/wDcau/wDcau:CP046580.1_328 (length 121)
+annotation/wDcau/wDcau:CP046580.1_329 (length 288)
+annotation/wDcau/wDcau:CP046580.1_330 (length 1102)
+annotation/wDcau/wDcau:CP046580.1_331 (length 106)
+annotation/wDcau/wDcau:CP046580.1_332 (length 536)
+annotation/wDcau/wDcau:CP046580.1_333 (length 146)
+annotation/wDcau/wDcau:CP046580.1_334 (length 314)
+annotation/wDcau/wDcau:CP046580.1_335 (length 364)
+annotation/wDcau/wDcau:CP046580.1_336 (length 424)
+annotation/wDcau/wDcau:CP046580.1_337 (length 265)
+annotation/wDcau/wDcau:CP046580.1_338 (length 384)
+annotation/wDcau/wDcau:CP046580.1_339 (length 388)
+annotation/wDcau/wDcau:CP046580.1_340 (length 435)
+annotation/wDcau/wDcau:CP046580.1_341 (length 43)
+annotation/wDcau/wDcau:CP046580.1_342 (length 239)
+annotation/wDcau/wDcau:CP046580.1_343 (length 450)
+annotation/wDcau/wDcau:CP046580.1_344 (length 175)
+annotation/wDcau/wDcau:CP046580.1_345 (length 495)
+annotation/wDcau/wDcau:CP046580.1_346 (length 887)
+annotation/wDcau/wDcau:CP046580.1_347 (length 461)
+annotation/wDcau/wDcau:CP046580.1_348 (length 345)
+annotation/wDcau/wDcau:CP046580.1_349 (length 313)
+annotation/wDcau/wDcau:CP046580.1_350 (length 197)
+annotation/wDcau/wDcau:CP046580.1_351 (length 451)
+annotation/wDcau/wDcau:CP046580.1_352 (length 199)
+annotation/wDcau/wDcau:CP046580.1_353 (length 425)
+annotation/wDcau/wDcau:CP046580.1_354 (length 816)
+annotation/wDcau/wDcau:CP046580.1_355 (length 217)
+annotation/wDcau/wDcau:CP046580.1_356 (length 243)
+annotation/wDcau/wDcau:CP046580.1_357 (length 89)
+annotation/wDcau/wDcau:CP046580.1_358 (length 416)
+annotation/wDcau/wDcau:CP046580.1_359 (length 204)
+annotation/wDcau/wDcau:CP046580.1_360 (length 232)
+annotation/wDcau/wDcau:CP046580.1_361 (length 216)
+annotation/wDcau/wDcau:CP046580.1_362 (length 160)
+annotation/wDcau/wDcau:CP046580.1_363 (length 66)
+annotation/wDcau/wDcau:CP046580.1_364 (length 391)
+annotation/wDcau/wDcau:CP046580.1_365 (length 290)
+annotation/wDcau/wDcau:CP046580.1_366 (length 265)
+annotation/wDcau/wDcau:CP046580.1_367 (length 187)
+annotation/wDcau/wDcau:CP046580.1_368 (length 96)
+annotation/wDcau/wDcau:CP046580.1_369 (length 214)
+annotation/wDcau/wDcau:CP046580.1_370 (length 265)
+annotation/wDcau/wDcau:CP046580.1_371 (length 1114)
+annotation/wDcau/wDcau:CP046580.1_372 (length 258)
+annotation/wDcau/wDcau:CP046580.1_373 (length 92)
+annotation/wDcau/wDcau:CP046580.1_374 (length 173)
+annotation/wDcau/wDcau:CP046580.1_375 (length 66)
+annotation/wDcau/wDcau:CP046580.1_376 (length 589)
+annotation/wDcau/wDcau:CP046580.1_377 (length 639)
+annotation/wDcau/wDcau:CP046580.1_378 (length 473)
+annotation/wDcau/wDcau:CP046580.1_379 (length 103)
+annotation/wDcau/wDcau:CP046580.1_380 (length 82)
+annotation/wDcau/wDcau:CP046580.1_381 (length 388)
+annotation/wDcau/wDcau:CP046580.1_382 (length 275)
+annotation/wDcau/wDcau:CP046580.1_383 (length 92)
+annotation/wDcau/wDcau:CP046580.1_384 (length 396)
+annotation/wDcau/wDcau:CP046580.1_385 (length 465)
+annotation/wDcau/wDcau:CP046580.1_386 (length 400)
+annotation/wDcau/wDcau:CP046580.1_387 (length 328)
+annotation/wDcau/wDcau:CP046580.1_388 (length 252)
+annotation/wDcau/wDcau:CP046580.1_389 (length 1003)
+annotation/wDcau/wDcau:CP046580.1_390 (length 145)
+annotation/wDcau/wDcau:CP046580.1_391 (length 295)
+annotation/wDcau/wDcau:CP046580.1_392 (length 516)
+annotation/wDcau/wDcau:CP046580.1_393 (length 254)
+annotation/wDcau/wDcau:CP046580.1_394 (length 478)
+annotation/wDcau/wDcau:CP046580.1_395 (length 244)
+annotation/wDcau/wDcau:CP046580.1_396 (length 121)
+annotation/wDcau/wDcau:CP046580.1_397 (length 428)
+annotation/wDcau/wDcau:CP046580.1_398 (length 217)
+annotation/wDcau/wDcau:CP046580.1_399 (length 164)
+annotation/wDcau/wDcau:CP046580.1_400 (length 513)
+annotation/wDcau/wDcau:CP046580.1_401 (length 181)
+annotation/wDcau/wDcau:CP046580.1_402 (length 232)
+annotation/wDcau/wDcau:CP046580.1_403 (length 795)
+annotation/wDcau/wDcau:CP046580.1_404 (length 372)
+annotation/wDcau/wDcau:CP046580.1_405 (length 368)
+annotation/wDcau/wDcau:CP046580.1_406 (length 828)
+annotation/wDcau/wDcau:CP046580.1_407 (length 274)
+annotation/wDcau/wDcau:CP046580.1_408 (length 613)
+annotation/wDcau/wDcau:CP046580.1_409 (length 325)
+annotation/wDcau/wDcau:CP046580.1_410 (length 456)
+annotation/wDcau/wDcau:CP046580.1_411 (length 332)
+annotation/wDcau/wDcau:CP046580.1_412 (length 869)
+annotation/wDcau/wDcau:CP046580.1_413 (length 892)
+annotation/wDcau/wDcau:CP046580.1_414 (length 325)
+annotation/wDcau/wDcau:CP046580.1_415 (length 170)
+annotation/wDcau/wDcau:CP046580.1_416 (length 70)
+annotation/wDcau/wDcau:CP046580.1_417 (length 215)
+annotation/wDcau/wDcau:CP046580.1_418 (length 231)
+annotation/wDcau/wDcau:CP046580.1_419 (length 185)
+annotation/wDcau/wDcau:CP046580.1_420 (length 247)
+annotation/wDcau/wDcau:CP046580.1_421 (length 289)
+annotation/wDcau/wDcau:CP046580.1_422 (length 283)
+annotation/wDcau/wDcau:CP046580.1_423 (length 1102)
+annotation/wDcau/wDcau:CP046580.1_424 (length 249)
+annotation/wDcau/wDcau:CP046580.1_425 (length 279)
+annotation/wDcau/wDcau:CP046580.1_426 (length 591)
+annotation/wDcau/wDcau:CP046580.1_427 (length 388)
+annotation/wDcau/wDcau:CP046580.1_428 (length 512)
+annotation/wDcau/wDcau:CP046580.1_429 (length 483)
+annotation/wDcau/wDcau:CP046580.1_430 (length 195)
+annotation/wDcau/wDcau:CP046580.1_431 (length 265)
+annotation/wDcau/wDcau:CP046580.1_432 (length 96)
+annotation/wDcau/wDcau:CP046580.1_433 (length 550)
+annotation/wDcau/wDcau:CP046580.1_434 (length 48)
+annotation/wDcau/wDcau:CP046580.1_435 (length 105)
+annotation/wDcau/wDcau:CP046580.1_436 (length 345)
+annotation/wDcau/wDcau:CP046580.1_437 (length 290)
+annotation/wDcau/wDcau:CP046580.1_438 (length 496)
+annotation/wDcau/wDcau:CP046580.1_439 (length 450)
+annotation/wDcau/wDcau:CP046580.1_440 (length 410)
+annotation/wDcau/wDcau:CP046580.1_441 (length 36)
+annotation/wDcau/wDcau:CP046580.1_442 (length 419)
+annotation/wDcau/wDcau:CP046580.1_443 (length 122)
+annotation/wDcau/wDcau:CP046580.1_444 (length 128)
+annotation/wDcau/wDcau:CP046580.1_445 (length 180)
+annotation/wDcau/wDcau:CP046580.1_446 (length 166)
+annotation/wDcau/wDcau:CP046580.1_447 (length 264)
+annotation/wDcau/wDcau:CP046580.1_448 (length 240)
+annotation/wDcau/wDcau:CP046580.1_449 (length 179)
+annotation/wDcau/wDcau:CP046580.1_450 (length 37)
+annotation/wDcau/wDcau:CP046580.1_451 (length 338)
+annotation/wDcau/wDcau:CP046580.1_452 (length 142)
+annotation/wDcau/wDcau:CP046580.1_453 (length 355)
+annotation/wDcau/wDcau:CP046580.1_454 (length 154)
+annotation/wDcau/wDcau:CP046580.1_455 (length 122)
+annotation/wDcau/wDcau:CP046580.1_456 (length 221)
+annotation/wDcau/wDcau:CP046580.1_457 (length 442)
+annotation/wDcau/wDcau:CP046580.1_458 (length 156)
+annotation/wDcau/wDcau:CP046580.1_459 (length 170)
+annotation/wDcau/wDcau:CP046580.1_460 (length 124)
+annotation/wDcau/wDcau:CP046580.1_461 (length 181)
+annotation/wDcau/wDcau:CP046580.1_462 (length 131)
+annotation/wDcau/wDcau:CP046580.1_463 (length 102)
+annotation/wDcau/wDcau:CP046580.1_464 (length 178)
+annotation/wDcau/wDcau:CP046580.1_465 (length 105)
+annotation/wDcau/wDcau:CP046580.1_466 (length 119)
+annotation/wDcau/wDcau:CP046580.1_467 (length 74)
+annotation/wDcau/wDcau:CP046580.1_468 (length 68)
+annotation/wDcau/wDcau:CP046580.1_469 (length 137)
+annotation/wDcau/wDcau:CP046580.1_470 (length 206)
+annotation/wDcau/wDcau:CP046580.1_471 (length 120)
+annotation/wDcau/wDcau:CP046580.1_472 (length 94)
+annotation/wDcau/wDcau:CP046580.1_473 (length 274)
+annotation/wDcau/wDcau:CP046580.1_474 (length 95)
+annotation/wDcau/wDcau:CP046580.1_475 (length 204)
+annotation/wDcau/wDcau:CP046580.1_476 (length 226)
+annotation/wDcau/wDcau:CP046580.1_477 (length 118)
+annotation/wDcau/wDcau:CP046580.1_478 (length 390)
+annotation/wDcau/wDcau:CP046580.1_479 (length 223)
+annotation/wDcau/wDcau:CP046580.1_480 (length 170)
+annotation/wDcau/wDcau:CP046580.1_481 (length 299)
+annotation/wDcau/wDcau:CP046580.1_482 (length 121)
+annotation/wDcau/wDcau:CP046580.1_483 (length 73)
+annotation/wDcau/wDcau:CP046580.1_484 (length 124)
+annotation/wDcau/wDcau:CP046580.1_485 (length 61)
+annotation/wDcau/wDcau:CP046580.1_486 (length 470)
+annotation/wDcau/wDcau:CP046580.1_487 (length 401)
+annotation/wDcau/wDcau:CP046580.1_488 (length 199)
+annotation/wDcau/wDcau:CP046580.1_489 (length 319)
+annotation/wDcau/wDcau:CP046580.1_490 (length 69)
+annotation/wDcau/wDcau:CP046580.1_491 (length 465)
+annotation/wDcau/wDcau:CP046580.1_492 (length 296)
+annotation/wDcau/wDcau:CP046580.1_493 (length 76)
+annotation/wDcau/wDcau:CP046580.1_494 (length 235)
+annotation/wDcau/wDcau:CP046580.1_495 (length 102)
+annotation/wDcau/wDcau:CP046580.1_496 (length 148)
+annotation/wDcau/wDcau:CP046580.1_497 (length 152)
+annotation/wDcau/wDcau:CP046580.1_498 (length 402)
+annotation/wDcau/wDcau:CP046580.1_499 (length 169)
+annotation/wDcau/wDcau:CP046580.1_500 (length 215)
+annotation/wDcau/wDcau:CP046580.1_501 (length 127)
+annotation/wDcau/wDcau:CP046580.1_502 (length 206)
+annotation/wDcau/wDcau:CP046580.1_503 (length 381)
+annotation/wDcau/wDcau:CP046580.1_504 (length 400)
+annotation/wDcau/wDcau:CP046580.1_505 (length 168)
+annotation/wDcau/wDcau:CP046580.1_506 (length 179)
+annotation/wDcau/wDcau:CP046580.1_507 (length 467)
+annotation/wDcau/wDcau:CP046580.1_508 (length 195)
+annotation/wDcau/wDcau:CP046580.1_509 (length 399)
+annotation/wDcau/wDcau:CP046580.1_510 (length 350)
+annotation/wDcau/wDcau:CP046580.1_511 (length 681)
+annotation/wDcau/wDcau:CP046580.1_512 (length 70)
+annotation/wDcau/wDcau:CP046580.1_513 (length 497)
+annotation/wDcau/wDcau:CP046580.1_514 (length 266)
+annotation/wDcau/wDcau:CP046580.1_515 (length 196)
+annotation/wDcau/wDcau:CP046580.1_516 (length 41)
+annotation/wDcau/wDcau:CP046580.1_517 (length 441)
+annotation/wDcau/wDcau:CP046580.1_518 (length 159)
+annotation/wDcau/wDcau:CP046580.1_519 (length 217)
+annotation/wDcau/wDcau:CP046580.1_520 (length 847)
+annotation/wDcau/wDcau:CP046580.1_521 (length 241)
+annotation/wDcau/wDcau:CP046580.1_522 (length 75)
+annotation/wDcau/wDcau:CP046580.1_523 (length 159)
+annotation/wDcau/wDcau:CP046580.1_524 (length 157)
+annotation/wDcau/wDcau:CP046580.1_525 (length 438)
+annotation/wDcau/wDcau:CP046580.1_526 (length 718)
+annotation/wDcau/wDcau:CP046580.1_527 (length 454)
+annotation/wDcau/wDcau:CP046580.1_528 (length 347)
+annotation/wDcau/wDcau:CP046580.1_529 (length 122)
+annotation/wDcau/wDcau:CP046580.1_530 (length 93)
+annotation/wDcau/wDcau:CP046580.1_531 (length 276)
+annotation/wDcau/wDcau:CP046580.1_532 (length 333)
+annotation/wDcau/wDcau:CP046580.1_533 (length 489)
+annotation/wDcau/wDcau:CP046580.1_534 (length 101)
+annotation/wDcau/wDcau:CP046580.1_535 (length 55)
+annotation/wDcau/wDcau:CP046580.1_536 (length 226)
+annotation/wDcau/wDcau:CP046580.1_537 (length 218)
+annotation/wDcau/wDcau:CP046580.1_538 (length 457)
+annotation/wDcau/wDcau:CP046580.1_539 (length 99)
+annotation/wDcau/wDcau:CP046580.1_540 (length 398)
+annotation/wDcau/wDcau:CP046580.1_541 (length 339)
+annotation/wDcau/wDcau:CP046580.1_542 (length 211)
+annotation/wDcau/wDcau:CP046580.1_543 (length 110)
+annotation/wDcau/wDcau:CP046580.1_544 (length 472)
+annotation/wDcau/wDcau:CP046580.1_545 (length 364)
+annotation/wDcau/wDcau:CP046580.1_546 (length 44)
+annotation/wDcau/wDcau:CP046580.1_547 (length 135)
+annotation/wDcau/wDcau:CP046580.1_548 (length 79)
+annotation/wDcau/wDcau:CP046580.1_549 (length 357)
+annotation/wDcau/wDcau:CP046580.1_550 (length 603)
+annotation/wDcau/wDcau:CP046580.1_551 (length 155)
+annotation/wDcau/wDcau:CP046580.1_552 (length 552)
+annotation/wDcau/wDcau:CP046580.1_553 (length 711)
+annotation/wDcau/wDcau:CP046580.1_554 (length 279)
+annotation/wDcau/wDcau:CP046580.1_555 (length 251)
+annotation/wDcau/wDcau:CP046580.1_556 (length 810)
+annotation/wDcau/wDcau:CP046580.1_557 (length 172)
+annotation/wDcau/wDcau:CP046580.1_558 (length 798)
+annotation/wDcau/wDcau:CP046580.1_559 (length 175)
+annotation/wDcau/wDcau:CP046580.1_560 (length 62)
+annotation/wDcau/wDcau:CP046580.1_561 (length 156)
+annotation/wDcau/wDcau:CP046580.1_562 (length 295)
+annotation/wDcau/wDcau:CP046580.1_563 (length 505)
+annotation/wDcau/wDcau:CP046580.1_564 (length 466)
+annotation/wDcau/wDcau:CP046580.1_565 (length 511)
+annotation/wDcau/wDcau:CP046580.1_566 (length 97)
+annotation/wDcau/wDcau:CP046580.1_567 (length 802)
+annotation/wDcau/wDcau:CP046580.1_568 (length 800)
+annotation/wDcau/wDcau:CP046580.1_569 (length 791)
+annotation/wDcau/wDcau:CP046580.1_570 (length 973)
+annotation/wDcau/wDcau:CP046580.1_571 (length 1064)
+annotation/wDcau/wDcau:CP046580.1_572 (length 120)
+annotation/wDcau/wDcau:CP046580.1_573 (length 183)
+annotation/wDcau/wDcau:CP046580.1_574 (length 452)
+annotation/wDcau/wDcau:CP046580.1_575 (length 113)
+annotation/wDcau/wDcau:CP046580.1_576 (length 340)
+annotation/wDcau/wDcau:CP046580.1_577 (length 128)
+annotation/wDcau/wDcau:CP046580.1_578 (length 383)
+annotation/wDcau/wDcau:CP046580.1_579 (length 358)
+annotation/wDcau/wDcau:CP046580.1_580 (length 476)
+annotation/wDcau/wDcau:CP046580.1_581 (length 159)
+annotation/wDcau/wDcau:CP046580.1_582 (length 435)
+annotation/wDcau/wDcau:CP046580.1_583 (length 609)
+annotation/wDcau/wDcau:CP046580.1_584 (length 207)
+annotation/wDcau/wDcau:CP046580.1_585 (length 164)
+annotation/wDcau/wDcau:CP046580.1_586 (length 213)
+annotation/wDcau/wDcau:CP046580.1_587 (length 636)
+annotation/wDcau/wDcau:CP046580.1_588 (length 252)
+annotation/wDcau/wDcau:CP046580.1_589 (length 400)
+annotation/wDcau/wDcau:CP046580.1_590 (length 230)
+annotation/wDcau/wDcau:CP046580.1_591 (length 188)
+annotation/wDcau/wDcau:CP046580.1_592 (length 169)
+annotation/wDcau/wDcau:CP046580.1_593 (length 157)
+annotation/wDcau/wDcau:CP046580.1_594 (length 30)
+annotation/wDcau/wDcau:CP046580.1_595 (length 250)
+annotation/wDcau/wDcau:CP046580.1_596 (length 328)
+annotation/wDcau/wDcau:CP046580.1_597 (length 162)
+annotation/wDcau/wDcau:CP046580.1_598 (length 259)
+annotation/wDcau/wDcau:CP046580.1_599 (length 377)
+annotation/wDcau/wDcau:CP046580.1_600 (length 264)
+annotation/wDcau/wDcau:CP046580.1_601 (length 148)
+annotation/wDcau/wDcau:CP046580.1_602 (length 69)
+annotation/wDcau/wDcau:CP046580.1_603 (length 209)
+annotation/wDcau/wDcau:CP046580.1_604 (length 151)
+annotation/wDcau/wDcau:CP046580.1_605 (length 312)
+annotation/wDcau/wDcau:CP046580.1_606 (length 186)
+annotation/wDcau/wDcau:CP046580.1_607 (length 359)
+annotation/wDcau/wDcau:CP046580.1_608 (length 429)
+annotation/wDcau/wDcau:CP046580.1_609 (length 915)
+annotation/wDcau/wDcau:CP046580.1_610 (length 1086)
+annotation/wDcau/wDcau:CP046580.1_611 (length 444)
+annotation/wDcau/wDcau:CP046580.1_612 (length 448)
+annotation/wDcau/wDcau:CP046580.1_613 (length 443)
+annotation/wDcau/wDcau:CP046580.1_614 (length 836)
+annotation/wDcau/wDcau:CP046580.1_615 (length 601)
+annotation/wDcau/wDcau:CP046580.1_616 (length 139)
+annotation/wDcau/wDcau:CP046580.1_617 (length 606)
+annotation/wDcau/wDcau:CP046580.1_618 (length 295)
+annotation/wDcau/wDcau:CP046580.1_619 (length 308)
+annotation/wDcau/wDcau:CP046580.1_620 (length 117)
+annotation/wDcau/wDcau:CP046580.1_621 (length 408)
+annotation/wDcau/wDcau:CP046580.1_622 (length 281)
+annotation/wDcau/wDcau:CP046580.1_623 (length 59)
+annotation/wDcau/wDcau:CP046580.1_624 (length 298)
+annotation/wDcau/wDcau:CP046580.1_625 (length 298)
+annotation/wDcau/wDcau:CP046580.1_626 (length 34)
+annotation/wDcau/wDcau:CP046580.1_627 (length 265)
+annotation/wDcau/wDcau:CP046580.1_628 (length 70)
+annotation/wDcau/wDcau:CP046580.1_629 (length 313)
+annotation/wDcau/wDcau:CP046580.1_630 (length 501)
+annotation/wDcau/wDcau:CP046580.1_631 (length 48)
+annotation/wDcau/wDcau:CP046580.1_632 (length 332)
+annotation/wDcau/wDcau:CP046580.1_633 (length 225)
+annotation/wDcau/wDcau:CP046580.1_634 (length 439)
+annotation/wDcau/wDcau:CP046580.1_635 (length 46)
+annotation/wDcau/wDcau:CP046580.1_636 (length 421)
+annotation/wDcau/wDcau:CP046580.1_637 (length 339)
+annotation/wDcau/wDcau:CP046580.1_638 (length 140)
+annotation/wDcau/wDcau:CP046580.1_639 (length 35)
+annotation/wDcau/wDcau:CP046580.1_640 (length 205)
+annotation/wDcau/wDcau:CP046580.1_641 (length 265)
+annotation/wDcau/wDcau:CP046580.1_642 (length 416)
+annotation/wDcau/wDcau:CP046580.1_643 (length 127)
+annotation/wDcau/wDcau:CP046580.1_644 (length 229)
+annotation/wDcau/wDcau:CP046580.1_645 (length 240)
+annotation/wDcau/wDcau:CP046580.1_646 (length 345)
+annotation/wDcau/wDcau:CP046580.1_647 (length 97)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 647 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 33 present
+DiscRep_ALL:DISC_FEATURE_COUNT::rRNA: 3 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+annotation/wDcau/wDcau:CP046580.1 (length 863427)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::683 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:1-279	wDcau_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Uroporphyrinogen decarboxylase	CP046580.1:683-1735	wDcau_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Aspartate aminotransferase	CP046580.1:1804-2997	wDcau_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:3131-3241	wDcau_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:3594-4808	wDcau_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Serine hydroxymethyltransferase	CP046580.1:4867-6144	wDcau_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA-dihydrouridine synthase B	CP046580.1:c9223-8273	wDcau_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c10552-9242	wDcau_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Serine--tRNA ligase	CP046580.1:10714-11991	wDcau_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphoribosylamine--glycine ligase	CP046580.1:12028-13299	wDcau_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	GMP synthase [glutamine-hydrolyzing]	CP046580.1:14020-15579	wDcau_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c15928-15581	wDcau_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c16143-15955	wDcau_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c16295-16152	wDcau_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:16555-17097	wDcau_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphoribosylglycinamide formyltransferase	CP046580.1:17567-18139	wDcau_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c19446-18136	wDcau_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	putative zinc protease	CP046580.1:c20770-19433	wDcau_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Lipoprotein signal peptidase	CP046580.1:c21288-20809	wDcau_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Bifunctional riboflavin kinase/FMN adenylyltransferase	CP046580.1:c22217-21285	wDcau_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:22283-22651	wDcau_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:22933-23202	wDcau_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Putative 3-methyladenine DNA glycosylase	CP046580.1:c24200-23691	wDcau_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glycerol-3-phosphate acyltransferase	CP046580.1:c25923-25351	wDcau_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Amino-acid carrier protein AlsT	CP046580.1:c27515-26049	wDcau_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c29620-28850	wDcau_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphatidylserine decarboxylase proenzyme	CP046580.1:c30309-29617	wDcau_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Dihydroorotate dehydrogenase (quinone)	CP046580.1:31097-32134	wDcau_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribonuclease 3	CP046580.1:32234-32944	wDcau_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glutamyl-tRNA(Gln) amidotransferase subunit A	CP046580.1:33586-35061	wDcau_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c36035-35106	wDcau_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	3-oxoacyl-[acyl-carrier-protein] synthase 2	CP046580.1:c37604-36339	wDcau_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Acyl carrier protein	CP046580.1:c37876-37601	wDcau_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:38027-38827	wDcau_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:38820-39731	wDcau_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Na(+)/H(+) antiporter subunit A	CP046580.1:c41284-39773	wDcau_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Queuine tRNA-ribosyltransferase	CP046580.1:c43994-42807	wDcau_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase chain 2	CP046580.1:c44495-43995	wDcau_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c46147-44852	wDcau_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Bifunctional enzyme IspD/IspF	CP046580.1:c49565-48354	wDcau_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Triosephosphate isomerase	CP046580.1:c50294-49584	wDcau_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Fructose-bisphosphate aldolase class 1	CP046580.1:c53317-52418	wDcau_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Threonylcarbamoyl-AMP synthase	CP046580.1:55247-55870	wDcau_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:55848-56684	wDcau_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:57619-58152	wDcau_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribonuclease HII	CP046580.1:c58759-58169	wDcau_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phospho-N-acetylmuramoyl-pentapeptide-transferase	CP046580.1:c59745-58765	wDcau_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c61934-59805	wDcau_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c62223-61939	wDcau_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Beta sliding clamp	CP046580.1:62511-63710	wDcau_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA pseudouridine synthase A	CP046580.1:c64451-63714	wDcau_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S1	CP046580.1:66958-68610	wDcau_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c69348-69070	wDcau_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Metalloprotease MmpA	CP046580.1:69446-70570	wDcau_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Outer membrane protein assembly factor BamA	CP046580.1:70577-72922	wDcau_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:72923-73483	wDcau_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ	CP046580.1:73504-73947	wDcau_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:73970-76903	wDcau_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic	CP046580.1:77620-79170	wDcau_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Signal recognition particle protein	CP046580.1:79155-80498	wDcau_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glyoxalase ElbB	CP046580.1:81579-82271	wDcau_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:82385-82732	wDcau_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Acetylornithine aminotransferase	CP046580.1:83633-84817	wDcau_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c85779-85591	wDcau_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:86274-86366	wDcau_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Flavin prenyltransferase UbiX	CP046580.1:86440-87066	wDcau_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Bifunctional protein FolD protein	CP046580.1:87070-87993	wDcau_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:88729-88872	wDcau_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Peptidoglycan D,D-transpeptidase MrdA	CP046580.1:88856-90439	wDcau_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:90542-91732	wDcau_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Proline--tRNA ligase	CP046580.1:91829-93103	wDcau_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Holo-[acyl-carrier-protein] synthase	CP046580.1:93106-93483	wDcau_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	CP046580.1:93539-94819	wDcau_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Flavin-dependent thymidylate synthase	CP046580.1:94833-95693	wDcau_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	DNA gyrase subunit A	CP046580.1:96894-99599	wDcau_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ubiquinol-cytochrome c reductase iron-sulfur subunit	CP046580.1:99701-100303	wDcau_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Chaperone SurA	CP046580.1:c101510-100365	wDcau_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA modification GTPase MnmE	CP046580.1:101732-103099	wDcau_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Thymidylate kinase	CP046580.1:c103943-103281	wDcau_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:103997-104563	wDcau_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glutathione-regulated potassium-efflux system protein KefC	CP046580.1:104576-106294	wDcau_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Arginine/agmatine antiporter	CP046580.1:106884-108161	wDcau_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c108619-108338	wDcau_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Aspartate-semialdehyde dehydrogenase 2	CP046580.1:108768-109796	wDcau_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	N5-carboxyaminoimidazole ribonucleotide synthase	CP046580.1:c110846-109797	wDcau_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Protein ApaG	CP046580.1:110959-111363	wDcau_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:111913-112077	wDcau_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:112324-112434	wDcau_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:112975-113790	wDcau_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	DNA topoisomerase 1	CP046580.1:c117285-114835	wDcau_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:117520-117660	wDcau_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	4-hydroxy-3-methylbut-2-enyl diphosphate reductase	CP046580.1:c120077-119148	wDcau_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Signal peptidase I	CP046580.1:122038-122829	wDcau_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Chaperone protein HscA	CP046580.1:c124605-122848	wDcau_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Co-chaperone protein HscB	CP046580.1:c125077-124583	wDcau_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Iron-binding protein IscA	CP046580.1:c125441-125034	wDcau_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Iron-sulfur cluster assembly scaffold protein IscU	CP046580.1:c125840-125448	wDcau_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Signal recognition particle receptor FtsY	CP046580.1:126017-126928	wDcau_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S16	CP046580.1:127725-128066	wDcau_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Octaprenyl diphosphate synthase	CP046580.1:128067-129056	wDcau_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Protein GrpE	CP046580.1:129107-129673	wDcau_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Tryptophan--tRNA ligase	CP046580.1:129660-130682	wDcau_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:132157-132309	wDcau_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:132344-132589	wDcau_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	CP046580.1:c135016-133763	wDcau_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c137268-136996	wDcau_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Type IV secretion system protein virB4	CP046580.1:c139819-137459	wDcau_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c140242-139871	wDcau_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH:quinone reductase	CP046580.1:c142335-141349	wDcau_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cytochrome b561	CP046580.1:c142814-142341	wDcau_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	putative zinc protease	CP046580.1:c144325-143051	wDcau_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Superoxide dismutase [Fe]	CP046580.1:c144928-144326	wDcau_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:146474-147094	wDcau_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	CP046580.1:147947-149113	wDcau_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Protein translocase subunit SecA	CP046580.1:151339-153990	wDcau_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribonucleoside-diphosphate reductase subunit beta	CP046580.1:c155670-154681	wDcau_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Outer membrane protein assembly factor BamE	CP046580.1:155802-156140	wDcau_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribonuclease D	CP046580.1:156769-157389	wDcau_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Thioredoxin C-1	CP046580.1:157495-157815	wDcau_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP-dependent DNA helicase PcrA	CP046580.1:158344-160257	wDcau_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	2-haloacrylate reductase	CP046580.1:c161251-160274	wDcau_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Pyridoxine/pyridoxamine 5'-phosphate oxidase	CP046580.1:c165068-164448	wDcau_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Formamidopyrimidine-DNA glycosylase	CP046580.1:c165871-165056	wDcau_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Propionyl-CoA carboxylase beta chain	CP046580.1:c167762-166236	wDcau_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cytochrome c biogenesis ATP-binding export protein CcmA	CP046580.1:c169645-169001	wDcau_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c170051-169617	wDcau_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Aspartate--tRNA ligase	CP046580.1:170279-172084	wDcau_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Proline/betaine transporter	CP046580.1:172110-173366	wDcau_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Translation initiation factor IF-3	CP046580.1:c174014-173505	wDcau_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Threonine--tRNA ligase	CP046580.1:c175927-174026	wDcau_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase subunit I	CP046580.1:c176415-175933	wDcau_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI	CP046580.1:c177288-176491	wDcau_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribonuclease J 1	CP046580.1:177523-179157	wDcau_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase subunit F	CP046580.1:180462-181736	wDcau_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Endonuclease III	CP046580.1:c182693-182055	wDcau_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Isocitrate dehydrogenase [NADP]	CP046580.1:c185421-183991	wDcau_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase subunit D	CP046580.1:186857-188029	wDcau_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Type IV secretion system protein virB9	CP046580.1:c188970-188182	wDcau_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase	CP046580.1:c191006-190212	wDcau_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	SsrA-binding protein	CP046580.1:c191464-190997	wDcau_00151
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c192193-191636	wDcau_00152
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Riboflavin synthase	CP046580.1:c192846-192247	wDcau_00153
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phenylalanine--tRNA ligase alpha subunit	CP046580.1:193996-195039	wDcau_00154
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Bifunctional protein GlmU	CP046580.1:195041-196297	wDcau_00155
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L25	CP046580.1:197518-198135	wDcau_00156
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Peptidyl-tRNA hydrolase	CP046580.1:198098-198685	wDcau_00157
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:201126-203672	wDcau_00159
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	RNA polymerase sigma factor RpoD	CP046580.1:c206816-204891	wDcau_00160
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c207258-206929	wDcau_00161
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Na(+)/H(+) antiporter subunit B	CP046580.1:c207673-207245	wDcau_00162
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Na(+)/H(+) antiporter subunit A1	CP046580.1:c208196-207666	wDcau_00163
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Na(+)/H(+) antiporter subunit G	CP046580.1:c208485-208198	wDcau_00164
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c208736-208482	wDcau_00165
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	DNA-directed RNA polymerase subunit omega	CP046580.1:c209151-208774	wDcau_00166
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c209495-209214	wDcau_00167
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	N5-carboxyaminoimidazole ribonucleotide mutase	CP046580.1:209897-210391	wDcau_00168
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	DNA mismatch repair protein MutL	CP046580.1:210396-212273	wDcau_00169
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP synthase gamma chain	CP046580.1:212878-213756	wDcau_00170
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Metalloprotease PmbA	CP046580.1:213776-215113	wDcau_00171
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cold shock protein CspA	CP046580.1:215289-215543	wDcau_00172
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Methionine aminopeptidase	CP046580.1:c218277-217486	wDcau_00173
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Bifunctional DNA-directed RNA polymerase subunit beta-beta'	CP046580.1:c227343-218824	wDcau_00174
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L7/L12	CP046580.1:c227809-227408	wDcau_00175
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L10	CP046580.1:c228355-227834	wDcau_00176
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L1	CP046580.1:c229025-228363	wDcau_00177
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L11	CP046580.1:c229470-229030	wDcau_00178
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Transcription termination/antitermination protein NusG	CP046580.1:c230306-229473	wDcau_00179
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c230496-230296	wDcau_00180
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Elongation factor Tu	CP046580.1:c231783-230611	wDcau_00182
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Elongation factor G	CP046580.1:c233861-231795	wDcau_00183
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S7	CP046580.1:c234359-233880	wDcau_00184
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S12	CP046580.1:c234740-234366	wDcau_00185
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c235392-235297	wDcau_00186
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	D-alanine--D-alanine ligase B	CP046580.1:c236691-235783	wDcau_00187
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA N6-adenosine threonylcarbamoyltransferase	CP046580.1:237761-238768	wDcau_00188
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Type I secretion system ATP-binding protein PrsD	CP046580.1:238932-240683	wDcau_00189
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c241803-241075	wDcau_00190
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Single-stranded DNA-binding protein	CP046580.1:243645-244118	wDcau_00192
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	4-hydroxy-tetrahydrodipicolinate synthase	CP046580.1:244128-245084	wDcau_00193
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Delta-aminolevulinic acid dehydratase	CP046580.1:c246742-245738	wDcau_00194
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cysteine desulfurase IscS	CP046580.1:c249312-248065	wDcau_00195
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Aconitate hydratase A	CP046580.1:249905-252514	wDcau_00196
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Transcription termination/antitermination protein NusA	CP046580.1:254433-256001	wDcau_00197
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Translation initiation factor IF-2	CP046580.1:256005-258350	wDcau_00198
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribosome-binding factor A	CP046580.1:258353-258706	wDcau_00199
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	4-hydroxybenzoate octaprenyltransferase	CP046580.1:258737-259567	wDcau_00200
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Chaperone SurA	CP046580.1:c262095-260350	wDcau_00201
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:262426-263025	wDcau_00202
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Transcription termination factor Rho	CP046580.1:263211-264626	wDcau_00203
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cytosol aminopeptidase	CP046580.1:c266250-264787	wDcau_00204
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c266973-266320	wDcau_00205
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Putative pyruvate, phosphate dikinase regulatory protein	CP046580.1:c268460-267624	wDcau_00206
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:268635-269348	wDcau_00207
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:271189-273057	wDcau_00208
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase subunit J	CP046580.1:273621-274208	wDcau_00209
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase subunit K	CP046580.1:274199-274507	wDcau_00210
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase subunit L	CP046580.1:274511-276373	wDcau_00211
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase subunit M	CP046580.1:276376-277827	wDcau_00212
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase subunit N	CP046580.1:277824-279218	wDcau_00213
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Bifunctional ligase/repressor BirA	CP046580.1:279220-280011	wDcau_00214
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:280008-280136	wDcau_00215
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cytochrome c-type biogenesis protein CcmE	CP046580.1:280156-280515	wDcau_00216
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L32	CP046580.1:282197-282409	wDcau_00217
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphate acyltransferase	CP046580.1:282425-283453	wDcau_00218
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	3-oxoacyl-[acyl-carrier-protein] synthase 3	CP046580.1:283431-284423	wDcau_00219
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c284804-284436	wDcau_00220
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c286688-284925	wDcau_00221
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG	CP046580.1:c288623-286701	wDcau_00222
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Riboflavin biosynthesis protein RibD	CP046580.1:c290823-289576	wDcau_00223
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Deoxyguanosinetriphosphate triphosphohydrolase-like protein	CP046580.1:c292022-290823	wDcau_00224
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Iron-sulfur cluster insertion protein ErpA	CP046580.1:292070-292522	wDcau_00225
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Lipoprotein-releasing system ATP-binding protein LolD	CP046580.1:292587-293261	wDcau_00226
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:293281-293514	wDcau_00227
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c294216-293518	wDcau_00228
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cysteine desulfurase NifS	CP046580.1:294356-295522	wDcau_00229
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c296854-296141	wDcau_00230
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S15	CP046580.1:297660-297932	wDcau_00231
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Polyribonucleotide nucleotidyltransferase	CP046580.1:297948-300224	wDcau_00232
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribulose-phosphate 3-epimerase	CP046580.1:c300995-300318	wDcau_00233
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase	CP046580.1:c303400-301910	wDcau_00235
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:303596-304510	wDcau_00236
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	putative HIT-like protein	CP046580.1:304513-304881	wDcau_00237
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NAD(P)H-quinone oxidoreductase subunit 3	CP046580.1:304908-305264	wDcau_00238
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase subunit B	CP046580.1:305268-305774	wDcau_00239
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase chain 5	CP046580.1:305792-306358	wDcau_00240
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Malate dehydrogenase	CP046580.1:306355-307308	wDcau_00241
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	putative metal-dependent hydrolase YcfH	CP046580.1:c308107-307319	wDcau_00242
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	RNA pyrophosphohydrolase	CP046580.1:c308608-308123	wDcau_00243
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c309034-308882	wDcau_00244
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribosomal silencing factor RsfS	CP046580.1:309350-309682	wDcau_00245
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Tyrosine--tRNA ligase	CP046580.1:309940-311193	wDcau_00246
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Aspartate kinase Ask_LysC	CP046580.1:c313794-312631	wDcau_00247
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:313936-314079	wDcau_00248
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Dihydrofolate synthase/folylpolyglutamate synthase	CP046580.1:c315772-314468	wDcau_00249
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:316910-317662	wDcau_00250
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c317964-317686	wDcau_00251
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA 5-hydroxyuridine methyltransferase	CP046580.1:318203-318853	wDcau_00252
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:319827-321308	wDcau_00253
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Nucleoid-associated protein YbaB	CP046580.1:321312-321644	wDcau_00254
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:321957-322667	wDcau_00255
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	RNA polymerase sigma factor RpoH	CP046580.1:322926-323816	wDcau_00256
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:323809-324306	wDcau_00257
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Histidine--tRNA ligase	CP046580.1:c325565-324324	wDcau_00258
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Fe/S biogenesis protein NfuA	CP046580.1:c326146-325562	wDcau_00259
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Amidophosphoribosyltransferase	CP046580.1:c328007-326622	wDcau_00260
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:328690-328830	wDcau_00261
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c332015-329313	wDcau_00262
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphoribosylformylglycinamidine synthase subunit PurL	CP046580.1:332109-335153	wDcau_00263
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c339860-338607	wDcau_00264
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Type IV secretion system protein virB8	CP046580.1:341302-341985	wDcau_00266
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Type IV secretion system protein virB9	CP046580.1:341972-342778	wDcau_00267
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:342800-344260	wDcau_00268
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Type IV secretion system protein VirB11	CP046580.1:344271-345272	wDcau_00269
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Protein VirD4	CP046580.1:345292-347247	wDcau_00270
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:347360-347668	wDcau_00271
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:347631-348227	wDcau_00272
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	dTTP/UTP pyrophosphatase	CP046580.1:c350389-349793	wDcau_00273
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Translation initiation factor IF-1	CP046580.1:c350630-350367	wDcau_00274
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Transcription antitermination protein NusB	CP046580.1:c351209-350739	wDcau_00275
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	6,7-dimethyl-8-ribityllumazine synthase 1	CP046580.1:c351637-351209	wDcau_00276
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Membrane protein insertase YidC	CP046580.1:c353333-351615	wDcau_00277
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Protein translocase subunit SecF	CP046580.1:c354831-353950	wDcau_00278
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cytochrome c-type biogenesis protein CcmF	CP046580.1:c357863-355872	wDcau_00279
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Release factor glutamine methyltransferase	CP046580.1:358984-359820	wDcau_00280
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Transketolase 1	CP046580.1:c362297-360270	wDcau_00281
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S4	CP046580.1:362417-363031	wDcau_00282
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Protein IscX	CP046580.1:363166-363360	wDcau_00284
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L28	CP046580.1:364408-364710	wDcau_00285
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Lipoyl synthase	CP046580.1:364720-365616	wDcau_00286
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Chaperone protein ClpB	CP046580.1:365809-368370	wDcau_00287
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NAD-specific glutamate dehydrogenase	CP046580.1:368395-373134	wDcau_00288
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:373138-373434	wDcau_00289
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Response regulator PleD	CP046580.1:373406-374788	wDcau_00290
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	5'-nucleotidase SurE	CP046580.1:c376421-375669	wDcau_00291
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	DNA ligase	CP046580.1:376631-378715	wDcau_00292
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:378794-378949	wDcau_00293
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:379067-379453	wDcau_00294
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:379469-380770	wDcau_00295
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Dihydrofolate reductase	CP046580.1:380770-381246	wDcau_00296
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	UvrABC system protein B	CP046580.1:c383490-381556	wDcau_00297
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cytochrome c1	CP046580.1:c384339-383572	wDcau_00298
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cytochrome b	CP046580.1:c385571-384339	wDcau_00299
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glutaredoxin 4	CP046580.1:c386098-385775	wDcau_00300
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	putative protein RP812	CP046580.1:c386335-386117	wDcau_00301
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADP-dependent malic enzyme	CP046580.1:c387714-386395	wDcau_00302
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	CP046580.1:387875-388417	wDcau_00303
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Outer membrane protein assembly factor BamD	CP046580.1:389133-389867	wDcau_00304
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	putative transcriptional regulatory protein	CP046580.1:389927-390667	wDcau_00305
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:393637-395034	wDcau_00306
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Elongation factor 4	CP046580.1:395096-396889	wDcau_00307
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin)	CP046580.1:c398196-396910	wDcau_00308
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c398839-398186	wDcau_00309
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	UDP-N-acetylenolpyruvoylglucosamine reductase	CP046580.1:c400591-399704	wDcau_00310
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Porphobilinogen deaminase	CP046580.1:c401460-400582	wDcau_00311
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Protein translocase subunit SecD	CP046580.1:401524-403041	wDcau_00312
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Orotate phosphoribosyltransferase	CP046580.1:404105-404701	wDcau_00313
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	putative protein kinase UbiB	CP046580.1:c406562-405132	wDcau_00314
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Zinc import ATP-binding protein ZnuC	CP046580.1:c407303-406563	wDcau_00315
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	High-affinity zinc uptake system protein ZnuA	CP046580.1:407304-408176	wDcau_00316
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Nucleoside diphosphate kinase	CP046580.1:c408711-408286	wDcau_00317
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:408822-409619	wDcau_00318
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ferrochelatase	CP046580.1:409620-410642	wDcau_00319
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:410720-411565	wDcau_00320
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c412737-411577	wDcau_00321
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP-dependent protease subunit HslV	CP046580.1:412844-413398	wDcau_00322
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP-dependent protease ATPase subunit HslU	CP046580.1:413400-414905	wDcau_00323
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Flap endonuclease Xni	CP046580.1:416521-417954	wDcau_00324
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:418462-419367	wDcau_00325
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Metalloprotease TldD	CP046580.1:c420812-419385	wDcau_00326
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:421776-422483	wDcau_00327
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Exodeoxyribonuclease III	CP046580.1:422483-423262	wDcau_00328
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Orotidine 5'-phosphate decarboxylase	CP046580.1:424979-425665	wDcau_00329
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:426189-426308	wDcau_00330
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c427678-426314	wDcau_00331
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	dCTP deaminase	CP046580.1:428094-428651	wDcau_00332
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	putative ABC transporter ATP-binding protein	CP046580.1:429624-431375	wDcau_00333
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Arginine--tRNA ligase	CP046580.1:432997-434703	wDcau_00334
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c435621-435508	wDcau_00335
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribosomal large subunit pseudouridine synthase C	CP046580.1:436430-437374	wDcau_00336
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha	CP046580.1:c438564-437551	wDcau_00337
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:438620-439051	wDcau_00338
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:439139-439645	wDcau_00339
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	1-deoxy-D-xylulose 5-phosphate reductoisomerase	CP046580.1:439714-440886	wDcau_00340
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphate import ATP-binding protein PstB	CP046580.1:c441653-440892	wDcau_00341
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	4-hydroxy-tetrahydrodipicolinate reductase	CP046580.1:c442444-441650	wDcau_00342
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c444140-443136	wDcau_00343
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	High-affinity zinc uptake system membrane protein ZnuB	CP046580.1:c445242-444433	wDcau_00344
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c445609-445244	wDcau_00345
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase	CP046580.1:c446479-445613	wDcau_00346
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP-dependent helicase/nuclease subunit A	CP046580.1:446561-449869	wDcau_00347
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:450577-450897	wDcau_00348
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	CTP synthase	CP046580.1:450897-452507	wDcau_00349
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA-specific adenosine deaminase	CP046580.1:452538-452978	wDcau_00350
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Fructose-1,6-bisphosphatase class 2	CP046580.1:454550-455494	wDcau_00351
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribosome-binding ATPase YchF	CP046580.1:c457551-456457	wDcau_00352
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	CCA-adding enzyme	CP046580.1:458600-459874	wDcau_00353
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Iron-sulfur cluster carrier protein	CP046580.1:461227-462024	wDcau_00354
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ubiquinone hydroxylase UbiL	CP046580.1:462075-463229	wDcau_00355
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Multidrug resistance protein MdtL	CP046580.1:463407-464573	wDcau_00356
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Adenylosuccinate synthetase	CP046580.1:465478-466785	wDcau_00357
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:467658-467789	wDcau_00358
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c468481-467762	wDcau_00359
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Chromosomal replication initiator protein DnaA	CP046580.1:468781-470133	wDcau_00360
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phospholipase D	CP046580.1:c471995-471468	wDcau_00361
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	3-octaprenyl-4-hydroxybenzoate carboxy-lyase	CP046580.1:c473512-472025	wDcau_00362
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	2-oxoglutarate dehydrogenase E1 component	CP046580.1:c477693-475030	wDcau_00363
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Dihydrolipoyl dehydrogenase	CP046580.1:478176-479561	wDcau_00364
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase	CP046580.1:479856-480893	wDcau_00365
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glutathione synthetase	CP046580.1:c481819-480878	wDcau_00366
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Osmotically-inducible protein Y	CP046580.1:c482460-481867	wDcau_00367
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Trigger factor	CP046580.1:482991-484346	wDcau_00369
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP-dependent Clp protease proteolytic subunit	CP046580.1:484356-484955	wDcau_00370
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP-dependent Clp protease ATP-binding subunit ClpX	CP046580.1:484967-486244	wDcau_00371
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Lon protease	CP046580.1:486260-488710	wDcau_00372
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Chromosomal replication initiator protein DnaA	CP046580.1:489608-490261	wDcau_00373
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:491511-492242	wDcau_00374
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S20	CP046580.1:492292-492561	wDcau_00375
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Citrate synthase	CP046580.1:492648-493898	wDcau_00376
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c494579-493965	wDcau_00377
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	DNA polymerase III subunit epsilon	CP046580.1:c495323-494625	wDcau_00378
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c496008-495358	wDcau_00379
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Protein-export protein SecB	CP046580.1:496199-496681	wDcau_00380
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:496905-497105	wDcau_00381
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Succinate--CoA ligase [ADP-forming] subunit beta	CP046580.1:497133-498308	wDcau_00382
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Succinate--CoA ligase [ADP-forming] subunit alpha	CP046580.1:498296-499168	wDcau_00383
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Diaminopimelate epimerase	CP046580.1:c499981-499184	wDcau_00384
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c501102-500539	wDcau_00385
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c502625-502335	wDcau_00386
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Carboxylesterase 2	CP046580.1:502779-503423	wDcau_00387
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:503428-504225	wDcau_00388
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	DNA polymerase III subunit alpha	CP046580.1:504701-508045	wDcau_00389
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:508093-508869	wDcau_00390
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S18	CP046580.1:508869-509147	wDcau_00391
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L9	CP046580.1:509154-509675	wDcau_00392
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L33	CP046580.1:c512436-512236	wDcau_00394
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribonuclease E	CP046580.1:512593-514362	wDcau_00395
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Chaperone protein DnaK	CP046580.1:514449-516368	wDcau_00396
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B	CP046580.1:516754-518175	wDcau_00397
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L21	CP046580.1:519361-519672	wDcau_00398
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L27	CP046580.1:519678-519926	wDcau_00399
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	S-adenosylmethionine synthase	CP046580.1:522054-523220	wDcau_00401
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cytochrome c oxidase subunit 3	CP046580.1:524106-524933	wDcau_00402
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	DNA-binding transcriptional regulator BolA	CP046580.1:525383-525661	wDcau_00403
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	L-alanine/L-glutamate racemase	CP046580.1:525675-526865	wDcau_00404
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase	CP046580.1:526891-528288	wDcau_00405
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glycine betaine/proline/ectoine/pipecolic acid transporter OusA	CP046580.1:528512-529714	wDcau_00406
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glyceraldehyde-3-phosphate dehydrogenase	CP046580.1:530047-531033	wDcau_00407
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Sec-independent protein translocase protein TatC	CP046580.1:531030-531788	wDcau_00408
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c534890-531879	wDcau_00409
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribonuclease HI	CP046580.1:c535320-534883	wDcau_00410
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Protoheme IX farnesyltransferase	CP046580.1:c536398-535511	wDcau_00411
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cytochrome c oxidase subunit 1	CP046580.1:c537950-536400	wDcau_00412
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cytochrome c oxidase subunit 2	CP046580.1:c538731-537967	wDcau_00413
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Type I secretion system membrane fusion protein PrsE	CP046580.1:c541159-539723	wDcau_00414
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	3-oxoacyl-[acyl-carrier-protein] reductase FabG	CP046580.1:541466-542200	wDcau_00415
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:542292-542657	wDcau_00416
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Beta-barrel assembly-enhancing protease	CP046580.1:c543959-542673	wDcau_00417
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	3,4-dihydroxy-2-butanone 4-phosphate synthase	CP046580.1:c544688-544035	wDcau_00418
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Transcription elongation factor GreA	CP046580.1:c545185-544691	wDcau_00419
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP synthase subunit alpha	CP046580.1:c546736-545195	wDcau_00420
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP synthase subunit delta	CP046580.1:c547292-546747	wDcau_00421
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE	CP046580.1:548096-548794	wDcau_00422
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phenylalanine--tRNA ligase beta subunit	CP046580.1:c552320-549933	wDcau_00423
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	D-alanyl-D-alanine carboxypeptidase DacA	CP046580.1:c553573-552455	wDcau_00424
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Chaperone protein DnaJ	CP046580.1:c555754-554648	wDcau_00425
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Sensor histidine kinase RcsC	CP046580.1:c559389-556903	wDcau_00427
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Oxygen-dependent coproporphyrinogen-III oxidase	CP046580.1:559496-560320	wDcau_00428
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	GTP-binding protein TypA/BipA	CP046580.1:c562678-560837	wDcau_00429
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Peptide chain release factor RF2	CP046580.1:c563961-562984	wDcau_00430
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Magnesium transporter MgtE	CP046580.1:564246-565616	wDcau_00431
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	2-oxoisovalerate dehydrogenase subunit beta	CP046580.1:c566611-565613	wDcau_00432
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Valine--tRNA ligase	CP046580.1:567450-570059	wDcau_00433
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Pyruvate, phosphate dikinase	CP046580.1:c573845-571167	wDcau_00434
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c575631-574654	wDcau_00435
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphopantetheine adenylyltransferase	CP046580.1:575884-576396	wDcau_00437
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:576458-576670	wDcau_00438
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c577357-576710	wDcau_00439
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific)	CP046580.1:c578021-577326	wDcau_00440
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribosome-recycling factor	CP046580.1:c578937-578380	wDcau_00441
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Uridylate kinase	CP046580.1:c579688-578945	wDcau_00442
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Elongation factor Ts	CP046580.1:c580567-579698	wDcau_00443
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S2	CP046580.1:c581399-580548	wDcau_00444
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Carbamoyl-phosphate synthase large chain	CP046580.1:c585132-581824	wDcau_00446
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	putative oxidoreductase YciK	CP046580.1:c586030-585281	wDcau_00447
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c586862-586023	wDcau_00448
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	DNA primase	CP046580.1:c590184-588409	wDcau_00449
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ubiquinone biosynthesis O-methyltransferase, mitochondrial	CP046580.1:590364-591530	wDcau_00450
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Methionine--tRNA ligase	CP046580.1:591583-593121	wDcau_00451
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Replicative DNA helicase	CP046580.1:c595253-593802	wDcau_00452
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:595498-596085	wDcau_00454
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA-modifying protein YgfZ	CP046580.1:c597875-597078	wDcau_00455
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	10 kDa chaperonin	CP046580.1:598018-598308	wDcau_00456
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	60 kDa chaperonin 5	CP046580.1:598418-600070	wDcau_00457
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c600401-600255	wDcau_00458
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Divalent-cation tolerance protein CutA	CP046580.1:c601013-600696	wDcau_00460
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Modulator of FtsH protease HflK	CP046580.1:602873-603910	wDcau_00461
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Modulator of FtsH protease HflC	CP046580.1:603913-604785	wDcau_00462
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Periplasmic pH-dependent serine endoprotease DegQ	CP046580.1:604791-606281	wDcau_00463
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphomannomutase/phosphoglucomutase	CP046580.1:607112-608464	wDcau_00464
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Lipoprotein-releasing system transmembrane protein LolC	CP046580.1:c610163-608931	wDcau_00465
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c610593-610483	wDcau_00466
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c612265-611006	wDcau_00467
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c612718-612350	wDcau_00468
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c613101-612715	wDcau_00469
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:614926-615468	wDcau_00471
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c616303-615803	wDcau_00472
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Putative TrmH family tRNA/rRNA methyltransferase	CP046580.1:616354-617148	wDcau_00473
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Inner membrane protein YbhL	CP046580.1:617248-617970	wDcau_00474
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cytochrome c oxidase assembly protein CtaG	CP046580.1:617971-618510	wDcau_00475
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c618836-618723	wDcau_00476
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphate-binding protein PstS	CP046580.1:c620262-619246	wDcau_00477
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L17	CP046580.1:c620801-620373	wDcau_00478
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	DNA-directed RNA polymerase subunit alpha	CP046580.1:c621876-620809	wDcau_00479
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c622362-621898	wDcau_00480
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S13	CP046580.1:c622675-622307	wDcau_00481
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Adenylate kinase	CP046580.1:c623399-622734	wDcau_00482
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Protein translocase subunit SecY	CP046580.1:c624724-623396	wDcau_00483
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L15	CP046580.1:c625195-624725	wDcau_00484
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S5	CP046580.1:c625711-625199	wDcau_00485
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L18	CP046580.1:c626097-625723	wDcau_00486
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L6	CP046580.1:c626648-626103	wDcau_00487
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S8	CP046580.1:c627060-626665	wDcau_00488
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S14	CP046580.1:c627396-627088	wDcau_00489
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L5	CP046580.1:c627949-627413	wDcau_00490
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L24	CP046580.1:c628278-627961	wDcau_00491
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L14	CP046580.1:c628637-628278	wDcau_00492
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S17	CP046580.1:c628884-628660	wDcau_00493
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c629083-628877	wDcau_00494
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L16	CP046580.1:c629510-629097	wDcau_00495
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S3	CP046580.1:c630141-629521	wDcau_00496
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L22	CP046580.1:c630534-630172	wDcau_00497
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S19	CP046580.1:c630825-630541	wDcau_00498
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L2	CP046580.1:c631653-630829	wDcau_00499
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L23	CP046580.1:c631942-631655	wDcau_00500
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L4	CP046580.1:c632553-631939	wDcau_00501
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L3	CP046580.1:c633285-632605	wDcau_00502
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S10	CP046580.1:c633638-633282	wDcau_00503
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Elongation factor Tu	CP046580.1:c634828-633656	wDcau_00504
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Carbamoyl-phosphate synthase small chain	CP046580.1:c635862-635191	wDcau_00507
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Carbamoyl-phosphate synthase small chain	CP046580.1:c636365-635853	wDcau_00508
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Methionyl-tRNA formyltransferase	CP046580.1:c637833-636934	wDcau_00509
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L20	CP046580.1:c638229-637864	wDcau_00510
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L35	CP046580.1:c638457-638236	wDcau_00511
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ferredoxin 1	CP046580.1:c639348-638974	wDcau_00512
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:639792-639977	wDcau_00513
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	3-dehydroquinate synthase	CP046580.1:c642043-640631	wDcau_00514
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Succinyl-diaminopimelate desuccinylase	CP046580.1:642084-643289	wDcau_00515
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Alkyl hydroperoxide reductase C	CP046580.1:643413-644012	wDcau_00516
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Thioredoxin reductase	CP046580.1:644013-644972	wDcau_00517
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c646124-645915	wDcau_00518
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Dihydrolipoyl dehydrogenase 3	CP046580.1:c647631-646234	wDcau_00519
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Outer membrane protein assembly factor BamB	CP046580.1:c648514-647624	wDcau_00520
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c648746-648516	wDcau_00521
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Pyridoxine 5'-phosphate synthase	CP046580.1:649172-649879	wDcau_00522
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c650184-649876	wDcau_00523
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	30S ribosomal protein S9	CP046580.1:c650778-650332	wDcau_00524
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L13	CP046580.1:c651247-650789	wDcau_00525
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:651404-652612	wDcau_00526
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribosomal RNA large subunit methyltransferase E	CP046580.1:653314-653823	wDcau_00527
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c654501-653854	wDcau_00528
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	RNA polymerase-binding transcription factor DksA	CP046580.1:654607-654990	wDcau_00529
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Guanylate kinase	CP046580.1:c655613-654993	wDcau_00530
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c657315-656170	wDcau_00531
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c658501-657299	wDcau_00532
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Inorganic pyrophosphatase	CP046580.1:c659915-659409	wDcau_00534
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	3-demethoxyubiquinol 3-hydroxylase	CP046580.1:c660497-659958	wDcau_00535
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c662626-661223	wDcau_00536
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Dephospho-CoA kinase	CP046580.1:662798-663385	wDcau_00537
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribonuclease D	CP046580.1:c664567-663368	wDcau_00538
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase subunit H	CP046580.1:c666023-664971	wDcau_00540
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NADH-quinone oxidoreductase chain 3	CP046580.1:c668013-665968	wDcau_00541
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c668239-668027	wDcau_00542
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Inosine-5'-monophosphate dehydrogenase	CP046580.1:669023-670516	wDcau_00543
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c671704-670904	wDcau_00544
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Peptide deformylase	CP046580.1:c672291-671701	wDcau_00545
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c672690-672565	wDcau_00546
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	GTPase Der	CP046580.1:674166-675491	wDcau_00547
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Disulfide bond formation protein B	CP046580.1:675541-676020	wDcau_00548
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:676256-676909	wDcau_00549
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Leucine--tRNA ligase	CP046580.1:676922-679465	wDcau_00550
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP synthase subunit a	CP046580.1:681008-681733	wDcau_00552
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP synthase subunit c	CP046580.1:681797-682024	wDcau_00553
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP synthase subunit b	CP046580.1:682026-682505	wDcau_00554
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:682514-682987	wDcau_00555
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Heme A synthase	CP046580.1:684242-685558	wDcau_00556
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Carbamoyl-phosphate synthase large chain	CP046580.1:c687663-685507	wDcau_00557
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glutamate--tRNA ligase 1	CP046580.1:688467-689831	wDcau_00558
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c690887-689844	wDcau_00559
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:690982-691350	wDcau_00560
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:691351-691632	wDcau_00561
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase	CP046580.1:c693682-692852	wDcau_00562
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Peptidoglycan glycosyltransferase MrdB	CP046580.1:c695693-694692	wDcau_00563
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Na(+)/H(+) antiporter subunit D	CP046580.1:c697331-695862	wDcau_00564
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:697395-697700	wDcau_00565
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Sec-independent protein translocase protein TatA	CP046580.1:699314-699481	wDcau_00567
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:699619-700299	wDcau_00568
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:700393-701049	wDcau_00569
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cysteine--tRNA ligase	CP046580.1:701042-702415	wDcau_00570
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:702542-702841	wDcau_00571
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Bifunctional PGK/TIM	CP046580.1:c704887-703691	wDcau_00572
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ferredoxin--NADP reductase	CP046580.1:c705944-704925	wDcau_00573
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Transaldolase	CP046580.1:c708110-707475	wDcau_00574
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP synthase epsilon chain	CP046580.1:c708470-708138	wDcau_00575
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP synthase subunit beta	CP046580.1:c709922-708504	wDcau_00576
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c711119-710025	wDcau_00577
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L34	CP046580.1:711247-711381	wDcau_00578
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribonuclease P protein component	CP046580.1:711374-711781	wDcau_00579
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:711840-712079	wDcau_00580
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:715418-716491	wDcau_00583
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Vitamin B12-dependent ribonucleoside-diphosphate reductase	CP046580.1:716517-718328	wDcau_00584
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Putative pre-16S rRNA nuclease	CP046580.1:718329-718796	wDcau_00585
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	UvrABC system protein C	CP046580.1:c720774-719116	wDcau_00586
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glycine--tRNA ligase beta subunit	CP046580.1:c722909-720774	wDcau_00587
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glycine--tRNA ligase alpha subunit	CP046580.1:c723721-722882	wDcau_00588
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c724523-723768	wDcau_00589
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	DNA mismatch repair protein MutS	CP046580.1:c727156-724724	wDcau_00590
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	5-formyltetrahydrofolate cyclo-ligase	CP046580.1:c728969-728451	wDcau_00591
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	DNA gyrase subunit B	CP046580.1:c732524-730128	wDcau_00593
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c735489-734962	wDcau_00594
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c736615-736427	wDcau_00595
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c737908-737438	wDcau_00596
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA dimethylallyltransferase	CP046580.1:737978-738865	wDcau_00597
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Bifunctional purine biosynthesis protein PurH	CP046580.1:c742827-741310	wDcau_00598
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Fumarate hydratase class II	CP046580.1:c744622-743222	wDcau_00599
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Lysine--tRNA ligase	CP046580.1:c746551-745016	wDcau_00600
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:746663-746956	wDcau_00601
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Type IV secretion system protein virB4	CP046580.1:746962-749370	wDcau_00602
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:749363-751765	wDcau_00603
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:751919-754294	wDcau_00604
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:754291-757212	wDcau_00605
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:757397-760591	wDcau_00606
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:760778-761140	wDcau_00607
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribosomal RNA small subunit methyltransferase D	CP046580.1:761316-761867	wDcau_00608
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	UDP-N-acetylmuramoylalanine--D-glutamate ligase	CP046580.1:c764959-763601	wDcau_00609
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Dicamba O-demethylase, ferredoxin component	CP046580.1:765079-765420	wDcau_00610
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:765439-766461	wDcau_00611
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:766469-766855	wDcau_00612
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA-specific 2-thiouridylase MnmA	CP046580.1:c768689-767538	wDcau_00613
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cell shape-determining protein MreB	CP046580.1:c769955-768879	wDcau_00614
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Thermostable carboxypeptidase 1	CP046580.1:c771411-769981	wDcau_00615
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Peptidoglycan-associated lipoprotein	CP046580.1:771688-772167	wDcau_00616
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA(Ile)-lysidine synthase	CP046580.1:772306-773613	wDcau_00617
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	ATP-dependent zinc metalloprotease FtsH	CP046580.1:773625-775454	wDcau_00618
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c777989-777366	wDcau_00619
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c778818-778324	wDcau_00620
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphoglycolate phosphatase	CP046580.1:c779466-778825	wDcau_00621
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Chaperone protein HtpG	CP046580.1:780890-782800	wDcau_00622
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:783571-784329	wDcau_00623
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	5-aminolevulinate synthase	CP046580.1:784392-785594	wDcau_00624
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c786283-785591	wDcau_00625
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Elongation factor P	CP046580.1:c786859-786293	wDcau_00626
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribosome maturation factor RimM	CP046580.1:c787431-786922	wDcau_00627
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Putative peroxiredoxin bcp	CP046580.1:788825-789298	wDcau_00628
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c789502-789410	wDcau_00629
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Cell cycle response regulator CtrA	CP046580.1:c791535-790783	wDcau_00630
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glycerol-3-phosphate dehydrogenase [NAD(P)+]	CP046580.1:791848-792834	wDcau_00631
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphatidylglycerophosphatase A	CP046580.1:792856-793344	wDcau_00632
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:793334-794113	wDcau_00633
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:794168-795301	wDcau_00634
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Succinate dehydrogenase iron-sulfur subunit	CP046580.1:c796099-795305	wDcau_00635
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Endoribonuclease YbeY	CP046580.1:c796642-796196	wDcau_00636
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c798934-798725	wDcau_00637
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c800893-800264	wDcau_00638
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase	CP046580.1:c801453-800998	wDcau_00639
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Acetylglutamate kinase	CP046580.1:c802467-801529	wDcau_00640
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	GTP-binding protein EngB	CP046580.1:c803002-802442	wDcau_00641
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Peptide chain release factor 1	CP046580.1:803172-804251	wDcau_00642
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Alanine--tRNA ligase	CP046580.1:804703-805992	wDcau_00643
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c809746-806999	wDcau_00644
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Isoleucine--tRNA ligase	CP046580.1:c813064-809804	wDcau_00645
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase	CP046580.1:c814822-813488	wDcau_00646
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glutamate--tRNA ligase	CP046580.1:815507-816853	wDcau_00647
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Dihydroorotase	CP046580.1:c819181-817850	wDcau_00648
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:819577-822087	wDcau_00649
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Succinate dehydrogenase flavoprotein subunit	CP046580.1:c823889-822084	wDcau_00650
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:826288-826707	wDcau_00651
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]	CP046580.1:826751-828571	wDcau_00652
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	GTPase Era	CP046580.1:828805-829692	wDcau_00653
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribose-phosphate pyrophosphokinase	CP046580.1:831237-832163	wDcau_00654
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Glutamyl-tRNA(Gln) amidotransferase subunit C, chloroplastic/mitochondrial	CP046580.1:832153-832506	wDcau_00655
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Threonylcarbamoyladenosine tRNA methylthiotransferase MtaB	CP046580.1:832696-833922	wDcau_00656
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:833939-834784	wDcau_00657
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c835733-835554	wDcau_00658
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Zinc transporter ZitB	CP046580.1:c836895-835999	wDcau_00659
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Aspartate carbamoyltransferase	CP046580.1:c839960-839064	wDcau_00661
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c840884-840780	wDcau_00662
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	NAD kinase	CP046580.1:c843073-842276	wDcau_00663
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L31	CP046580.1:c843319-843107	wDcau_00664
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Malonyl CoA-acyl carrier protein transacylase	CP046580.1:843446-844387	wDcau_00665
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	2,3-bisphosphoglycerate-independent phosphoglycerate mutase	CP046580.1:c845964-844459	wDcau_00666
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c846280-846134	wDcau_00667
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Ribosomal RNA small subunit methyltransferase H	CP046580.1:846934-847932	wDcau_00668
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Endolytic peptidoglycan transglycosylase RlpA	CP046580.1:c850930-850253	wDcau_00669
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	UDP-N-acetylmuramate--L-alanine ligase	CP046580.1:851013-852332	wDcau_00670
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:852338-852478	wDcau_00671
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Enolase	CP046580.1:852485-853750	wDcau_00672
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	GTPase Obg	CP046580.1:853747-854766	wDcau_00673
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:855482-855904	wDcau_00674
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c856275-856168	wDcau_00675
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Octanoyltransferase	CP046580.1:856861-857478	wDcau_00676
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphoribosylformylglycinamidine synthase	CP046580.1:c858667-857870	wDcau_00677
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:c859921-858671	wDcau_00678
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	50S ribosomal protein L19	CP046580.1:c860406-860023	wDcau_00679
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	tRNA (guanine-N(1)-)-methyltransferase	CP046580.1:c861092-860403	wDcau_00680
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphoribosylaminoimidazole-succinocarboxamide synthase	CP046580.1:861163-861885	wDcau_00681
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	Phosphoribosylformylglycinamidine cyclo-ligase	CP046580.1:c862919-861882	wDcau_00682
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation/wDcau/wDcau:CDS	hypothetical protein	CP046580.1:863054-863347	wDcau_00683
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Glu	CP046580.1:c33110-33037	wDcau_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Cys	CP046580.1:c52410-52338	wDcau_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Lys	CP046580.1:c66544-66469	wDcau_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Ala	CP046580.1:66708-66780	wDcau_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Val	CP046580.1:c96740-96669	wDcau_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Ser	CP046580.1:103145-103236	wDcau_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Gly	CP046580.1:c156623-156550	wDcau_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Met	CP046580.1:157856-157930	wDcau_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Pro	CP046580.1:c161521-161448	wDcau_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Met	CP046580.1:163663-163738	wDcau_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Thr	CP046580.1:166113-166186	wDcau_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	His	CP046580.1:c198884-198811	wDcau_00158
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Trp	CP046580.1:c230591-230518	wDcau_00181
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Arg	CP046580.1:243500-243573	wDcau_00191
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Arg	CP046580.1:301190-301264	wDcau_00234
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Leu	CP046580.1:340041-340128	wDcau_00265
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Leu	CP046580.1:363047-363133	wDcau_00283
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Leu	CP046580.1:482755-482840	wDcau_00368
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Met	CP046580.1:511124-511197	wDcau_00393
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Ile	CP046580.1:519961-520037	wDcau_00400
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Arg	CP046580.1:c555920-555845	wDcau_00426
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Phe	CP046580.1:c575803-575730	wDcau_00436
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Asp	CP046580.1:581578-581653	wDcau_00445
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Leu	CP046580.1:595378-595460	wDcau_00453
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Gln	CP046580.1:c600684-600612	wDcau_00459
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:rRNA	16S ribosomal RNA	CP046580.1:c614700-613203	wDcau_00470
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Gly	CP046580.1:c634978-634906	wDcau_00505
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Tyr	CP046580.1:c635073-634991	wDcau_00506
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Ser	CP046580.1:c659300-659211	wDcau_00533
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Asn	CP046580.1:664733-664807	wDcau_00539
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Thr	CP046580.1:c680202-680129	wDcau_00551
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Arg	CP046580.1:c698627-698553	wDcau_00566
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:rRNA	5S ribosomal RNA (partial)	CP046580.1:c712223-712133	wDcau_00581
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:rRNA	23S ribosomal RNA	CP046580.1:c715058-712288	wDcau_00582
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Ser	CP046580.1:c729692-729605	wDcau_00592
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation/wDcau/wDcau:tRNA	Val	CP046580.1:c836994-836921	wDcau_00660
+
+DiscRep_ALL:OVERLAPPING_CDS::2 coding regions overlap another coding region with a similar or identical name.
+DiscRep_SUB:OVERLAPPING_CDS::2 coding regions overlap another coding region with a similar or identical name that do not have the appropriate note text
+annotation/wDcau/wDcau:CDS	Carbamoyl-phosphate synthase small chain	CP046580.1:c635862-635191	wDcau_00507
+annotation/wDcau/wDcau:CDS	Carbamoyl-phosphate synthase small chain	CP046580.1:c636365-635853	wDcau_00508
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::3 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+annotation/wDcau/wDcau:CDS	putative protein RP812	CP046580.1:c386335-386117	wDcau_00301
+
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features Contains underscore
+annotation/wDcau/wDcau:CDS	Aspartate kinase Ask_LysC	CP046580.1:c313794-312631	wDcau_00247
+
+FATAL: DiscRep_SUB:SUSPECT_PRODUCT_NAMES::Remove organism from product name
+DiscRep_SUB:DISC_PRODUCT_NAME_QUICKFIX::1 features contains 'ECOLI'
+annotation/wDcau/wDcau:CDS	Glycine betaine/proline/ectoine/pipecolic acid transporter OusA	CP046580.1:528512-529714	wDcau_00406
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+FATAL: DiscRep_ALL:DISC_SUSPECT_RRNA_PRODUCTS::1 rRNA product names contain suspect phrase
+FATAL: DiscRep_SUB:DISC_SUSPECT_RRNA_PRODUCTS::1 rRNA product names contains 'partial'
+annotation/wDcau/wDcau:rRNA	5S ribosomal RNA (partial)	CP046580.1:c712223-712133	wDcau_00581
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+annotation/wDcau/wDcau:CP046580.1:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::23 protein sequences are shorter than 50 aa.
+annotation/wDcau/wDcau:CP046580.1_4 (length 36)
+annotation/wDcau/wDcau:CP046580.1_14 (length 47)
+annotation/wDcau/wDcau:CP046580.1_65 (length 30)
+annotation/wDcau/wDcau:CP046580.1_68 (length 47)
+annotation/wDcau/wDcau:CP046580.1_88 (length 36)
+annotation/wDcau/wDcau:CP046580.1_91 (length 46)
+annotation/wDcau/wDcau:CP046580.1_173 (length 31)
+annotation/wDcau/wDcau:CP046580.1_201 (length 42)
+annotation/wDcau/wDcau:CP046580.1_233 (length 47)
+annotation/wDcau/wDcau:CP046580.1_246 (length 46)
+annotation/wDcau/wDcau:CP046580.1_313 (length 39)
+annotation/wDcau/wDcau:CP046580.1_318 (length 37)
+annotation/wDcau/wDcau:CP046580.1_341 (length 43)
+annotation/wDcau/wDcau:CP046580.1_434 (length 48)
+annotation/wDcau/wDcau:CP046580.1_441 (length 36)
+annotation/wDcau/wDcau:CP046580.1_450 (length 37)
+annotation/wDcau/wDcau:CP046580.1_516 (length 41)
+annotation/wDcau/wDcau:CP046580.1_546 (length 44)
+annotation/wDcau/wDcau:CP046580.1_594 (length 30)
+annotation/wDcau/wDcau:CP046580.1_626 (length 34)
+annotation/wDcau/wDcau:CP046580.1_631 (length 48)
+annotation/wDcau/wDcau:CP046580.1_635 (length 46)
+annotation/wDcau/wDcau:CP046580.1_639 (length 35)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+annotation/wDcau/wDcau:CP046580.1 (length 863427)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+annotation/wDcau/wDcau:CP046580.1 (length 863427)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+annotation/wDcau/wDcau:CP046580.1 (length 863427)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+annotation/wDcau/wDcau:CP046580.1 (length 863427)
+
+DiscRep_ALL:MISSING_PROJECT::648 sequences do not include project.
+annotation/wDcau/wDcau:CP046580.1 (length 863427)
+annotation/wDcau/wDcau:CP046580.1_1 (length 92)
+annotation/wDcau/wDcau:CP046580.1_2 (length 350)
+annotation/wDcau/wDcau:CP046580.1_3 (length 397)
+annotation/wDcau/wDcau:CP046580.1_4 (length 36)
+annotation/wDcau/wDcau:CP046580.1_5 (length 404)
+annotation/wDcau/wDcau:CP046580.1_6 (length 425)
+annotation/wDcau/wDcau:CP046580.1_7 (length 316)
+annotation/wDcau/wDcau:CP046580.1_8 (length 436)
+annotation/wDcau/wDcau:CP046580.1_9 (length 425)
+annotation/wDcau/wDcau:CP046580.1_10 (length 423)
+annotation/wDcau/wDcau:CP046580.1_11 (length 519)
+annotation/wDcau/wDcau:CP046580.1_12 (length 115)
+annotation/wDcau/wDcau:CP046580.1_13 (length 62)
+annotation/wDcau/wDcau:CP046580.1_14 (length 47)
+annotation/wDcau/wDcau:CP046580.1_15 (length 180)
+annotation/wDcau/wDcau:CP046580.1_16 (length 190)
+annotation/wDcau/wDcau:CP046580.1_17 (length 436)
+annotation/wDcau/wDcau:CP046580.1_18 (length 445)
+annotation/wDcau/wDcau:CP046580.1_19 (length 159)
+annotation/wDcau/wDcau:CP046580.1_20 (length 310)
+annotation/wDcau/wDcau:CP046580.1_21 (length 122)
+annotation/wDcau/wDcau:CP046580.1_22 (length 89)
+annotation/wDcau/wDcau:CP046580.1_23 (length 169)
+annotation/wDcau/wDcau:CP046580.1_24 (length 190)
+annotation/wDcau/wDcau:CP046580.1_25 (length 488)
+annotation/wDcau/wDcau:CP046580.1_26 (length 256)
+annotation/wDcau/wDcau:CP046580.1_27 (length 230)
+annotation/wDcau/wDcau:CP046580.1_28 (length 345)
+annotation/wDcau/wDcau:CP046580.1_29 (length 236)
+annotation/wDcau/wDcau:CP046580.1_30 (length 491)
+annotation/wDcau/wDcau:CP046580.1_31 (length 309)
+annotation/wDcau/wDcau:CP046580.1_32 (length 421)
+annotation/wDcau/wDcau:CP046580.1_33 (length 91)
+annotation/wDcau/wDcau:CP046580.1_34 (length 266)
+annotation/wDcau/wDcau:CP046580.1_35 (length 303)
+annotation/wDcau/wDcau:CP046580.1_36 (length 503)
+annotation/wDcau/wDcau:CP046580.1_37 (length 395)
+annotation/wDcau/wDcau:CP046580.1_38 (length 166)
+annotation/wDcau/wDcau:CP046580.1_39 (length 431)
+annotation/wDcau/wDcau:CP046580.1_40 (length 403)
+annotation/wDcau/wDcau:CP046580.1_41 (length 236)
+annotation/wDcau/wDcau:CP046580.1_42 (length 299)
+annotation/wDcau/wDcau:CP046580.1_43 (length 207)
+annotation/wDcau/wDcau:CP046580.1_44 (length 278)
+annotation/wDcau/wDcau:CP046580.1_45 (length 177)
+annotation/wDcau/wDcau:CP046580.1_46 (length 196)
+annotation/wDcau/wDcau:CP046580.1_47 (length 326)
+annotation/wDcau/wDcau:CP046580.1_48 (length 709)
+annotation/wDcau/wDcau:CP046580.1_49 (length 94)
+annotation/wDcau/wDcau:CP046580.1_50 (length 399)
+annotation/wDcau/wDcau:CP046580.1_51 (length 245)
+annotation/wDcau/wDcau:CP046580.1_52 (length 550)
+annotation/wDcau/wDcau:CP046580.1_53 (length 92)
+annotation/wDcau/wDcau:CP046580.1_54 (length 374)
+annotation/wDcau/wDcau:CP046580.1_55 (length 781)
+annotation/wDcau/wDcau:CP046580.1_56 (length 186)
+annotation/wDcau/wDcau:CP046580.1_57 (length 147)
+annotation/wDcau/wDcau:CP046580.1_58 (length 977)
+annotation/wDcau/wDcau:CP046580.1_59 (length 516)
+annotation/wDcau/wDcau:CP046580.1_60 (length 447)
+annotation/wDcau/wDcau:CP046580.1_61 (length 230)
+annotation/wDcau/wDcau:CP046580.1_62 (length 115)
+annotation/wDcau/wDcau:CP046580.1_63 (length 394)
+annotation/wDcau/wDcau:CP046580.1_64 (length 62)
+annotation/wDcau/wDcau:CP046580.1_65 (length 30)
+annotation/wDcau/wDcau:CP046580.1_66 (length 208)
+annotation/wDcau/wDcau:CP046580.1_67 (length 307)
+annotation/wDcau/wDcau:CP046580.1_68 (length 47)
+annotation/wDcau/wDcau:CP046580.1_69 (length 527)
+annotation/wDcau/wDcau:CP046580.1_70 (length 396)
+annotation/wDcau/wDcau:CP046580.1_71 (length 424)
+annotation/wDcau/wDcau:CP046580.1_72 (length 125)
+annotation/wDcau/wDcau:CP046580.1_73 (length 426)
+annotation/wDcau/wDcau:CP046580.1_74 (length 286)
+annotation/wDcau/wDcau:CP046580.1_75 (length 901)
+annotation/wDcau/wDcau:CP046580.1_76 (length 200)
+annotation/wDcau/wDcau:CP046580.1_77 (length 381)
+annotation/wDcau/wDcau:CP046580.1_78 (length 455)
+annotation/wDcau/wDcau:CP046580.1_79 (length 220)
+annotation/wDcau/wDcau:CP046580.1_80 (length 188)
+annotation/wDcau/wDcau:CP046580.1_81 (length 572)
+annotation/wDcau/wDcau:CP046580.1_82 (length 425)
+annotation/wDcau/wDcau:CP046580.1_83 (length 93)
+annotation/wDcau/wDcau:CP046580.1_84 (length 342)
+annotation/wDcau/wDcau:CP046580.1_85 (length 349)
+annotation/wDcau/wDcau:CP046580.1_86 (length 134)
+annotation/wDcau/wDcau:CP046580.1_87 (length 54)
+annotation/wDcau/wDcau:CP046580.1_88 (length 36)
+annotation/wDcau/wDcau:CP046580.1_89 (length 271)
+annotation/wDcau/wDcau:CP046580.1_90 (length 816)
+annotation/wDcau/wDcau:CP046580.1_91 (length 46)
+annotation/wDcau/wDcau:CP046580.1_92 (length 309)
+annotation/wDcau/wDcau:CP046580.1_93 (length 263)
+annotation/wDcau/wDcau:CP046580.1_94 (length 585)
+annotation/wDcau/wDcau:CP046580.1_95 (length 164)
+annotation/wDcau/wDcau:CP046580.1_96 (length 135)
+annotation/wDcau/wDcau:CP046580.1_97 (length 130)
+annotation/wDcau/wDcau:CP046580.1_98 (length 303)
+annotation/wDcau/wDcau:CP046580.1_99 (length 113)
+annotation/wDcau/wDcau:CP046580.1_100 (length 329)
+annotation/wDcau/wDcau:CP046580.1_101 (length 188)
+annotation/wDcau/wDcau:CP046580.1_102 (length 340)
+annotation/wDcau/wDcau:CP046580.1_103 (length 50)
+annotation/wDcau/wDcau:CP046580.1_104 (length 81)
+annotation/wDcau/wDcau:CP046580.1_105 (length 417)
+annotation/wDcau/wDcau:CP046580.1_106 (length 90)
+annotation/wDcau/wDcau:CP046580.1_107 (length 786)
+annotation/wDcau/wDcau:CP046580.1_108 (length 123)
+annotation/wDcau/wDcau:CP046580.1_109 (length 328)
+annotation/wDcau/wDcau:CP046580.1_110 (length 157)
+annotation/wDcau/wDcau:CP046580.1_111 (length 424)
+annotation/wDcau/wDcau:CP046580.1_112 (length 200)
+annotation/wDcau/wDcau:CP046580.1_113 (length 206)
+annotation/wDcau/wDcau:CP046580.1_114 (length 388)
+annotation/wDcau/wDcau:CP046580.1_115 (length 883)
+annotation/wDcau/wDcau:CP046580.1_116 (length 329)
+annotation/wDcau/wDcau:CP046580.1_117 (length 112)
+annotation/wDcau/wDcau:CP046580.1_118 (length 206)
+annotation/wDcau/wDcau:CP046580.1_119 (length 106)
+annotation/wDcau/wDcau:CP046580.1_120 (length 637)
+annotation/wDcau/wDcau:CP046580.1_121 (length 325)
+annotation/wDcau/wDcau:CP046580.1_122 (length 206)
+annotation/wDcau/wDcau:CP046580.1_123 (length 271)
+annotation/wDcau/wDcau:CP046580.1_124 (length 508)
+annotation/wDcau/wDcau:CP046580.1_125 (length 214)
+annotation/wDcau/wDcau:CP046580.1_126 (length 144)
+annotation/wDcau/wDcau:CP046580.1_127 (length 601)
+annotation/wDcau/wDcau:CP046580.1_128 (length 418)
+annotation/wDcau/wDcau:CP046580.1_129 (length 169)
+annotation/wDcau/wDcau:CP046580.1_130 (length 633)
+annotation/wDcau/wDcau:CP046580.1_131 (length 160)
+annotation/wDcau/wDcau:CP046580.1_132 (length 265)
+annotation/wDcau/wDcau:CP046580.1_133 (length 544)
+annotation/wDcau/wDcau:CP046580.1_134 (length 424)
+annotation/wDcau/wDcau:CP046580.1_135 (length 212)
+annotation/wDcau/wDcau:CP046580.1_136 (length 476)
+annotation/wDcau/wDcau:CP046580.1_137 (length 390)
+annotation/wDcau/wDcau:CP046580.1_138 (length 262)
+annotation/wDcau/wDcau:CP046580.1_139 (length 264)
+annotation/wDcau/wDcau:CP046580.1_140 (length 155)
+annotation/wDcau/wDcau:CP046580.1_141 (length 185)
+annotation/wDcau/wDcau:CP046580.1_142 (length 199)
+annotation/wDcau/wDcau:CP046580.1_143 (length 347)
+annotation/wDcau/wDcau:CP046580.1_144 (length 418)
+annotation/wDcau/wDcau:CP046580.1_145 (length 205)
+annotation/wDcau/wDcau:CP046580.1_146 (length 195)
+annotation/wDcau/wDcau:CP046580.1_147 (length 848)
+annotation/wDcau/wDcau:CP046580.1_148 (length 641)
+annotation/wDcau/wDcau:CP046580.1_149 (length 109)
+annotation/wDcau/wDcau:CP046580.1_150 (length 142)
+annotation/wDcau/wDcau:CP046580.1_151 (length 176)
+annotation/wDcau/wDcau:CP046580.1_152 (length 95)
+annotation/wDcau/wDcau:CP046580.1_153 (length 84)
+annotation/wDcau/wDcau:CP046580.1_154 (length 125)
+annotation/wDcau/wDcau:CP046580.1_155 (length 93)
+annotation/wDcau/wDcau:CP046580.1_156 (length 164)
+annotation/wDcau/wDcau:CP046580.1_157 (length 625)
+annotation/wDcau/wDcau:CP046580.1_158 (length 292)
+annotation/wDcau/wDcau:CP046580.1_159 (length 445)
+annotation/wDcau/wDcau:CP046580.1_160 (length 84)
+annotation/wDcau/wDcau:CP046580.1_161 (length 263)
+annotation/wDcau/wDcau:CP046580.1_162 (length 2839)
+annotation/wDcau/wDcau:CP046580.1_163 (length 133)
+annotation/wDcau/wDcau:CP046580.1_164 (length 173)
+annotation/wDcau/wDcau:CP046580.1_165 (length 220)
+annotation/wDcau/wDcau:CP046580.1_166 (length 146)
+annotation/wDcau/wDcau:CP046580.1_167 (length 277)
+annotation/wDcau/wDcau:CP046580.1_168 (length 66)
+annotation/wDcau/wDcau:CP046580.1_169 (length 390)
+annotation/wDcau/wDcau:CP046580.1_170 (length 688)
+annotation/wDcau/wDcau:CP046580.1_171 (length 159)
+annotation/wDcau/wDcau:CP046580.1_172 (length 124)
+annotation/wDcau/wDcau:CP046580.1_173 (length 31)
+annotation/wDcau/wDcau:CP046580.1_174 (length 302)
+annotation/wDcau/wDcau:CP046580.1_175 (length 335)
+annotation/wDcau/wDcau:CP046580.1_176 (length 583)
+annotation/wDcau/wDcau:CP046580.1_177 (length 242)
+annotation/wDcau/wDcau:CP046580.1_178 (length 157)
+annotation/wDcau/wDcau:CP046580.1_179 (length 318)
+annotation/wDcau/wDcau:CP046580.1_180 (length 334)
+annotation/wDcau/wDcau:CP046580.1_181 (length 415)
+annotation/wDcau/wDcau:CP046580.1_182 (length 869)
+annotation/wDcau/wDcau:CP046580.1_183 (length 522)
+annotation/wDcau/wDcau:CP046580.1_184 (length 781)
+annotation/wDcau/wDcau:CP046580.1_185 (length 117)
+annotation/wDcau/wDcau:CP046580.1_186 (length 276)
+annotation/wDcau/wDcau:CP046580.1_187 (length 581)
+annotation/wDcau/wDcau:CP046580.1_188 (length 199)
+annotation/wDcau/wDcau:CP046580.1_189 (length 471)
+annotation/wDcau/wDcau:CP046580.1_190 (length 487)
+annotation/wDcau/wDcau:CP046580.1_191 (length 217)
+annotation/wDcau/wDcau:CP046580.1_192 (length 278)
+annotation/wDcau/wDcau:CP046580.1_193 (length 237)
+annotation/wDcau/wDcau:CP046580.1_194 (length 622)
+annotation/wDcau/wDcau:CP046580.1_195 (length 195)
+annotation/wDcau/wDcau:CP046580.1_196 (length 102)
+annotation/wDcau/wDcau:CP046580.1_197 (length 620)
+annotation/wDcau/wDcau:CP046580.1_198 (length 483)
+annotation/wDcau/wDcau:CP046580.1_199 (length 464)
+annotation/wDcau/wDcau:CP046580.1_200 (length 263)
+annotation/wDcau/wDcau:CP046580.1_201 (length 42)
+annotation/wDcau/wDcau:CP046580.1_202 (length 119)
+annotation/wDcau/wDcau:CP046580.1_203 (length 70)
+annotation/wDcau/wDcau:CP046580.1_204 (length 342)
+annotation/wDcau/wDcau:CP046580.1_205 (length 330)
+annotation/wDcau/wDcau:CP046580.1_206 (length 122)
+annotation/wDcau/wDcau:CP046580.1_207 (length 587)
+annotation/wDcau/wDcau:CP046580.1_208 (length 640)
+annotation/wDcau/wDcau:CP046580.1_209 (length 415)
+annotation/wDcau/wDcau:CP046580.1_210 (length 399)
+annotation/wDcau/wDcau:CP046580.1_211 (length 150)
+annotation/wDcau/wDcau:CP046580.1_212 (length 224)
+annotation/wDcau/wDcau:CP046580.1_213 (length 77)
+annotation/wDcau/wDcau:CP046580.1_214 (length 232)
+annotation/wDcau/wDcau:CP046580.1_215 (length 388)
+annotation/wDcau/wDcau:CP046580.1_216 (length 237)
+annotation/wDcau/wDcau:CP046580.1_217 (length 90)
+annotation/wDcau/wDcau:CP046580.1_218 (length 758)
+annotation/wDcau/wDcau:CP046580.1_219 (length 225)
+annotation/wDcau/wDcau:CP046580.1_220 (length 496)
+annotation/wDcau/wDcau:CP046580.1_221 (length 304)
+annotation/wDcau/wDcau:CP046580.1_222 (length 122)
+annotation/wDcau/wDcau:CP046580.1_223 (length 118)
+annotation/wDcau/wDcau:CP046580.1_224 (length 168)
+annotation/wDcau/wDcau:CP046580.1_225 (length 188)
+annotation/wDcau/wDcau:CP046580.1_226 (length 317)
+annotation/wDcau/wDcau:CP046580.1_227 (length 262)
+annotation/wDcau/wDcau:CP046580.1_228 (length 161)
+annotation/wDcau/wDcau:CP046580.1_229 (length 50)
+annotation/wDcau/wDcau:CP046580.1_230 (length 110)
+annotation/wDcau/wDcau:CP046580.1_231 (length 417)
+annotation/wDcau/wDcau:CP046580.1_232 (length 387)
+annotation/wDcau/wDcau:CP046580.1_233 (length 47)
+annotation/wDcau/wDcau:CP046580.1_234 (length 434)
+annotation/wDcau/wDcau:CP046580.1_235 (length 250)
+annotation/wDcau/wDcau:CP046580.1_236 (length 92)
+annotation/wDcau/wDcau:CP046580.1_237 (length 216)
+annotation/wDcau/wDcau:CP046580.1_238 (length 493)
+annotation/wDcau/wDcau:CP046580.1_239 (length 110)
+annotation/wDcau/wDcau:CP046580.1_240 (length 236)
+annotation/wDcau/wDcau:CP046580.1_241 (length 296)
+annotation/wDcau/wDcau:CP046580.1_242 (length 165)
+annotation/wDcau/wDcau:CP046580.1_243 (length 413)
+annotation/wDcau/wDcau:CP046580.1_244 (length 194)
+annotation/wDcau/wDcau:CP046580.1_245 (length 461)
+annotation/wDcau/wDcau:CP046580.1_246 (length 46)
+annotation/wDcau/wDcau:CP046580.1_247 (length 900)
+annotation/wDcau/wDcau:CP046580.1_248 (length 1014)
+annotation/wDcau/wDcau:CP046580.1_249 (length 417)
+annotation/wDcau/wDcau:CP046580.1_250 (length 227)
+annotation/wDcau/wDcau:CP046580.1_251 (length 268)
+annotation/wDcau/wDcau:CP046580.1_252 (length 486)
+annotation/wDcau/wDcau:CP046580.1_253 (length 333)
+annotation/wDcau/wDcau:CP046580.1_254 (length 651)
+annotation/wDcau/wDcau:CP046580.1_255 (length 102)
+annotation/wDcau/wDcau:CP046580.1_256 (length 198)
+annotation/wDcau/wDcau:CP046580.1_257 (length 198)
+annotation/wDcau/wDcau:CP046580.1_258 (length 87)
+annotation/wDcau/wDcau:CP046580.1_259 (length 156)
+annotation/wDcau/wDcau:CP046580.1_260 (length 142)
+annotation/wDcau/wDcau:CP046580.1_261 (length 572)
+annotation/wDcau/wDcau:CP046580.1_262 (length 293)
+annotation/wDcau/wDcau:CP046580.1_263 (length 663)
+annotation/wDcau/wDcau:CP046580.1_264 (length 278)
+annotation/wDcau/wDcau:CP046580.1_265 (length 675)
+annotation/wDcau/wDcau:CP046580.1_266 (length 204)
+annotation/wDcau/wDcau:CP046580.1_267 (length 64)
+annotation/wDcau/wDcau:CP046580.1_268 (length 100)
+annotation/wDcau/wDcau:CP046580.1_269 (length 298)
+annotation/wDcau/wDcau:CP046580.1_270 (length 853)
+annotation/wDcau/wDcau:CP046580.1_271 (length 1579)
+annotation/wDcau/wDcau:CP046580.1_272 (length 98)
+annotation/wDcau/wDcau:CP046580.1_273 (length 460)
+annotation/wDcau/wDcau:CP046580.1_274 (length 250)
+annotation/wDcau/wDcau:CP046580.1_275 (length 694)
+annotation/wDcau/wDcau:CP046580.1_276 (length 51)
+annotation/wDcau/wDcau:CP046580.1_277 (length 128)
+annotation/wDcau/wDcau:CP046580.1_278 (length 433)
+annotation/wDcau/wDcau:CP046580.1_279 (length 158)
+annotation/wDcau/wDcau:CP046580.1_280 (length 644)
+annotation/wDcau/wDcau:CP046580.1_281 (length 255)
+annotation/wDcau/wDcau:CP046580.1_282 (length 410)
+annotation/wDcau/wDcau:CP046580.1_283 (length 107)
+annotation/wDcau/wDcau:CP046580.1_284 (length 72)
+annotation/wDcau/wDcau:CP046580.1_285 (length 439)
+annotation/wDcau/wDcau:CP046580.1_286 (length 180)
+annotation/wDcau/wDcau:CP046580.1_287 (length 244)
+annotation/wDcau/wDcau:CP046580.1_288 (length 246)
+annotation/wDcau/wDcau:CP046580.1_289 (length 465)
+annotation/wDcau/wDcau:CP046580.1_290 (length 597)
+annotation/wDcau/wDcau:CP046580.1_291 (length 428)
+annotation/wDcau/wDcau:CP046580.1_292 (length 217)
+annotation/wDcau/wDcau:CP046580.1_293 (length 295)
+annotation/wDcau/wDcau:CP046580.1_294 (length 292)
+annotation/wDcau/wDcau:CP046580.1_295 (length 505)
+annotation/wDcau/wDcau:CP046580.1_296 (length 198)
+annotation/wDcau/wDcau:CP046580.1_297 (length 476)
+annotation/wDcau/wDcau:CP046580.1_298 (length 246)
+annotation/wDcau/wDcau:CP046580.1_299 (length 290)
+annotation/wDcau/wDcau:CP046580.1_300 (length 141)
+annotation/wDcau/wDcau:CP046580.1_301 (length 265)
+annotation/wDcau/wDcau:CP046580.1_302 (length 340)
+annotation/wDcau/wDcau:CP046580.1_303 (length 281)
+annotation/wDcau/wDcau:CP046580.1_304 (length 386)
+annotation/wDcau/wDcau:CP046580.1_305 (length 184)
+annotation/wDcau/wDcau:CP046580.1_306 (length 501)
+annotation/wDcau/wDcau:CP046580.1_307 (length 477)
+annotation/wDcau/wDcau:CP046580.1_308 (length 301)
+annotation/wDcau/wDcau:CP046580.1_309 (length 475)
+annotation/wDcau/wDcau:CP046580.1_310 (length 235)
+annotation/wDcau/wDcau:CP046580.1_311 (length 259)
+annotation/wDcau/wDcau:CP046580.1_312 (length 228)
+annotation/wDcau/wDcau:CP046580.1_313 (length 39)
+annotation/wDcau/wDcau:CP046580.1_314 (length 454)
+annotation/wDcau/wDcau:CP046580.1_315 (length 185)
+annotation/wDcau/wDcau:CP046580.1_316 (length 583)
+annotation/wDcau/wDcau:CP046580.1_317 (length 568)
+annotation/wDcau/wDcau:CP046580.1_318 (length 37)
+annotation/wDcau/wDcau:CP046580.1_319 (length 314)
+annotation/wDcau/wDcau:CP046580.1_320 (length 337)
+annotation/wDcau/wDcau:CP046580.1_321 (length 143)
+annotation/wDcau/wDcau:CP046580.1_322 (length 168)
+annotation/wDcau/wDcau:CP046580.1_323 (length 390)
+annotation/wDcau/wDcau:CP046580.1_324 (length 253)
+annotation/wDcau/wDcau:CP046580.1_325 (length 264)
+annotation/wDcau/wDcau:CP046580.1_326 (length 334)
+annotation/wDcau/wDcau:CP046580.1_327 (length 269)
+annotation/wDcau/wDcau:CP046580.1_328 (length 121)
+annotation/wDcau/wDcau:CP046580.1_329 (length 288)
+annotation/wDcau/wDcau:CP046580.1_330 (length 1102)
+annotation/wDcau/wDcau:CP046580.1_331 (length 106)
+annotation/wDcau/wDcau:CP046580.1_332 (length 536)
+annotation/wDcau/wDcau:CP046580.1_333 (length 146)
+annotation/wDcau/wDcau:CP046580.1_334 (length 314)
+annotation/wDcau/wDcau:CP046580.1_335 (length 364)
+annotation/wDcau/wDcau:CP046580.1_336 (length 424)
+annotation/wDcau/wDcau:CP046580.1_337 (length 265)
+annotation/wDcau/wDcau:CP046580.1_338 (length 384)
+annotation/wDcau/wDcau:CP046580.1_339 (length 388)
+annotation/wDcau/wDcau:CP046580.1_340 (length 435)
+annotation/wDcau/wDcau:CP046580.1_341 (length 43)
+annotation/wDcau/wDcau:CP046580.1_342 (length 239)
+annotation/wDcau/wDcau:CP046580.1_343 (length 450)
+annotation/wDcau/wDcau:CP046580.1_344 (length 175)
+annotation/wDcau/wDcau:CP046580.1_345 (length 495)
+annotation/wDcau/wDcau:CP046580.1_346 (length 887)
+annotation/wDcau/wDcau:CP046580.1_347 (length 461)
+annotation/wDcau/wDcau:CP046580.1_348 (length 345)
+annotation/wDcau/wDcau:CP046580.1_349 (length 313)
+annotation/wDcau/wDcau:CP046580.1_350 (length 197)
+annotation/wDcau/wDcau:CP046580.1_351 (length 451)
+annotation/wDcau/wDcau:CP046580.1_352 (length 199)
+annotation/wDcau/wDcau:CP046580.1_353 (length 425)
+annotation/wDcau/wDcau:CP046580.1_354 (length 816)
+annotation/wDcau/wDcau:CP046580.1_355 (length 217)
+annotation/wDcau/wDcau:CP046580.1_356 (length 243)
+annotation/wDcau/wDcau:CP046580.1_357 (length 89)
+annotation/wDcau/wDcau:CP046580.1_358 (length 416)
+annotation/wDcau/wDcau:CP046580.1_359 (length 204)
+annotation/wDcau/wDcau:CP046580.1_360 (length 232)
+annotation/wDcau/wDcau:CP046580.1_361 (length 216)
+annotation/wDcau/wDcau:CP046580.1_362 (length 160)
+annotation/wDcau/wDcau:CP046580.1_363 (length 66)
+annotation/wDcau/wDcau:CP046580.1_364 (length 391)
+annotation/wDcau/wDcau:CP046580.1_365 (length 290)
+annotation/wDcau/wDcau:CP046580.1_366 (length 265)
+annotation/wDcau/wDcau:CP046580.1_367 (length 187)
+annotation/wDcau/wDcau:CP046580.1_368 (length 96)
+annotation/wDcau/wDcau:CP046580.1_369 (length 214)
+annotation/wDcau/wDcau:CP046580.1_370 (length 265)
+annotation/wDcau/wDcau:CP046580.1_371 (length 1114)
+annotation/wDcau/wDcau:CP046580.1_372 (length 258)
+annotation/wDcau/wDcau:CP046580.1_373 (length 92)
+annotation/wDcau/wDcau:CP046580.1_374 (length 173)
+annotation/wDcau/wDcau:CP046580.1_375 (length 66)
+annotation/wDcau/wDcau:CP046580.1_376 (length 589)
+annotation/wDcau/wDcau:CP046580.1_377 (length 639)
+annotation/wDcau/wDcau:CP046580.1_378 (length 473)
+annotation/wDcau/wDcau:CP046580.1_379 (length 103)
+annotation/wDcau/wDcau:CP046580.1_380 (length 82)
+annotation/wDcau/wDcau:CP046580.1_381 (length 388)
+annotation/wDcau/wDcau:CP046580.1_382 (length 275)
+annotation/wDcau/wDcau:CP046580.1_383 (length 92)
+annotation/wDcau/wDcau:CP046580.1_384 (length 396)
+annotation/wDcau/wDcau:CP046580.1_385 (length 465)
+annotation/wDcau/wDcau:CP046580.1_386 (length 400)
+annotation/wDcau/wDcau:CP046580.1_387 (length 328)
+annotation/wDcau/wDcau:CP046580.1_388 (length 252)
+annotation/wDcau/wDcau:CP046580.1_389 (length 1003)
+annotation/wDcau/wDcau:CP046580.1_390 (length 145)
+annotation/wDcau/wDcau:CP046580.1_391 (length 295)
+annotation/wDcau/wDcau:CP046580.1_392 (length 516)
+annotation/wDcau/wDcau:CP046580.1_393 (length 254)
+annotation/wDcau/wDcau:CP046580.1_394 (length 478)
+annotation/wDcau/wDcau:CP046580.1_395 (length 244)
+annotation/wDcau/wDcau:CP046580.1_396 (length 121)
+annotation/wDcau/wDcau:CP046580.1_397 (length 428)
+annotation/wDcau/wDcau:CP046580.1_398 (length 217)
+annotation/wDcau/wDcau:CP046580.1_399 (length 164)
+annotation/wDcau/wDcau:CP046580.1_400 (length 513)
+annotation/wDcau/wDcau:CP046580.1_401 (length 181)
+annotation/wDcau/wDcau:CP046580.1_402 (length 232)
+annotation/wDcau/wDcau:CP046580.1_403 (length 795)
+annotation/wDcau/wDcau:CP046580.1_404 (length 372)
+annotation/wDcau/wDcau:CP046580.1_405 (length 368)
+annotation/wDcau/wDcau:CP046580.1_406 (length 828)
+annotation/wDcau/wDcau:CP046580.1_407 (length 274)
+annotation/wDcau/wDcau:CP046580.1_408 (length 613)
+annotation/wDcau/wDcau:CP046580.1_409 (length 325)
+annotation/wDcau/wDcau:CP046580.1_410 (length 456)
+annotation/wDcau/wDcau:CP046580.1_411 (length 332)
+annotation/wDcau/wDcau:CP046580.1_412 (length 869)
+annotation/wDcau/wDcau:CP046580.1_413 (length 892)
+annotation/wDcau/wDcau:CP046580.1_414 (length 325)
+annotation/wDcau/wDcau:CP046580.1_415 (length 170)
+annotation/wDcau/wDcau:CP046580.1_416 (length 70)
+annotation/wDcau/wDcau:CP046580.1_417 (length 215)
+annotation/wDcau/wDcau:CP046580.1_418 (length 231)
+annotation/wDcau/wDcau:CP046580.1_419 (length 185)
+annotation/wDcau/wDcau:CP046580.1_420 (length 247)
+annotation/wDcau/wDcau:CP046580.1_421 (length 289)
+annotation/wDcau/wDcau:CP046580.1_422 (length 283)
+annotation/wDcau/wDcau:CP046580.1_423 (length 1102)
+annotation/wDcau/wDcau:CP046580.1_424 (length 249)
+annotation/wDcau/wDcau:CP046580.1_425 (length 279)
+annotation/wDcau/wDcau:CP046580.1_426 (length 591)
+annotation/wDcau/wDcau:CP046580.1_427 (length 388)
+annotation/wDcau/wDcau:CP046580.1_428 (length 512)
+annotation/wDcau/wDcau:CP046580.1_429 (length 483)
+annotation/wDcau/wDcau:CP046580.1_430 (length 195)
+annotation/wDcau/wDcau:CP046580.1_431 (length 265)
+annotation/wDcau/wDcau:CP046580.1_432 (length 96)
+annotation/wDcau/wDcau:CP046580.1_433 (length 550)
+annotation/wDcau/wDcau:CP046580.1_434 (length 48)
+annotation/wDcau/wDcau:CP046580.1_435 (length 105)
+annotation/wDcau/wDcau:CP046580.1_436 (length 345)
+annotation/wDcau/wDcau:CP046580.1_437 (length 290)
+annotation/wDcau/wDcau:CP046580.1_438 (length 496)
+annotation/wDcau/wDcau:CP046580.1_439 (length 450)
+annotation/wDcau/wDcau:CP046580.1_440 (length 410)
+annotation/wDcau/wDcau:CP046580.1_441 (length 36)
+annotation/wDcau/wDcau:CP046580.1_442 (length 419)
+annotation/wDcau/wDcau:CP046580.1_443 (length 122)
+annotation/wDcau/wDcau:CP046580.1_444 (length 128)
+annotation/wDcau/wDcau:CP046580.1_445 (length 180)
+annotation/wDcau/wDcau:CP046580.1_446 (length 166)
+annotation/wDcau/wDcau:CP046580.1_447 (length 264)
+annotation/wDcau/wDcau:CP046580.1_448 (length 240)
+annotation/wDcau/wDcau:CP046580.1_449 (length 179)
+annotation/wDcau/wDcau:CP046580.1_450 (length 37)
+annotation/wDcau/wDcau:CP046580.1_451 (length 338)
+annotation/wDcau/wDcau:CP046580.1_452 (length 142)
+annotation/wDcau/wDcau:CP046580.1_453 (length 355)
+annotation/wDcau/wDcau:CP046580.1_454 (length 154)
+annotation/wDcau/wDcau:CP046580.1_455 (length 122)
+annotation/wDcau/wDcau:CP046580.1_456 (length 221)
+annotation/wDcau/wDcau:CP046580.1_457 (length 442)
+annotation/wDcau/wDcau:CP046580.1_458 (length 156)
+annotation/wDcau/wDcau:CP046580.1_459 (length 170)
+annotation/wDcau/wDcau:CP046580.1_460 (length 124)
+annotation/wDcau/wDcau:CP046580.1_461 (length 181)
+annotation/wDcau/wDcau:CP046580.1_462 (length 131)
+annotation/wDcau/wDcau:CP046580.1_463 (length 102)
+annotation/wDcau/wDcau:CP046580.1_464 (length 178)
+annotation/wDcau/wDcau:CP046580.1_465 (length 105)
+annotation/wDcau/wDcau:CP046580.1_466 (length 119)
+annotation/wDcau/wDcau:CP046580.1_467 (length 74)
+annotation/wDcau/wDcau:CP046580.1_468 (length 68)
+annotation/wDcau/wDcau:CP046580.1_469 (length 137)
+annotation/wDcau/wDcau:CP046580.1_470 (length 206)
+annotation/wDcau/wDcau:CP046580.1_471 (length 120)
+annotation/wDcau/wDcau:CP046580.1_472 (length 94)
+annotation/wDcau/wDcau:CP046580.1_473 (length 274)
+annotation/wDcau/wDcau:CP046580.1_474 (length 95)
+annotation/wDcau/wDcau:CP046580.1_475 (length 204)
+annotation/wDcau/wDcau:CP046580.1_476 (length 226)
+annotation/wDcau/wDcau:CP046580.1_477 (length 118)
+annotation/wDcau/wDcau:CP046580.1_478 (length 390)
+annotation/wDcau/wDcau:CP046580.1_479 (length 223)
+annotation/wDcau/wDcau:CP046580.1_480 (length 170)
+annotation/wDcau/wDcau:CP046580.1_481 (length 299)
+annotation/wDcau/wDcau:CP046580.1_482 (length 121)
+annotation/wDcau/wDcau:CP046580.1_483 (length 73)
+annotation/wDcau/wDcau:CP046580.1_484 (length 124)
+annotation/wDcau/wDcau:CP046580.1_485 (length 61)
+annotation/wDcau/wDcau:CP046580.1_486 (length 470)
+annotation/wDcau/wDcau:CP046580.1_487 (length 401)
+annotation/wDcau/wDcau:CP046580.1_488 (length 199)
+annotation/wDcau/wDcau:CP046580.1_489 (length 319)
+annotation/wDcau/wDcau:CP046580.1_490 (length 69)
+annotation/wDcau/wDcau:CP046580.1_491 (length 465)
+annotation/wDcau/wDcau:CP046580.1_492 (length 296)
+annotation/wDcau/wDcau:CP046580.1_493 (length 76)
+annotation/wDcau/wDcau:CP046580.1_494 (length 235)
+annotation/wDcau/wDcau:CP046580.1_495 (length 102)
+annotation/wDcau/wDcau:CP046580.1_496 (length 148)
+annotation/wDcau/wDcau:CP046580.1_497 (length 152)
+annotation/wDcau/wDcau:CP046580.1_498 (length 402)
+annotation/wDcau/wDcau:CP046580.1_499 (length 169)
+annotation/wDcau/wDcau:CP046580.1_500 (length 215)
+annotation/wDcau/wDcau:CP046580.1_501 (length 127)
+annotation/wDcau/wDcau:CP046580.1_502 (length 206)
+annotation/wDcau/wDcau:CP046580.1_503 (length 381)
+annotation/wDcau/wDcau:CP046580.1_504 (length 400)
+annotation/wDcau/wDcau:CP046580.1_505 (length 168)
+annotation/wDcau/wDcau:CP046580.1_506 (length 179)
+annotation/wDcau/wDcau:CP046580.1_507 (length 467)
+annotation/wDcau/wDcau:CP046580.1_508 (length 195)
+annotation/wDcau/wDcau:CP046580.1_509 (length 399)
+annotation/wDcau/wDcau:CP046580.1_510 (length 350)
+annotation/wDcau/wDcau:CP046580.1_511 (length 681)
+annotation/wDcau/wDcau:CP046580.1_512 (length 70)
+annotation/wDcau/wDcau:CP046580.1_513 (length 497)
+annotation/wDcau/wDcau:CP046580.1_514 (length 266)
+annotation/wDcau/wDcau:CP046580.1_515 (length 196)
+annotation/wDcau/wDcau:CP046580.1_516 (length 41)
+annotation/wDcau/wDcau:CP046580.1_517 (length 441)
+annotation/wDcau/wDcau:CP046580.1_518 (length 159)
+annotation/wDcau/wDcau:CP046580.1_519 (length 217)
+annotation/wDcau/wDcau:CP046580.1_520 (length 847)
+annotation/wDcau/wDcau:CP046580.1_521 (length 241)
+annotation/wDcau/wDcau:CP046580.1_522 (length 75)
+annotation/wDcau/wDcau:CP046580.1_523 (length 159)
+annotation/wDcau/wDcau:CP046580.1_524 (length 157)
+annotation/wDcau/wDcau:CP046580.1_525 (length 438)
+annotation/wDcau/wDcau:CP046580.1_526 (length 718)
+annotation/wDcau/wDcau:CP046580.1_527 (length 454)
+annotation/wDcau/wDcau:CP046580.1_528 (length 347)
+annotation/wDcau/wDcau:CP046580.1_529 (length 122)
+annotation/wDcau/wDcau:CP046580.1_530 (length 93)
+annotation/wDcau/wDcau:CP046580.1_531 (length 276)
+annotation/wDcau/wDcau:CP046580.1_532 (length 333)
+annotation/wDcau/wDcau:CP046580.1_533 (length 489)
+annotation/wDcau/wDcau:CP046580.1_534 (length 101)
+annotation/wDcau/wDcau:CP046580.1_535 (length 55)
+annotation/wDcau/wDcau:CP046580.1_536 (length 226)
+annotation/wDcau/wDcau:CP046580.1_537 (length 218)
+annotation/wDcau/wDcau:CP046580.1_538 (length 457)
+annotation/wDcau/wDcau:CP046580.1_539 (length 99)
+annotation/wDcau/wDcau:CP046580.1_540 (length 398)
+annotation/wDcau/wDcau:CP046580.1_541 (length 339)
+annotation/wDcau/wDcau:CP046580.1_542 (length 211)
+annotation/wDcau/wDcau:CP046580.1_543 (length 110)
+annotation/wDcau/wDcau:CP046580.1_544 (length 472)
+annotation/wDcau/wDcau:CP046580.1_545 (length 364)
+annotation/wDcau/wDcau:CP046580.1_546 (length 44)
+annotation/wDcau/wDcau:CP046580.1_547 (length 135)
+annotation/wDcau/wDcau:CP046580.1_548 (length 79)
+annotation/wDcau/wDcau:CP046580.1_549 (length 357)
+annotation/wDcau/wDcau:CP046580.1_550 (length 603)
+annotation/wDcau/wDcau:CP046580.1_551 (length 155)
+annotation/wDcau/wDcau:CP046580.1_552 (length 552)
+annotation/wDcau/wDcau:CP046580.1_553 (length 711)
+annotation/wDcau/wDcau:CP046580.1_554 (length 279)
+annotation/wDcau/wDcau:CP046580.1_555 (length 251)
+annotation/wDcau/wDcau:CP046580.1_556 (length 810)
+annotation/wDcau/wDcau:CP046580.1_557 (length 172)
+annotation/wDcau/wDcau:CP046580.1_558 (length 798)
+annotation/wDcau/wDcau:CP046580.1_559 (length 175)
+annotation/wDcau/wDcau:CP046580.1_560 (length 62)
+annotation/wDcau/wDcau:CP046580.1_561 (length 156)
+annotation/wDcau/wDcau:CP046580.1_562 (length 295)
+annotation/wDcau/wDcau:CP046580.1_563 (length 505)
+annotation/wDcau/wDcau:CP046580.1_564 (length 466)
+annotation/wDcau/wDcau:CP046580.1_565 (length 511)
+annotation/wDcau/wDcau:CP046580.1_566 (length 97)
+annotation/wDcau/wDcau:CP046580.1_567 (length 802)
+annotation/wDcau/wDcau:CP046580.1_568 (length 800)
+annotation/wDcau/wDcau:CP046580.1_569 (length 791)
+annotation/wDcau/wDcau:CP046580.1_570 (length 973)
+annotation/wDcau/wDcau:CP046580.1_571 (length 1064)
+annotation/wDcau/wDcau:CP046580.1_572 (length 120)
+annotation/wDcau/wDcau:CP046580.1_573 (length 183)
+annotation/wDcau/wDcau:CP046580.1_574 (length 452)
+annotation/wDcau/wDcau:CP046580.1_575 (length 113)
+annotation/wDcau/wDcau:CP046580.1_576 (length 340)
+annotation/wDcau/wDcau:CP046580.1_577 (length 128)
+annotation/wDcau/wDcau:CP046580.1_578 (length 383)
+annotation/wDcau/wDcau:CP046580.1_579 (length 358)
+annotation/wDcau/wDcau:CP046580.1_580 (length 476)
+annotation/wDcau/wDcau:CP046580.1_581 (length 159)
+annotation/wDcau/wDcau:CP046580.1_582 (length 435)
+annotation/wDcau/wDcau:CP046580.1_583 (length 609)
+annotation/wDcau/wDcau:CP046580.1_584 (length 207)
+annotation/wDcau/wDcau:CP046580.1_585 (length 164)
+annotation/wDcau/wDcau:CP046580.1_586 (length 213)
+annotation/wDcau/wDcau:CP046580.1_587 (length 636)
+annotation/wDcau/wDcau:CP046580.1_588 (length 252)
+annotation/wDcau/wDcau:CP046580.1_589 (length 400)
+annotation/wDcau/wDcau:CP046580.1_590 (length 230)
+annotation/wDcau/wDcau:CP046580.1_591 (length 188)
+annotation/wDcau/wDcau:CP046580.1_592 (length 169)
+annotation/wDcau/wDcau:CP046580.1_593 (length 157)
+annotation/wDcau/wDcau:CP046580.1_594 (length 30)
+annotation/wDcau/wDcau:CP046580.1_595 (length 250)
+annotation/wDcau/wDcau:CP046580.1_596 (length 328)
+annotation/wDcau/wDcau:CP046580.1_597 (length 162)
+annotation/wDcau/wDcau:CP046580.1_598 (length 259)
+annotation/wDcau/wDcau:CP046580.1_599 (length 377)
+annotation/wDcau/wDcau:CP046580.1_600 (length 264)
+annotation/wDcau/wDcau:CP046580.1_601 (length 148)
+annotation/wDcau/wDcau:CP046580.1_602 (length 69)
+annotation/wDcau/wDcau:CP046580.1_603 (length 209)
+annotation/wDcau/wDcau:CP046580.1_604 (length 151)
+annotation/wDcau/wDcau:CP046580.1_605 (length 312)
+annotation/wDcau/wDcau:CP046580.1_606 (length 186)
+annotation/wDcau/wDcau:CP046580.1_607 (length 359)
+annotation/wDcau/wDcau:CP046580.1_608 (length 429)
+annotation/wDcau/wDcau:CP046580.1_609 (length 915)
+annotation/wDcau/wDcau:CP046580.1_610 (length 1086)
+annotation/wDcau/wDcau:CP046580.1_611 (length 444)
+annotation/wDcau/wDcau:CP046580.1_612 (length 448)
+annotation/wDcau/wDcau:CP046580.1_613 (length 443)
+annotation/wDcau/wDcau:CP046580.1_614 (length 836)
+annotation/wDcau/wDcau:CP046580.1_615 (length 601)
+annotation/wDcau/wDcau:CP046580.1_616 (length 139)
+annotation/wDcau/wDcau:CP046580.1_617 (length 606)
+annotation/wDcau/wDcau:CP046580.1_618 (length 295)
+annotation/wDcau/wDcau:CP046580.1_619 (length 308)
+annotation/wDcau/wDcau:CP046580.1_620 (length 117)
+annotation/wDcau/wDcau:CP046580.1_621 (length 408)
+annotation/wDcau/wDcau:CP046580.1_622 (length 281)
+annotation/wDcau/wDcau:CP046580.1_623 (length 59)
+annotation/wDcau/wDcau:CP046580.1_624 (length 298)
+annotation/wDcau/wDcau:CP046580.1_625 (length 298)
+annotation/wDcau/wDcau:CP046580.1_626 (length 34)
+annotation/wDcau/wDcau:CP046580.1_627 (length 265)
+annotation/wDcau/wDcau:CP046580.1_628 (length 70)
+annotation/wDcau/wDcau:CP046580.1_629 (length 313)
+annotation/wDcau/wDcau:CP046580.1_630 (length 501)
+annotation/wDcau/wDcau:CP046580.1_631 (length 48)
+annotation/wDcau/wDcau:CP046580.1_632 (length 332)
+annotation/wDcau/wDcau:CP046580.1_633 (length 225)
+annotation/wDcau/wDcau:CP046580.1_634 (length 439)
+annotation/wDcau/wDcau:CP046580.1_635 (length 46)
+annotation/wDcau/wDcau:CP046580.1_636 (length 421)
+annotation/wDcau/wDcau:CP046580.1_637 (length 339)
+annotation/wDcau/wDcau:CP046580.1_638 (length 140)
+annotation/wDcau/wDcau:CP046580.1_639 (length 35)
+annotation/wDcau/wDcau:CP046580.1_640 (length 205)
+annotation/wDcau/wDcau:CP046580.1_641 (length 265)
+annotation/wDcau/wDcau:CP046580.1_642 (length 416)
+annotation/wDcau/wDcau:CP046580.1_643 (length 127)
+annotation/wDcau/wDcau:CP046580.1_644 (length 229)
+annotation/wDcau/wDcau:CP046580.1_645 (length 240)
+annotation/wDcau/wDcau:CP046580.1_646 (length 345)
+annotation/wDcau/wDcau:CP046580.1_647 (length 97)
+
+FATAL: DiscRep_ALL:RRNA_NAME_CONFLICTS::1 rRNA product names are not staCorrect the names to the standard format,format, eg "16S ribosomal RNA"
+annotation/wDcau/wDcau:rRNA	5S ribosomal RNA (partial)	CP046580.1:c712223-712133	wDcau_00581
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+annotation/wDcau/wDcau:CP046580.1 (length 863427)
+

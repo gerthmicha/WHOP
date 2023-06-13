@@ -1,0 +1,238 @@
+[14:37:22] This is prokka 1.14.6
+[14:37:22] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[14:37:22] Homepage is https://github.com/tseemann/prokka
+[14:37:22] Local time is Fri Mar  4 14:37:22 2022
+[14:37:22] You are gerth
+[14:37:22] Operating system is linux
+[14:37:22] You have BioPerl 1.007002
+[14:37:22] System has 64 cores.
+[14:37:22] Will use maximum of 8 cores.
+[14:37:22] Annotating as >>> Bacteria <<<
+[14:37:22] Re-using existing --outdir annotation/Ech
+[14:37:22] Using filename prefix: Ech.XXX
+[14:37:22] Setting HMMER_NCPU=1
+[14:37:22] Writing log to: annotation/Ech/Ech.log
+[14:37:22] Command: /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/prokka --outdir annotation/Ech --force --prefix Ech --locustag Ech --cpus 8 --genus Wolbachia --species sp. --strain Ech genome_fastas/Ech.fas
+[14:37:22] Appending to PATH: /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin
+[14:37:22] Looking for 'aragorn' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/aragorn
+[14:37:22] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[14:37:22] Looking for 'barrnap' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/barrnap
+[14:37:22] Determined barrnap version is 000009 from 'barrnap 0.9'
+[14:37:22] Looking for 'blastp' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/blastp
+[14:37:24] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[14:37:24] Looking for 'cmpress' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/cmpress
+[14:37:24] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[14:37:24] Looking for 'cmscan' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/cmscan
+[14:37:24] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[14:37:24] Looking for 'egrep' - found /bin/egrep
+[14:37:24] Looking for 'find' - found /usr/bin/find
+[14:37:24] Looking for 'grep' - found /bin/grep
+[14:37:24] Looking for 'hmmpress' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/hmmpress
+[14:37:24] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[14:37:24] Looking for 'hmmscan' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/hmmscan
+[14:37:24] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[14:37:24] Looking for 'java' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/java
+[14:37:24] Looking for 'makeblastdb' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/makeblastdb
+[14:37:25] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[14:37:25] Looking for 'minced' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/minced
+[14:37:25] Determined minced version is 004002 from 'minced 0.4.2'
+[14:37:25] Looking for 'parallel' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/parallel
+[14:37:25] Determined parallel version is 20211022 from 'GNU parallel 20211022'
+[14:37:25] Looking for 'prodigal' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/prodigal
+[14:37:25] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[14:37:25] Looking for 'prokka-genbank_to_fasta_db' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/prokka-genbank_to_fasta_db
+[14:37:25] Looking for 'sed' - found /bin/sed
+[14:37:25] Looking for 'tbl2asn' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/tbl2asn
+[14:37:25] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[14:37:25] Using genetic code table 11.
+[14:37:25] Loading and checking input file: genome_fastas/Ech.fas
+[14:37:26] Wrote 1 contigs totalling 1176248 bp.
+[14:37:26] Predicting tRNAs and tmRNAs
+[14:37:26] Running: aragorn -l -gc11  -w annotation\/Ech\/Ech\.fna
+[14:37:26] 1 tRNA-Arg [16569,16645] 35 (tct)
+[14:37:26] 2 tRNA-Gln c[18460,18534] 33 (ttg)
+[14:37:26] 3 tRNA-Leu c[43427,43515] 34 (gag)
+[14:37:26] 4 tRNA-Val [60548,60622] 35 (gac)
+[14:37:26] 5 tRNA-Lys [81623,81696] 34 (ttt)
+[14:37:26] 6 tRNA-Cys c[86232,86306] 34 (gca)
+[14:37:26] 7 tRNA-Leu c[143251,143335] 34 (cag)
+[14:37:26] 8 tRNA-Pro [153816,153894] 37 (ggg)
+[14:37:26] 9 tRNA-Ser c[154221,154309] 35 (tga)
+[14:37:26] 10 tRNA-Ala [176071,176144] 34 (tgc)
+[14:37:26] 11 tRNA-His [198945,199018] 34 (gtg)
+[14:37:26] 12 tRNA-Val [313206,313279] 34 (tac)
+[14:37:26] 13 tRNA-Tyr [396544,396627] 35 (gta)
+[14:37:26] 14 tRNA-Gly [396638,396709] 33 (tcc)
+[14:37:26] 15 tRNA-Glu [433734,433807] 35 (ttc)
+[14:37:26] 16 tRNA-Arg [478291,478364] 34 (ccg)
+[14:37:26] 17 tRNA-Pro [535189,535265] 35 (tgg)
+[14:37:26] 18 tRNA-Ile [548511,548586] 35 (gat)
+[14:37:26] 19 tRNA-Leu [582825,582908] 34 (caa)
+[14:37:26] 20 tRNA-Thr [609779,609850] 33 (ggt)
+[14:37:26] 21 tRNA-Thr c[650985,651058] 34 (tgt)
+[14:37:26] 22 tRNA-Ser c[671609,671701] 35 (gct)
+[14:37:26] 23 tRNA-Met c[684103,684175] 33 (cat)
+[14:37:26] 24 tRNA-Met c[692427,692502] 35 (cat)
+[14:37:26] 25 tRNA-Arg [739789,739865] 35 (acg)
+[14:37:26] 26 tRNA-Phe [747422,747495] 34 (gaa)
+[14:37:26] 27 tRNA-Asn [751215,751287] 33 (gtt)
+[14:37:26] 28 tmRNA* [751409,751756] 195,257 ANDNFVFANDNNSSANLVAA*
+[14:37:26] 29 tRNA-Tyr [753787,753859] 34 (ata)
+[14:37:26] 30 tRNA-Asp c[825072,825146] 35 (gtc)
+[14:37:26] 31 tRNA-Gly c[872084,872159] 34 (gcc)
+[14:37:26] 32 tRNA-Met c[924230,924304] 35 (cat)
+[14:37:26] 33 tRNA-Leu c[930864,930946] 35 (tag)
+[14:37:26] 34 tRNA-Lys c[931127,931200] 34 (ctt)
+[14:37:26] 35 tRNA-Leu c[936652,936740] 35 (taa)
+[14:37:26] 36 tRNA-Arg c[969694,969769] 36 (cct)
+[14:37:26] 37 tRNA-Trp c[983168,983243] 35 (cca)
+[14:37:26] 38 tRNA-Ser [1120156,1120246] 35 (gga)
+[14:37:26] Found 38 tRNAs
+[14:37:26] Predicting Ribosomal RNAs
+[14:37:26] Running Barrnap with 8 threads
+[14:37:26] 1 Ech 209680 23S ribosomal RNA
+[14:37:26] 2 Ech 212541 5S ribosomal RNA
+[14:37:26] 3 Ech 942220 16S ribosomal RNA
+[14:37:26] Found 3 rRNAs
+[14:37:26] Skipping ncRNA search, enable with --rfam if desired.
+[14:37:26] Total of 40 tRNA + rRNA features
+[14:37:26] Searching for CRISPR repeats
+[14:37:27] Found 0 CRISPRs
+[14:37:27] Predicting coding sequences
+[14:37:27] Contigs total 1176248 bp, so using single mode
+[14:37:27] Running: prodigal -i annotation\/Ech\/Ech\.fna -c -m -g 11 -p single -f sco -q
+[14:37:28] Excluding CDS which overlaps existing RNA (tRNA) at Ech:18441..18650 on + strand
+[14:37:28] Excluding CDS which overlaps existing RNA (tRNA) at Ech:86306..87223 on - strand
+[14:37:28] Excluding CDS which overlaps existing RNA (tRNA) at Ech:153445..153825 on + strand
+[14:37:28] Excluding CDS which overlaps existing RNA (rRNA) at Ech:211927..212148 on + strand
+[14:37:28] Excluding CDS which overlaps existing RNA (tRNA) at Ech:582758..582982 on + strand
+[14:37:28] Excluding CDS which overlaps existing RNA (tRNA) at Ech:683310..684110 on + strand
+[14:37:28] Excluding CDS which overlaps existing RNA (tRNA) at Ech:753014..753796 on + strand
+[14:37:29] Excluding CDS which overlaps existing RNA (rRNA) at Ech:943159..943281 on - strand
+[14:37:29] Excluding CDS which overlaps existing RNA (tRNA) at Ech:1120246..1121574 on + strand
+[14:37:29] Found 927 CDS
+[14:37:29] Connecting features back to sequences
+[14:37:29] Not using genus-specific database. Try --usegenus to enable it.
+[14:37:29] Annotating CDS, please be patient.
+[14:37:29] Will use 8 CPUs for similarity searching.
+[14:37:29] There are still 927 unannotated CDS left (started with 927)
+[14:37:29] Will use blast to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/IS with 8 CPUs
+[14:37:29] Running: cat annotation\/Ech\/Ech\.IS\.tmp\.86770\.faa | parallel --gnu --plain -j 8 --block 19343 --recstart '>' --pipe blastp -query - -db /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/Ech\/Ech\.IS\.tmp\.86770\.blast 2> /dev/null
+[14:38:03] Deleting unwanted file: annotation/Ech/Ech.IS.tmp.86770.faa
+[14:38:03] Deleting unwanted file: annotation/Ech/Ech.IS.tmp.86770.blast
+[14:38:03] There are still 927 unannotated CDS left (started with 927)
+[14:38:03] Will use blast to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/AMR with 8 CPUs
+[14:38:03] Running: cat annotation\/Ech\/Ech\.AMR\.tmp\.86770\.faa | parallel --gnu --plain -j 8 --block 19343 --recstart '>' --pipe blastp -query - -db /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/Ech\/Ech\.AMR\.tmp\.86770\.blast 2> /dev/null
+[14:38:37] Deleting unwanted file: annotation/Ech/Ech.AMR.tmp.86770.faa
+[14:38:37] Deleting unwanted file: annotation/Ech/Ech.AMR.tmp.86770.blast
+[14:38:37] There are still 927 unannotated CDS left (started with 927)
+[14:38:37] Will use blast to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/sprot with 8 CPUs
+[14:38:37] Running: cat annotation\/Ech\/Ech\.sprot\.tmp\.86770\.faa | parallel --gnu --plain -j 8 --block 19343 --recstart '>' --pipe blastp -query - -db /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/Ech\/Ech\.sprot\.tmp\.86770\.blast 2> /dev/null
+[14:39:18] Modify product: UPF0053 inner membrane protein YoaE => hypothetical protein
+[14:39:18] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[14:39:18] Modify product: UPF0758 protein => hypothetical protein
+[14:39:18] Modify product: UPF0102 protein RPA0323 => hypothetical protein
+[14:39:18] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[14:39:18] Modify product: Uncharacterized protein RP812 => putative protein RP812
+[14:39:18] Modify product: UPF0434 protein NMA0874 => hypothetical protein
+[14:39:18] Modify product: UPF0335 protein CCNA_03428 => hypothetical protein
+[14:39:18] Modify product: Probable GTP-binding protein EngB => putative GTP-binding protein EngB
+[14:39:18] Modify product: Uncharacterized metal-dependent hydrolase YcfH => putative metal-dependent hydrolase YcfH
+[14:39:18] Modify product: Probable nicotinate-nucleotide adenylyltransferase => putative nicotinate-nucleotide adenylyltransferase
+[14:39:18] Modify product: Probable protein kinase UbiB => putative protein kinase UbiB
+[14:39:18] Modify product: Probable transcriptional regulatory protein aq_1575 => putative transcriptional regulatory protein
+[14:39:18] Modify product: Cytochrome b561 homolog 2 => Cytochrome b561 
+[14:39:18] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[14:39:18] Modify product: UPF0053 protein HI_0107 => hypothetical protein
+[14:39:18] Modify product: UPF0176 protein lpg2838 => hypothetical protein
+[14:39:18] Cleaned 17 /product names
+[14:39:18] Deleting unwanted file: annotation/Ech/Ech.sprot.tmp.86770.faa
+[14:39:18] Deleting unwanted file: annotation/Ech/Ech.sprot.tmp.86770.blast
+[14:39:19] There are still 407 unannotated CDS left (started with 927)
+[14:39:19] Will use hmmer3 to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/hmm/HAMAP.hmm with 8 CPUs
+[14:39:19] Running: cat annotation\/Ech\/Ech\.HAMAP\.hmm\.tmp\.86770\.faa | parallel --gnu --plain -j 8 --block 8155 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/hmm/HAMAP.hmm /dev/stdin > annotation\/Ech\/Ech\.HAMAP\.hmm\.tmp\.86770\.hmmer3 2> /dev/null
+[14:39:22] Deleting unwanted file: annotation/Ech/Ech.HAMAP.hmm.tmp.86770.faa
+[14:39:22] Deleting unwanted file: annotation/Ech/Ech.HAMAP.hmm.tmp.86770.hmmer3
+[14:39:22] Labelling remaining 340 proteins as 'hypothetical protein'
+[14:39:22] Possible /pseudo 'Cysteine desulfurase IscS' at Ech position 636623
+[14:39:22] Possible /pseudo 'Chromosomal replication initiator protein DnaA' at Ech position 822485
+[14:39:22] Possible /pseudo 'Endonuclease III' at Ech position 877676
+[14:39:22] Possible /pseudo 'Beta sliding clamp' at Ech position 1036569
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1145077
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1148280
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1149108
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1150017
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1152319
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1153156
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1154038
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1154938
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1155859
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1156786
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1158247
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1159401
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1160548
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1161672
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1162817
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1163968
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1165215
+[14:39:22] Possible /pseudo 'Major surface antigen 4' at Ech position 1166213
+[14:39:22] Found 515 unique /gene codes.
+[14:39:22] Fixed 2 duplicate /gene - purL_1 purL_2
+[14:39:22] Fixed 2 duplicate /gene - mrpA_1 mrpA_2
+[14:39:22] Fixed 2 duplicate /gene - iscS_1 iscS_2
+[14:39:22] Fixed 3 duplicate /gene - dnaA_1 dnaA_2 dnaA_3
+[14:39:22] Fixed 2 duplicate /gene - rho_1 rho_2
+[14:39:22] Fixed 2 duplicate /gene - atpH_1 atpH_2
+[14:39:22] Fixed 2 duplicate /gene - xerD_1 xerD_2
+[14:39:22] Fixed 3 duplicate /gene - prfB_1 prfB_2 prfB_3
+[14:39:22] Fixed 2 duplicate /gene - def_1 def_2
+[14:39:22] Fixed 2 duplicate /gene - gltX_1 gltX_2
+[14:39:22] Fixed 2 duplicate /gene - ruvB_1 ruvB_2
+[14:39:22] Fixed 2 duplicate /gene - ptlF_1 ptlF_2
+[14:39:22] Fixed 2 duplicate /gene - proP_1 proP_2
+[14:39:22] Fixed 2 duplicate /gene - erpA_1 erpA_2
+[14:39:22] Fixed 2 duplicate /gene - rcsC_1 rcsC_2
+[14:39:22] Fixed 2 duplicate /gene - acpS_1 acpS_2
+[14:39:22] Fixed 2 duplicate /gene - virB4_1 virB4_2
+[14:39:22] Fixed 2 duplicate /gene - rnd_1 rnd_2
+[14:39:22] Fixed 2 duplicate /gene - menH_1 menH_2
+[14:39:22] Fixed 2 duplicate /gene - glyA_1 glyA_2
+[14:39:22] Fixed 2 duplicate /gene - alsT_1 alsT_2
+[14:39:22] Fixed 2 duplicate /gene - nth_1 nth_2
+[14:39:22] Fixed 2 duplicate /gene - tufA_1 tufA_2
+[14:39:22] Fixed 21 duplicate /gene - msp4_1 msp4_2 msp4_3 msp4_4 msp4_5 msp4_6 msp4_7 msp4_8 msp4_9 msp4_10 msp4_11 msp4_12 msp4_13 msp4_14 msp4_15 msp4_16 msp4_17 msp4_18 msp4_19 msp4_20 msp4_21
+[14:39:22] Fixed 2 duplicate /gene - dnaN_1 dnaN_2
+[14:39:22] Fixed 25 colliding /gene names.
+[14:39:22] Adding /locus_tag identifiers
+[14:39:22] Assigned 968 locus_tags to CDS and RNA features.
+[14:39:22] Writing outputs to annotation/Ech/
+[14:39:22] Generating annotation statistics file
+[14:39:22] Generating Genbank and Sequin files
+[14:39:22] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z annotation\/Ech\/Ech\.err -i annotation\/Ech\/Ech\.fsa 2> /dev/null
+[14:39:24] Deleting unwanted file: annotation/Ech/errorsummary.val
+[14:39:24] Deleting unwanted file: annotation/Ech/Ech.dr
+[14:39:24] Deleting unwanted file: annotation/Ech/Ech.fixedproducts
+[14:39:24] Deleting unwanted file: annotation/Ech/Ech.ecn
+[14:39:24] Deleting unwanted file: annotation/Ech/Ech.val
+[14:39:24] Repairing broken .GBK output that tbl2asn produces...
+[14:39:24] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < annotation\/Ech\/Ech\.gbf > annotation\/Ech\/Ech\.gbk
+[14:39:24] Deleting unwanted file: annotation/Ech/Ech.gbf
+[14:39:24] Output files:
+[14:39:24] annotation/Ech/Ech.sqn
+[14:39:24] annotation/Ech/Ech.gbk
+[14:39:24] annotation/Ech/Ech.tsv
+[14:39:24] annotation/Ech/Ech.log
+[14:39:24] annotation/Ech/Ech.gff
+[14:39:24] annotation/Ech/Ech.tbl
+[14:39:24] annotation/Ech/Ech.faa
+[14:39:24] annotation/Ech/Ech.txt
+[14:39:24] annotation/Ech/Ech.ffn
+[14:39:24] annotation/Ech/Ech.fsa
+[14:39:24] annotation/Ech/Ech.err
+[14:39:24] annotation/Ech/Ech.fna
+[14:39:24] Annotation finished successfully.
+[14:39:24] Walltime used: 2.03 minutes
+[14:39:24] If you use this result please cite the Prokka paper:
+[14:39:24] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[14:39:24] Type 'prokka --citation' for more details.
+[14:39:24] Thank you, come again.

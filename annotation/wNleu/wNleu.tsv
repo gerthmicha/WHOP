@@ -1,0 +1,1340 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+wNleu_00001	tRNA	77				tRNA-Met(cat)
+wNleu_00002	CDS	1848				hypothetical protein
+wNleu_00003	CDS	813	rluD	5.4.99.23	COG0564	Ribosomal large subunit pseudouridine synthase D
+wNleu_00004	CDS	351	dgkA	2.7.1.107	COG0818	Diacylglycerol kinase
+wNleu_00005	CDS	828				hypothetical protein
+wNleu_00006	CDS	1188	pgk/tpi		COG0126	Bifunctional PGK/TIM
+wNleu_00007	CDS	522	yceJ		COG3038	Cytochrome b561 
+wNleu_00008	CDS	1029		1.6.5.11	COG2070	NADH:quinone reductase
+wNleu_00009	CDS	1113				hypothetical protein
+wNleu_00010	CDS	375				hypothetical protein
+wNleu_00011	CDS	2355	virB4_1		COG3451	Type IV secretion system protein virB4
+wNleu_00012	CDS	2826				hypothetical protein
+wNleu_00013	CDS	486				hypothetical protein
+wNleu_00014	CDS	483				hypothetical protein
+wNleu_00015	CDS	1347	pdhC	2.3.1.12		Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex
+wNleu_00016	CDS	900				hypothetical protein
+wNleu_00017	CDS	1221				hypothetical protein
+wNleu_00018	CDS	606	recR		COG0353	Recombination protein RecR
+wNleu_00019	CDS	420	ndk	2.7.4.6		Nucleoside diphosphate kinase
+wNleu_00020	CDS	783				hypothetical protein
+wNleu_00021	CDS	1023	hemH	4.99.1.1	COG0276	Ferrochelatase
+wNleu_00022	CDS	792				hypothetical protein
+wNleu_00023	CDS	1161				hypothetical protein
+wNleu_00024	CDS	555	hslV	3.4.25.2	COG5405	ATP-dependent protease subunit HslV
+wNleu_00025	CDS	1491	hslU		COG1220	ATP-dependent protease ATPase subunit HslU
+wNleu_00026	CDS	924				hypothetical protein
+wNleu_00027	CDS	1008				hypothetical protein
+wNleu_00028	CDS	261	acpP		COG0236	Acyl carrier protein
+wNleu_00029	CDS	1272	fabF	2.3.1.179	COG0304	3-oxoacyl-[acyl-carrier-protein] synthase 2
+wNleu_00030	CDS	1278	murA	2.5.1.7	COG0766	UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+wNleu_00031	CDS	855	thyX	2.1.1.148	COG1351	Flavin-dependent thymidylate synthase
+wNleu_00032	CDS	2877				hypothetical protein
+wNleu_00033	CDS	2343	priA	3.6.4.-		primosomal protein N'
+wNleu_00034	CDS	600	petA	7.1.1.8	COG0723	Ubiquinol-cytochrome c reductase iron-sulfur subunit
+wNleu_00035	CDS	2703	gyrA	5.6.2.2	COG0188	DNA gyrase subunit A
+wNleu_00036	tRNA	73				tRNA-Val(tac)
+wNleu_00037	CDS	876	cpoB			Cell division coordinator CpoB
+wNleu_00038	CDS	363				hypothetical protein
+wNleu_00039	CDS	528	bioY		COG1268	Biotin transporter BioY
+wNleu_00040	CDS	588	rutE	1.1.1.298		malonic semialdehyde reductase RutE
+wNleu_00041	CDS	792	dapF	5.1.1.7	COG0253	Diaminopimelate epimerase
+wNleu_00042	CDS	876	sucD	6.2.1.5	COG0074	Succinate--CoA ligase [ADP-forming] subunit alpha
+wNleu_00043	CDS	1152	sucC	6.2.1.5	COG0045	Succinate--CoA ligase [ADP-forming] subunit beta
+wNleu_00044	CDS	201				hypothetical protein
+wNleu_00045	tRNA	76				tRNA-Pro(tgg)
+wNleu_00046	CDS	528			COG3039	IS5 family transposase ISWpi1
+wNleu_00047	CDS	2577	polA	2.7.7.7		DNA polymerase I, thermostable
+wNleu_00048	CDS	1131				hypothetical protein
+wNleu_00049	CDS	780	xthA	3.1.11.2	COG0708	Exodeoxyribonuclease III
+wNleu_00050	CDS	708				hypothetical protein
+wNleu_00051	CDS	471				hypothetical protein
+wNleu_00052	tRNA	86				tRNA-Leu(cag)
+wNleu_00053	CDS	1419	tldD	3.4.-.-	COG0312	Metalloprotease TldD
+wNleu_00054	CDS	1248	iscS_1	2.8.1.7	COG1104	Cysteine desulfurase IscS
+wNleu_00055	CDS	228				hypothetical protein
+wNleu_00056	CDS	633				hypothetical protein
+wNleu_00057	CDS	1164	dxr	1.1.1.267		1-deoxy-D-xylulose 5-phosphate reductoisomerase
+wNleu_00058	CDS	498				hypothetical protein
+wNleu_00059	CDS	702	mkl		COG1127	putative ribonucleotide transport ATP-binding protein mkl
+wNleu_00060	CDS	783	mlaE		COG0767	Intermembrane phospholipid transport system permease protein MlaE
+wNleu_00061	CDS	195	rpmF		COG0333	50S ribosomal protein L32
+wNleu_00062	CDS	1098	plsX	2.3.1.274	COG0416	Phosphate acyltransferase
+wNleu_00063	CDS	909	fabH	2.3.1.180	COG0332	3-oxoacyl-[acyl-carrier-protein] synthase 3
+wNleu_00064	CDS	1017		1.18.1.2	COG0492	Ferredoxin--NADP reductase
+wNleu_00065	tRNA	89				tRNA-Ser(tga)
+wNleu_00066	CDS	1545	mnmE	3.6.-.-		tRNA modification GTPase MnmE
+wNleu_00067	CDS	510	nuoI	7.1.1.-	COG1143	NADH-quinone oxidoreductase subunit I
+wNleu_00068	CDS	123				hypothetical protein
+wNleu_00069	CDS	288				hypothetical protein
+wNleu_00070	CDS	1902	thrS	6.1.1.3	COG0441	Threonine--tRNA ligase
+wNleu_00071	CDS	519	infC			Translation initiation factor IF-3
+wNleu_00072	CDS	1254	nuoF	7.1.1.-		NADH-quinone oxidoreductase subunit F
+wNleu_00073	tRNA	74				tRNA-Lys(ttt)
+wNleu_00074	tRNA	76				tRNA-Ala(tgc)
+wNleu_00075	CDS	1527				hypothetical protein
+wNleu_00076	CDS	315				hypothetical protein
+wNleu_00077	CDS	375				hypothetical protein
+wNleu_00078	CDS	393	ccmE		COG2332	Cytochrome c-type biogenesis protein CcmE
+wNleu_00079	CDS	138				hypothetical protein
+wNleu_00080	CDS	894	birA	6.3.4.15		Bifunctional ligase/repressor BirA
+wNleu_00081	CDS	1365	nuoN	7.1.1.-	COG1007	NADH-quinone oxidoreductase subunit N
+wNleu_00082	CDS	1443	ndhD1	7.1.1.-	COG1008	NAD(P)H-quinone oxidoreductase chain 4 1
+wNleu_00083	CDS	1848	nuoL	7.1.1.-	COG1009	NADH-quinone oxidoreductase subunit L
+wNleu_00084	CDS	309	nuoK	7.1.1.-	COG0713	NADH-quinone oxidoreductase subunit K
+wNleu_00085	CDS	588	nuoJ	7.1.1.-	COG0839	NADH-quinone oxidoreductase subunit J
+wNleu_00086	CDS	429				hypothetical protein
+wNleu_00087	CDS	1917	pcrA	3.6.4.12		ATP-dependent DNA helicase PcrA
+wNleu_00088	CDS	213				hypothetical protein
+wNleu_00089	CDS	402				hypothetical protein
+wNleu_00090	CDS	129				hypothetical protein
+wNleu_00091	CDS	204				hypothetical protein
+wNleu_00092	CDS	1167	lysC	2.7.2.4	COG0527	Aspartate kinase Ask_LysC
+wNleu_00093	CDS	366				hypothetical protein
+wNleu_00094	CDS	1062				hypothetical protein
+wNleu_00095	CDS	1275	adiC		COG0531	Arginine/agmatine antiporter
+wNleu_00096	CDS	453				hypothetical protein
+wNleu_00097	CDS	1035	asd2	1.2.1.11	COG0136	Aspartate-semialdehyde dehydrogenase 2
+wNleu_00098	CDS	636				hypothetical protein
+wNleu_00099	CDS	711		2.1.1.-		Putative TrmH family tRNA/rRNA methyltransferase
+wNleu_00100	CDS	723	ybhL		COG0670	Inner membrane protein YbhL
+wNleu_00101	CDS	537	ctaG		COG3175	Cytochrome c oxidase assembly protein CtaG
+wNleu_00102	CDS	978		1.3.1.103		2-haloacrylate reductase
+wNleu_00103	CDS	165				hypothetical protein
+wNleu_00104	CDS	498				hypothetical protein
+wNleu_00105	CDS	474				hypothetical protein
+wNleu_00106	CDS	456				hypothetical protein
+wNleu_00107	CDS	255				hypothetical protein
+wNleu_00108	CDS	336				hypothetical protein
+wNleu_00109	CDS	798				hypothetical protein
+wNleu_00110	CDS	1218				hypothetical protein
+wNleu_00111	CDS	687				hypothetical protein
+wNleu_00112	CDS	1923				hypothetical protein
+wNleu_00113	CDS	210				hypothetical protein
+wNleu_00114	CDS	921				hypothetical protein
+wNleu_00115	CDS	195				hypothetical protein
+wNleu_00116	CDS	1464				hypothetical protein
+wNleu_00117	CDS	558				hypothetical protein
+wNleu_00118	CDS	1188	gpFI_1			Putative prophage major tail sheath protein
+wNleu_00119	CDS	501				hypothetical protein
+wNleu_00120	CDS	252				hypothetical protein
+wNleu_00121	CDS	2172				hypothetical protein
+wNleu_00122	CDS	408				hypothetical protein
+wNleu_00123	CDS	201				hypothetical protein
+wNleu_00124	CDS	969				hypothetical protein
+wNleu_00125	CDS	528				hypothetical protein
+wNleu_00126	CDS	276				hypothetical protein
+wNleu_00127	CDS	921				hypothetical protein
+wNleu_00128	CDS	2601				hypothetical protein
+wNleu_00129	CDS	750	glmU_1		COG1207	Bifunctional protein GlmU
+wNleu_00130	CDS	954	galE	5.1.3.2	COG1087	UDP-glucose 4-epimerase
+wNleu_00131	CDS	2328	mshA	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+wNleu_00132	CDS	1668				hypothetical protein
+wNleu_00133	CDS	990				hypothetical protein
+wNleu_00134	CDS	1794	btuD	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+wNleu_00135	CDS	1050	ltaA_1	4.1.2.49		L-allo-threonine aldolase
+wNleu_00136	CDS	1044	ltaA_2	4.1.2.49		L-allo-threonine aldolase
+wNleu_00137	CDS	1146	glpT		COG2271	Glycerol-3-phosphate transporter
+wNleu_00138	CDS	1308	rkpK	1.1.1.22	COG1004	UDP-glucose 6-dehydrogenase
+wNleu_00139	CDS	906	ribN			Riboflavin transporter
+wNleu_00140	CDS	1473				hypothetical protein
+wNleu_00141	CDS	2097				hypothetical protein
+wNleu_00142	CDS	261				hypothetical protein
+wNleu_00143	CDS	270				IS630 family transposase ISWpi11
+wNleu_00144	CDS	399				hypothetical protein
+wNleu_00145	CDS	339				hypothetical protein
+wNleu_00146	CDS	342				hypothetical protein
+wNleu_00147	CDS	795	nadK	2.7.1.23	COG0061	NAD kinase
+wNleu_00148	CDS	204	rpmE		COG0254	50S ribosomal protein L31
+wNleu_00149	CDS	981	fabD	2.3.1.39	COG0331	Malonyl CoA-acyl carrier protein transacylase
+wNleu_00150	CDS	1521	gpmI	5.4.2.12	COG0696	2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+wNleu_00151	tRNA	73				tRNA-Asn(gtt)
+wNleu_00152	CDS	1521	purH		COG0138	Bifunctional purine biosynthesis protein PurH
+wNleu_00153	CDS	885	fmt	2.1.2.9	COG0223	Methionyl-tRNA formyltransferase
+wNleu_00154	CDS	366	rplT			50S ribosomal protein L20
+wNleu_00155	CDS	207	rpmI		COG0291	50S ribosomal protein L35
+wNleu_00156	CDS	444				hypothetical protein
+wNleu_00157	CDS	2634	alaS	6.1.1.7	COG0013	Alanine--tRNA ligase
+wNleu_00158	CDS	1536	lysS	6.1.1.6	COG1384	Lysine--tRNA ligase
+wNleu_00159	CDS	297				hypothetical protein
+wNleu_00160	CDS	2406	virB4_2		COG3451	Type IV secretion system protein virB4
+wNleu_00161	CDS	2529				hypothetical protein
+wNleu_00162	CDS	2403				hypothetical protein
+wNleu_00163	CDS	3024				hypothetical protein
+wNleu_00164	CDS	3420				hypothetical protein
+wNleu_00165	CDS	141				hypothetical protein
+wNleu_00166	CDS	660				hypothetical protein
+wNleu_00167	CDS	549	rsmD	2.1.1.171	COG0742	Ribosomal RNA small subunit methyltransferase D
+wNleu_00168	CDS	333				hypothetical protein
+wNleu_00169	CDS	591				hypothetical protein
+wNleu_00170	CDS	1554	murD	6.3.2.9	COG0771	UDP-N-acetylmuramoylalanine--D-glutamate ligase
+wNleu_00171	CDS	360	ddmB			Dicamba O-demethylase, ferredoxin component
+wNleu_00172	CDS	1041				hypothetical protein
+wNleu_00173	CDS	378	ccmH		COG3088	Cytochrome c-type biogenesis protein CcmH
+wNleu_00174	CDS	228				hypothetical protein
+wNleu_00175	CDS	516				IS110 family transposase ISMpo4
+wNleu_00176	CDS	252				hypothetical protein
+wNleu_00177	CDS	1167				hypothetical protein
+wNleu_00178	CDS	576				hypothetical protein
+wNleu_00179	CDS	1356	algC	5.4.2.2	COG1109	Phosphomannomutase/phosphoglucomutase
+wNleu_00180	CDS	432				hypothetical protein
+wNleu_00181	CDS	342				hypothetical protein
+wNleu_00182	CDS	2136				hypothetical protein
+wNleu_00183	CDS	258				hypothetical protein
+wNleu_00184	CDS	507				hypothetical protein
+wNleu_00185	CDS	396	gpFI_2			Putative prophage major tail sheath protein
+wNleu_00186	CDS	726	gpFI_3			Putative prophage major tail sheath protein
+wNleu_00187	CDS	561				hypothetical protein
+wNleu_00188	CDS	1425				hypothetical protein
+wNleu_00189	CDS	195				hypothetical protein
+wNleu_00190	CDS	909				hypothetical protein
+wNleu_00191	CDS	1953				hypothetical protein
+wNleu_00192	CDS	7299				hypothetical protein
+wNleu_00193	CDS	297				hypothetical protein
+wNleu_00194	CDS	684				hypothetical protein
+wNleu_00195	CDS	489				hypothetical protein
+wNleu_00196	CDS	813				hypothetical protein
+wNleu_00197	CDS	807				hypothetical protein
+wNleu_00198	CDS	492				hypothetical protein
+wNleu_00199	CDS	1185				hypothetical protein
+wNleu_00200	CDS	2082				hypothetical protein
+wNleu_00201	CDS	1116				hypothetical protein
+wNleu_00202	CDS	1233				hypothetical protein
+wNleu_00203	CDS	465				hypothetical protein
+wNleu_00204	CDS	1221				hypothetical protein
+wNleu_00205	CDS	1902				hypothetical protein
+wNleu_00206	CDS	480				hypothetical protein
+wNleu_00207	CDS	1470				hypothetical protein
+wNleu_00208	CDS	1827				hypothetical protein
+wNleu_00209	CDS	225				hypothetical protein
+wNleu_00210	CDS	939				hypothetical protein
+wNleu_00211	CDS	2898				hypothetical protein
+wNleu_00212	CDS	1227	hemA	2.3.1.37	COG0156	5-aminolevulinate synthase
+wNleu_00213	CDS	708	suhB	3.1.3.25	COG0483	Inositol-1-monophosphatase
+wNleu_00214	CDS	567	efp			Elongation factor P
+wNleu_00215	CDS	507	rimM		COG0806	Ribosome maturation factor RimM
+wNleu_00216	CDS	1176	argD_1	2.6.1.11	COG4992	Acetylornithine aminotransferase
+wNleu_00217	CDS	1428	rcsC_1	2.7.13.3		Sensor histidine kinase RcsC
+wNleu_00218	CDS	480	bcp	1.11.1.15	COG1225	Putative peroxiredoxin bcp
+wNleu_00219	CDS	1080	recF		COG1195	DNA replication and repair protein RecF
+wNleu_00220	CDS	321				hypothetical protein
+wNleu_00221	CDS	816				hypothetical protein
+wNleu_00222	CDS	756	yciK	1.-.-.-	COG1028	putative oxidoreductase YciK
+wNleu_00223	CDS	3435	carB	6.3.5.5	COG0458	Carbamoyl-phosphate synthase large chain
+wNleu_00224	CDS	216				hypothetical protein
+wNleu_00225	CDS	597				hypothetical protein
+wNleu_00226	CDS	981				hypothetical protein
+wNleu_00227	CDS	1914	rpoD		COG0568	RNA polymerase sigma factor RpoD
+wNleu_00228	CDS	312	mnhC1		COG1006	Na(+)/H(+) antiporter subunit C1
+wNleu_00229	CDS	420				hypothetical protein
+wNleu_00230	CDS	528				hypothetical protein
+wNleu_00231	CDS	288				hypothetical protein
+wNleu_00232	CDS	210				hypothetical protein
+wNleu_00233	CDS	408	rpoZ	2.7.7.6		DNA-directed RNA polymerase subunit omega
+wNleu_00234	CDS	297				hypothetical protein
+wNleu_00235	CDS	492	purE	5.4.99.18	COG0041	N5-carboxyaminoimidazole ribonucleotide mutase
+wNleu_00236	CDS	1818	mutL			DNA mismatch repair protein MutL
+wNleu_00237	CDS	930	ispH	1.17.7.4	COG0761	4-hydroxy-3-methylbut-2-enyl diphosphate reductase
+wNleu_00238	CDS	1836	ftsI	3.4.16.4		Peptidoglycan D,D-transpeptidase FtsI
+wNleu_00239	CDS	309				hypothetical protein
+wNleu_00240	CDS	708	elbB	4.2.1.-	COG3155	Glyoxalase ElbB
+wNleu_00241	CDS	1047				hypothetical protein
+wNleu_00242	CDS	552		6.3.3.2	COG0212	5-formyltetrahydrofolate cyclo-ligase
+wNleu_00243	CDS	621	pyrK			Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit
+wNleu_00244	CDS	1146	surA_1	5.2.1.8		Chaperone SurA
+wNleu_00245	tRNA	93				tRNA-Ser(gct)
+wNleu_00246	CDS	507	ppa	3.6.1.1	COG0221	Inorganic pyrophosphatase
+wNleu_00247	CDS	1224				hypothetical protein
+wNleu_00248	CDS	1113	mnmA	2.8.1.13	COG0482	tRNA-specific 2-thiouridylase MnmA
+wNleu_00249	CDS	1077	mreB			Cell shape-determining protein MreB
+wNleu_00250	CDS	1413		3.4.17.19	COG2317	Thermostable carboxypeptidase 1
+wNleu_00251	CDS	480	pal			Peptidoglycan-associated lipoprotein
+wNleu_00252	CDS	1296	tilS	6.3.4.19		tRNA(Ile)-lysidine synthase
+wNleu_00253	CDS	1839	ftsH_1	3.4.24.-		ATP-dependent zinc metalloprotease FtsH
+wNleu_00254	CDS	669				hypothetical protein
+wNleu_00255	CDS	639	tmk	2.7.4.9	COG0125	Thymidylate kinase
+wNleu_00256	CDS	573				hypothetical protein
+wNleu_00257	CDS	1719	kefC		COG0475	Glutathione-regulated potassium-efflux system protein KefC
+wNleu_00258	CDS	237				hypothetical protein
+wNleu_00259	CDS	540				hypothetical protein
+wNleu_00260	CDS	540	bfr	1.16.3.1	COG2193	Bacterioferritin
+wNleu_00261	CDS	486				hypothetical protein
+wNleu_00262	CDS	639	gph	3.1.3.18	COG0546	Phosphoglycolate phosphatase
+wNleu_00263	CDS	837				hypothetical protein
+wNleu_00264	CDS	729				hypothetical protein
+wNleu_00265	CDS	1806				hypothetical protein
+wNleu_00266	CDS	618	gmk	2.7.4.8	COG0194	Guanylate kinase
+wNleu_00267	CDS	1878				hypothetical protein
+wNleu_00268	CDS	1806	sdhA	1.3.5.1		Succinate dehydrogenase flavoprotein subunit
+wNleu_00269	CDS	513				hypothetical protein
+wNleu_00270	CDS	261				hypothetical protein
+wNleu_00271	CDS	477				hypothetical protein
+wNleu_00272	CDS	3096				hypothetical protein
+wNleu_00273	CDS	126				hypothetical protein
+wNleu_00274	CDS	1569				hypothetical protein
+wNleu_00275	CDS	672				hypothetical protein
+wNleu_00276	CDS	639				hypothetical protein
+wNleu_00277	CDS	882				hypothetical protein
+wNleu_00278	CDS	918				hypothetical protein
+wNleu_00279	CDS	657				hypothetical protein
+wNleu_00280	CDS	1182				hypothetical protein
+wNleu_00281	CDS	915				hypothetical protein
+wNleu_00282	CDS	912				hypothetical protein
+wNleu_00283	CDS	1023				hypothetical protein
+wNleu_00284	CDS	411	pld_1	3.1.4.4		Phospholipase D
+wNleu_00285	CDS	3363	dnaE1	2.7.7.7		DNA polymerase III subunit alpha
+wNleu_00286	CDS	774				hypothetical protein
+wNleu_00287	CDS	276				hypothetical protein
+wNleu_00288	CDS	555	rplI		COG0359	50S ribosomal protein L9
+wNleu_00289	tRNA	74				tRNA-Met(cat)
+wNleu_00290	CDS	1287				hypothetical protein
+wNleu_00291	CDS	1197	dapE	3.5.1.18	COG0624	Succinyl-diaminopimelate desuccinylase
+wNleu_00292	CDS	639	nth	4.2.99.18	COG0177	Endonuclease III
+wNleu_00293	CDS	798				hypothetical protein
+wNleu_00294	CDS	420				hypothetical protein
+wNleu_00295	CDS	1419	icd	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]
+wNleu_00296	CDS	537				hypothetical protein
+wNleu_00297	CDS	477				hypothetical protein
+wNleu_00298	CDS	1404	rho	3.6.4.-	COG1158	Transcription termination factor Rho
+wNleu_00299	CDS	603				hypothetical protein
+wNleu_00300	CDS	420				hypothetical protein
+wNleu_00301	CDS	1356	surA_2	5.2.1.8		Chaperone SurA
+wNleu_00302	CDS	321	rpsP		COG0228	30S ribosomal protein S16
+wNleu_00303	CDS	978	ispB	2.5.1.90	COG0142	Octaprenyl diphosphate synthase
+wNleu_00304	CDS	564	grpE			Protein GrpE
+wNleu_00305	CDS	999	trpS	6.1.1.2	COG0180	Tryptophan--tRNA ligase
+wNleu_00306	CDS	762	rutD	3.5.1.-		Putative aminoacrylate hydrolase RutD
+wNleu_00307	CDS	528				hypothetical protein
+wNleu_00308	CDS	771				hypothetical protein
+wNleu_00309	CDS	390				hypothetical protein
+wNleu_00310	CDS	411				hypothetical protein
+wNleu_00311	CDS	549				hypothetical protein
+wNleu_00312	CDS	312				hypothetical protein
+wNleu_00313	CDS	2187	smc_1			Chromosome partition protein Smc
+wNleu_00314	CDS	1272	purD	6.3.4.13	COG0151	Phosphoribosylamine--glycine ligase
+wNleu_00315	CDS	1299	serS	6.1.1.11	COG0172	Serine--tRNA ligase
+wNleu_00316	CDS	1080				hypothetical protein
+wNleu_00317	CDS	963	dusB	1.3.1.-	COG0042	tRNA-dihydrouridine synthase B
+wNleu_00318	CDS	8514	rpoBC	2.7.7.6	COG0085	Bifunctional DNA-directed RNA polymerase subunit beta-beta'
+wNleu_00319	CDS	402	rplL			50S ribosomal protein L7/L12
+wNleu_00320	CDS	519	rplJ		COG0244	50S ribosomal protein L10
+wNleu_00321	CDS	654	rplA		COG0081	50S ribosomal protein L1
+wNleu_00322	CDS	441	rplK		COG0080	50S ribosomal protein L11
+wNleu_00323	CDS	837	nusG			Transcription termination/antitermination protein NusG
+wNleu_00324	tRNA	74				tRNA-Trp(cca)
+wNleu_00325	CDS	1068	recA			Protein RecA
+wNleu_00326	CDS	114				hypothetical protein
+wNleu_00327	CDS	735				hypothetical protein
+wNleu_00328	CDS	1302	fpgS	6.3.2.17		Folylpolyglutamate synthase
+wNleu_00329	CDS	591				hypothetical protein
+wNleu_00330	CDS	462	pasT		COG2867	Persistence and stress-resistance toxin PasT
+wNleu_00331	CDS	705				hypothetical protein
+wNleu_00332	CDS	279				hypothetical protein
+wNleu_00333	CDS	648	trmR	2.1.1.-		tRNA 5-hydroxyuridine methyltransferase
+wNleu_00334	CDS	654	fzlA			FtsZ-localized protein A
+wNleu_00335	CDS	381				hypothetical protein
+wNleu_00336	CDS	1602				hypothetical protein
+wNleu_00337	CDS	333	ybaB		COG0718	Nucleoid-associated protein YbaB
+wNleu_00338	CDS	210				hypothetical protein
+wNleu_00339	CDS	699				hypothetical protein
+wNleu_00340	CDS	894	rpoH		COG0568	RNA polymerase sigma factor RpoH
+wNleu_00341	CDS	498				hypothetical protein
+wNleu_00342	CDS	1158	dnaN			Beta sliding clamp
+wNleu_00343	CDS	738	truA	5.4.99.12	COG0101	tRNA pseudouridine synthase A
+wNleu_00344	CDS	153				hypothetical protein
+wNleu_00345	CDS	1032				hypothetical protein
+wNleu_00346	CDS	1230	petB		COG1290	Cytochrome b
+wNleu_00347	CDS	1578				hypothetical protein
+wNleu_00348	CDS	252				hypothetical protein
+wNleu_00349	CDS	576	nfuA			Fe/S biogenesis protein NfuA
+wNleu_00350	CDS	1224	hisS	6.1.1.21	COG0124	Histidine--tRNA ligase
+wNleu_00351	CDS	753	surE	3.1.3.5	COG0496	5'-nucleotidase SurE
+wNleu_00352	CDS	1275				hypothetical protein
+wNleu_00353	CDS	1269	proS	6.1.1.15	COG0442	Proline--tRNA ligase
+wNleu_00354	CDS	381	acpS	2.7.8.7	COG0736	Holo-[acyl-carrier-protein] synthase
+wNleu_00355	CDS	1488	mrpA		COG1009	Na(+)/H(+) antiporter subunit A
+wNleu_00356	CDS	660				hypothetical protein
+wNleu_00357	CDS	795				hypothetical protein
+wNleu_00358	CDS	822				hypothetical protein
+wNleu_00359	CDS	588	ywlC	2.7.7.87	COG0009	Threonylcarbamoyl-AMP synthase
+wNleu_00360	CDS	471				hypothetical protein
+wNleu_00361	CDS	885	miaA	2.5.1.75	COG0324	tRNA dimethylallyltransferase
+wNleu_00362	CDS	831				hypothetical protein
+wNleu_00363	CDS	162				hypothetical protein
+wNleu_00364	CDS	2022	recG	3.6.4.12		ATP-dependent DNA helicase RecG
+wNleu_00365	CDS	288				hypothetical protein
+wNleu_00366	CDS	576				hypothetical protein
+wNleu_00367	tRNA	75				tRNA-Gln(ttg)
+wNleu_00368	CDS	1491				hypothetical protein
+wNleu_00369	CDS	216				hypothetical protein
+wNleu_00370	CDS	1035	hflK		COG0330	Modulator of FtsH protease HflK
+wNleu_00371	CDS	873	hflC		COG0330	Modulator of FtsH protease HflC
+wNleu_00372	CDS	1476	degP	3.4.21.107	COG0265	Periplasmic serine endoprotease DegP
+wNleu_00373	CDS	1005				hypothetical protein
+wNleu_00374	CDS	261			COG3039	IS5 family transposase ISWpi1
+wNleu_00375	CDS	1323	gltX1_1	6.1.1.17	COG0008	Glutamate--tRNA ligase 1
+wNleu_00376	CDS	1998	ligA_1	6.5.1.2	COG0272	DNA ligase
+wNleu_00377	CDS	879	dapA	4.3.3.7	COG0329	4-hydroxy-tetrahydrodipicolinate synthase
+wNleu_00378	CDS	483				Single-stranded DNA-binding protein
+wNleu_00379	tRNA	75				tRNA-Arg(ccg)
+wNleu_00380	CDS	816				hypothetical protein
+wNleu_00381	CDS	609				hypothetical protein
+wNleu_00382	CDS	1440				hypothetical protein
+wNleu_00383	CDS	1746	prsD			Type I secretion system ATP-binding protein PrsD
+wNleu_00384	CDS	792	lgt	2.5.1.145	COG0682	Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase
+wNleu_00385	CDS	450	smpB			SsrA-binding protein
+wNleu_00386	CDS	1947				hypothetical protein
+wNleu_00387	CDS	531				hypothetical protein
+wNleu_00388	CDS	417				hypothetical protein
+wNleu_00389	CDS	567	purN	2.1.2.2	COG0299	Phosphoribosylglycinamide formyltransferase
+wNleu_00390	CDS	918		3.4.24.-	COG0612	putative zinc protease
+wNleu_00391	CDS	363				hypothetical protein
+wNleu_00392	CDS	1341		3.4.24.-	COG0612	putative zinc protease
+wNleu_00393	CDS	477	lspA	3.4.23.36	COG0597	Lipoprotein signal peptidase
+wNleu_00394	CDS	933	ribF		COG0196	Bifunctional riboflavin kinase/FMN adenylyltransferase
+wNleu_00395	CDS	339				hypothetical protein
+wNleu_00396	CDS	873				hypothetical protein
+wNleu_00397	CDS	1593	prsE			Type I secretion system membrane fusion protein PrsE
+wNleu_00398	CDS	735	fabG	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+wNleu_00399	CDS	330				hypothetical protein
+wNleu_00400	CDS	1281	bepA	3.4.-.-		Beta-barrel assembly-enhancing protease
+wNleu_00401	CDS	645	ribB	4.1.99.12	COG0108	3,4-dihydroxy-2-butanone 4-phosphate synthase
+wNleu_00402	CDS	495	greA		COG0782	Transcription elongation factor GreA
+wNleu_00403	CDS	1542	atpA	7.1.2.2	COG0056	ATP synthase subunit alpha
+wNleu_00404	CDS	561	atpH_1		COG0712	ATP synthase subunit delta
+wNleu_00405	CDS	429	rplQ		COG0203	50S ribosomal protein L17
+wNleu_00406	CDS	1068	rpoA	2.7.7.6	COG0202	DNA-directed RNA polymerase subunit alpha
+wNleu_00407	CDS	387	rpsK			30S ribosomal protein S11
+wNleu_00408	CDS	369	rpsM		COG0099	30S ribosomal protein S13
+wNleu_00409	CDS	642	adk	2.7.4.3	COG0563	Adenylate kinase
+wNleu_00410	CDS	1329	secY		COG0201	Protein translocase subunit SecY
+wNleu_00411	CDS	471	rplO			50S ribosomal protein L15
+wNleu_00412	CDS	513	rpsE		COG0098	30S ribosomal protein S5
+wNleu_00413	CDS	372	rplR		COG0256	50S ribosomal protein L18
+wNleu_00414	CDS	546	rplF		COG0097	50S ribosomal protein L6
+wNleu_00415	CDS	396	rpsH		COG0096	30S ribosomal protein S8
+wNleu_00416	CDS	309	rpsN		COG0199	30S ribosomal protein S14
+wNleu_00417	CDS	534	rplE			50S ribosomal protein L5
+wNleu_00418	CDS	318	rplX			50S ribosomal protein L24
+wNleu_00419	CDS	360	rplN		COG0093	50S ribosomal protein L14
+wNleu_00420	CDS	237	rpsQ		COG0186	30S ribosomal protein S17
+wNleu_00421	CDS	204				hypothetical protein
+wNleu_00422	CDS	414	rplP		COG0197	50S ribosomal protein L16
+wNleu_00423	CDS	615	rpsC		COG0092	30S ribosomal protein S3
+wNleu_00424	CDS	348	rplV		COG0091	50S ribosomal protein L22
+wNleu_00425	CDS	285	rpsS		COG0185	30S ribosomal protein S19
+wNleu_00426	CDS	825	rplB		COG0090	50S ribosomal protein L2
+wNleu_00427	CDS	288	rplW		COG0089	50S ribosomal protein L23
+wNleu_00428	CDS	615	rplD			50S ribosomal protein L4
+wNleu_00429	CDS	723	rplC		COG0087	50S ribosomal protein L3
+wNleu_00430	CDS	321	rpsJ		COG0051	30S ribosomal protein S10
+wNleu_00431	CDS	990				hypothetical protein
+wNleu_00432	CDS	621				hypothetical protein
+wNleu_00433	CDS	819	yhcG	3.1.-.-	COG4804	Putative nuclease YhcG
+wNleu_00434	CDS	723	recO			DNA repair protein RecO
+wNleu_00435	CDS	1383	pleD			Response regulator PleD
+wNleu_00436	CDS	297				hypothetical protein
+wNleu_00437	CDS	4752	gdh	1.4.1.2	COG2902	NAD-specific glutamate dehydrogenase
+wNleu_00438	CDS	2562	clpB			Chaperone protein ClpB
+wNleu_00439	CDS	156				hypothetical protein
+wNleu_00440	CDS	444				hypothetical protein
+wNleu_00441	CDS	1830	typA		COG1217	GTP-binding protein TypA/BipA
+wNleu_00442	CDS	597	pyrE	2.4.2.10	COG0461	Orotate phosphoribosyltransferase
+wNleu_00443	CDS	1185	gltP		COG1301	Proton/glutamate-aspartate symporter
+wNleu_00444	CDS	1326	pyrC	3.5.2.3		Dihydroorotase
+wNleu_00445	CDS	891				hypothetical protein
+wNleu_00446	CDS	2076	fusA		COG0480	Elongation factor G
+wNleu_00447	CDS	480	rpsG		COG0049	30S ribosomal protein S7
+wNleu_00448	CDS	375	rpsL			30S ribosomal protein S12
+wNleu_00449	CDS	840	prmC	2.1.1.297	COG2890	Release factor glutamine methyltransferase
+wNleu_00450	CDS	816				hypothetical protein
+wNleu_00451	CDS	2001				hypothetical protein
+wNleu_00452	CDS	993			COG0630	Type IV secretion system protein VirB11
+wNleu_00453	CDS	1443				hypothetical protein
+wNleu_00454	CDS	795	virB9		COG3504	Type IV secretion system protein virB9
+wNleu_00455	CDS	681	virB8		COG3736	Type IV secretion system protein virB8
+wNleu_00456	CDS	1083	ribA	3.5.4.25		GTP cyclohydrolase-2
+wNleu_00457	tRNA	88				tRNA-Leu(gag)
+wNleu_00458	CDS	1275				hypothetical protein
+wNleu_00459	CDS	1383	dnaA_1			Chromosomal replication initiator protein DnaA
+wNleu_00460	CDS	738				hypothetical protein
+wNleu_00461	CDS	723				hypothetical protein
+wNleu_00462	CDS	2631	ttgE			Toluene efflux pump membrane transporter TtgE
+wNleu_00463	CDS	213				hypothetical protein
+wNleu_00464	CDS	2070	nqo3	7.1.1.-	COG1034	NADH-quinone oxidoreductase chain 3
+wNleu_00465	CDS	1026	nuoH	7.1.1.-	COG1005	NADH-quinone oxidoreductase subunit H
+wNleu_00466	CDS	1005	hemB	4.2.1.24	COG0113	Delta-aminolevulinic acid dehydratase
+wNleu_00467	CDS	759				hypothetical protein
+wNleu_00468	CDS	840	glyQ	6.1.1.14	COG0752	Glycine--tRNA ligase alpha subunit
+wNleu_00469	CDS	2118	glyS	6.1.1.14	COG0751	Glycine--tRNA ligase beta subunit
+wNleu_00470	CDS	1818	uvrC		COG0322	UvrABC system protein C
+wNleu_00471	tRNA	77				tRNA-Arg(cct)
+wNleu_00472	CDS	774	fbpC2	7.2.2.7	COG3842	Fe(3+) ions import ATP-binding protein FbpC 2
+wNleu_00473	CDS	168	tatA			Sec-independent protein translocase protein TatA
+wNleu_00474	CDS	657				hypothetical protein
+wNleu_00475	CDS	657				hypothetical protein
+wNleu_00476	CDS	1374	cysS	6.1.1.16	COG0215	Cysteine--tRNA ligase
+wNleu_00477	CDS	420				hypothetical protein
+wNleu_00478	CDS	2967				hypothetical protein
+wNleu_00479	CDS	1425	gatB	6.3.5.-	COG0064	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B
+wNleu_00480	CDS	348				hypothetical protein
+wNleu_00481	CDS	210				hypothetical protein
+wNleu_00482	CDS	945				hypothetical protein
+wNleu_00483	CDS	534				hypothetical protein
+wNleu_00484	CDS	222				hypothetical protein
+wNleu_00485	CDS	921				hypothetical protein
+wNleu_00486	CDS	903				hypothetical protein
+wNleu_00487	CDS	915				hypothetical protein
+wNleu_00488	CDS	1188				hypothetical protein
+wNleu_00489	CDS	657				hypothetical protein
+wNleu_00490	CDS	924				hypothetical protein
+wNleu_00491	CDS	894				hypothetical protein
+wNleu_00492	CDS	111				hypothetical protein
+wNleu_00493	CDS	9174				hypothetical protein
+wNleu_00494	CDS	174				hypothetical protein
+wNleu_00495	CDS	1251	gltA	2.3.3.16	COG0372	Citrate synthase
+wNleu_00496	CDS	270	rpsT		COG0268	30S ribosomal protein S20
+wNleu_00497	CDS	726				hypothetical protein
+wNleu_00498	CDS	987	xerD			Tyrosine recombinase XerD
+wNleu_00499	CDS	171				hypothetical protein
+wNleu_00500	CDS	636	dnaA_2			Chromosomal replication initiator protein DnaA
+wNleu_00501	CDS	1011			COG0628	Putative transport protein
+wNleu_00502	CDS	897				hypothetical protein
+wNleu_00503	CDS	1320	ispDF		COG0245	Bifunctional enzyme IspD/IspF
+wNleu_00504	CDS	1074	purK	6.3.4.18		N5-carboxyaminoimidazole ribonucleotide synthase
+wNleu_00505	CDS	435	apaG		COG2967	Protein ApaG
+wNleu_00506	CDS	1599				hypothetical protein
+wNleu_00507	CDS	828				hypothetical protein
+wNleu_00508	CDS	1305				hypothetical protein
+wNleu_00509	CDS	2451	topA	5.6.2.1		DNA topoisomerase 1
+wNleu_00510	CDS	1257				hypothetical protein
+wNleu_00511	CDS	1014				hypothetical protein
+wNleu_00512	tRNA	74				tRNA-Phe(gaa)
+wNleu_00513	CDS	507	coaD	2.7.7.3	COG0669	Phosphopantetheine adenylyltransferase
+wNleu_00514	CDS	192				hypothetical protein
+wNleu_00515	CDS	627				hypothetical protein
+wNleu_00516	CDS	696	ispU	2.5.1.31	COG0020	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific)
+wNleu_00517	CDS	375				hypothetical protein
+wNleu_00518	CDS	558	frr		COG0233	Ribosome-recycling factor
+wNleu_00519	CDS	744	pyrH	2.7.4.22	COG0528	Uridylate kinase
+wNleu_00520	CDS	861	tsf		COG0264	Elongation factor Ts
+wNleu_00521	CDS	849	rpsB		COG0052	30S ribosomal protein S2
+wNleu_00522	tRNA	74				tRNA-Asp(gtc)
+wNleu_00523	CDS	372	yajC		COG1862	Sec translocon accessory complex subunit YajC
+wNleu_00524	CDS	1812	nodM	2.6.1.16		Glutamine--fructose-6-phosphate aminotransferase [isomerizing]
+wNleu_00525	CDS	477				hypothetical protein
+wNleu_00526	CDS	888	murB	1.3.1.98	COG0812	UDP-N-acetylenolpyruvoylglucosamine reductase
+wNleu_00527	CDS	879	hemC	2.5.1.61	COG0181	Porphobilinogen deaminase
+wNleu_00528	CDS	1173	sucB	2.3.1.61	COG0508	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex
+wNleu_00529	CDS	651				hypothetical protein
+wNleu_00530	CDS	2853				hypothetical protein
+wNleu_00531	CDS	213				hypothetical protein
+wNleu_00532	CDS	462				IS256 family transposase ISWpi15
+wNleu_00533	CDS	162				hypothetical protein
+wNleu_00534	CDS	345				IS256 family transposase ISWpi15
+wNleu_00535	CDS	1281	ispG	1.17.7.3	COG0821	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin)
+wNleu_00536	CDS	621				hypothetical protein
+wNleu_00537	CDS	546				hypothetical protein
+wNleu_00538	CDS	2124	ftsK		COG1674	DNA translocase FtsK
+wNleu_00539	CDS	222				hypothetical protein
+wNleu_00540	CDS	219				hypothetical protein
+wNleu_00541	CDS	438				hypothetical protein
+wNleu_00542	tmRNA	329	ssrA			transfer-messenger RNA, SsrA
+wNleu_00543	CDS	591				hypothetical protein
+wNleu_00544	CDS	597	ribE	2.5.1.9		Riboflavin synthase
+wNleu_00545	CDS	1254				hypothetical protein
+wNleu_00546	CDS	390				hypothetical protein
+wNleu_00547	CDS	1044	pheS	6.1.1.20	COG0016	Phenylalanine--tRNA ligase alpha subunit
+wNleu_00548	CDS	1293	glmU_2			Bifunctional protein GlmU
+wNleu_00549	CDS	303	rplU		COG0261	50S ribosomal protein L21
+wNleu_00550	CDS	270	rpmA		COG0211	50S ribosomal protein L27
+wNleu_00551	tRNA	77				tRNA-Ile(gat)
+wNleu_00552	CDS	1173	metK	2.5.1.6	COG0192	S-adenosylmethionine synthase
+wNleu_00553	CDS	153				hypothetical protein
+wNleu_00554	CDS	135				hypothetical protein
+wNleu_00555	CDS	135				hypothetical protein
+wNleu_00556	CDS	930				hypothetical protein
+wNleu_00557	CDS	558				hypothetical protein
+wNleu_00558	CDS	1164	craA			Chloramphenicol resistance protein CraA
+wNleu_00559	CDS	1080	prfA		COG0216	Peptide chain release factor 1
+wNleu_00560	CDS	594	engB		COG0218	putative GTP-binding protein EngB
+wNleu_00561	CDS	942	argB	2.7.2.8	COG0548	Acetylglutamate kinase
+wNleu_00562	CDS	462	dut	3.6.1.23		Deoxyuridine 5'-triphosphate nucleotidohydrolase
+wNleu_00563	CDS	435				hypothetical protein
+wNleu_00564	CDS	483	nusB			Transcription antitermination protein NusB
+wNleu_00565	CDS	429	ribH1	2.5.1.78	COG0054	6,7-dimethyl-8-ribityllumazine synthase 1
+wNleu_00566	CDS	1710	yidC			Membrane protein insertase YidC
+wNleu_00567	CDS	504				hypothetical protein
+wNleu_00568	CDS	879	secF			Protein translocase subunit SecF
+wNleu_00569	CDS	2028				hypothetical protein
+wNleu_00570	CDS	2085	ccmF		COG1138	Cytochrome c-type biogenesis protein CcmF
+wNleu_00571	CDS	438				hypothetical protein
+wNleu_00572	CDS	1218	tgt	2.4.2.29		Queuine tRNA-ribosyltransferase
+wNleu_00573	CDS	501	nqo2	7.1.1.-	COG1905	NADH-quinone oxidoreductase chain 2
+wNleu_00574	CDS	639				hypothetical protein
+wNleu_00575	CDS	1437				hypothetical protein
+wNleu_00576	CDS	771	ctrA			Cell cycle response regulator CtrA
+wNleu_00577	CDS	984	gpsA	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]
+wNleu_00578	CDS	483	pgpA	3.1.3.27	COG1267	Phosphatidylglycerophosphatase A
+wNleu_00579	CDS	780				hypothetical protein
+wNleu_00580	CDS	1137				hypothetical protein
+wNleu_00581	CDS	789	sdhB	1.3.5.1	COG0479	Succinate dehydrogenase iron-sulfur subunit
+wNleu_00582	CDS	453	ybeY	3.1.-.-		Endoribonuclease YbeY
+wNleu_00583	CDS	366				hypothetical protein
+wNleu_00584	CDS	399				hypothetical protein
+wNleu_00585	CDS	1197	ftsZ			Cell division protein FtsZ
+wNleu_00586	CDS	459				hypothetical protein
+wNleu_00587	CDS	1509	comM		COG0606	Competence protein ComM
+wNleu_00588	CDS	840				hypothetical protein
+wNleu_00589	CDS	1575	mrdA	3.4.16.4	COG0768	Peptidoglycan D,D-transpeptidase MrdA
+wNleu_00590	CDS	303				hypothetical protein
+wNleu_00591	CDS	3333	ileS	6.1.1.5	COG0060	Isoleucine--tRNA ligase
+wNleu_00592	CDS	1467	dtpA		COG3104	Dipeptide and tripeptide permease A
+wNleu_00593	CDS	1320	miaB	2.8.4.3	COG0621	tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase
+wNleu_00594	CDS	429				hypothetical protein
+wNleu_00595	CDS	981	acoA	1.1.1.-	COG1071	Acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha
+wNleu_00596	CDS	924	rluC	5.4.99.24	COG0564	Ribosomal large subunit pseudouridine synthase C
+wNleu_00597	CDS	1263	proP_1			Proline/betaine transporter
+wNleu_00598	CDS	1803	aspS	6.1.1.12		Aspartate--tRNA ligase
+wNleu_00599	CDS	432				hypothetical protein
+wNleu_00600	CDS	624	ccmA	7.6.2.5	COG4133	Cytochrome c biogenesis ATP-binding export protein CcmA
+wNleu_00601	CDS	1296				hypothetical protein
+wNleu_00602	CDS	393	dksA			RNA polymerase-binding transcription factor DksA
+wNleu_00603	CDS	648				hypothetical protein
+wNleu_00604	CDS	666	trmB	2.1.1.33		tRNA (guanine-N(7)-)-methyltransferase
+wNleu_00605	CDS	1653	rpsA		COG0539	30S ribosomal protein S1
+wNleu_00606	CDS	279	ihfB			Integration host factor subunit beta
+wNleu_00607	CDS	327				hypothetical protein
+wNleu_00608	CDS	279				hypothetical protein
+wNleu_00609	CDS	1119	mmpA	3.4.24.-	COG0750	Metalloprotease MmpA
+wNleu_00610	CDS	2337	bamA		COG4775	Outer membrane protein assembly factor BamA
+wNleu_00611	CDS	552				hypothetical protein
+wNleu_00612	CDS	432	fabZ	4.2.1.59		3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ
+wNleu_00613	CDS	2883				hypothetical protein
+wNleu_00614	CDS	1560	ndhB	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic
+wNleu_00615	CDS	1344	ffh		COG0541	Signal recognition particle protein
+wNleu_00616	CDS	2013				hypothetical protein
+wNleu_00617	CDS	1341				hypothetical protein
+wNleu_00618	CDS	213				hypothetical protein
+wNleu_00619	CDS	948	bioB	2.8.1.6	COG0502	Biotin synthase
+wNleu_00620	CDS	1137	bioF	2.3.1.47	COG0156	8-amino-7-oxononanoate synthase 2
+wNleu_00621	CDS	654				hypothetical protein
+wNleu_00622	CDS	759	bioC	2.1.1.197		Malonyl-[acyl-carrier protein] O-methyltransferase
+wNleu_00623	CDS	612	bioD	6.3.3.3	COG0132	ATP-dependent dethiobiotin synthetase BioD
+wNleu_00624	CDS	1281	bioA	2.6.1.62		Adenosylmethionine-8-amino-7-oxononanoate aminotransferase
+wNleu_00625	CDS	1236				hypothetical protein
+wNleu_00626	CDS	2094				hypothetical protein
+wNleu_00627	CDS	1392				hypothetical protein
+wNleu_00628	CDS	333			COG3039	IS5 family transposase ISAzo37
+wNleu_00629	CDS	189				hypothetical protein
+wNleu_00630	CDS	1419				hypothetical protein
+wNleu_00631	CDS	1398			COG1132	putative ABC transporter ATP-binding protein
+wNleu_00632	CDS	258				hypothetical protein
+wNleu_00633	CDS	2454	lon	3.4.21.53	COG0466	Lon protease
+wNleu_00634	CDS	1278	clpX		COG1219	ATP-dependent Clp protease ATP-binding subunit ClpX
+wNleu_00635	CDS	627	clpP	3.4.21.92	COG0740	ATP-dependent Clp protease proteolytic subunit
+wNleu_00636	CDS	1338	tig	5.2.1.8	COG0544	Trigger factor
+wNleu_00637	tRNA	83				tRNA-Leu(tag)
+wNleu_00638	CDS	597	osmY		COG2823	Osmotically-inducible protein Y
+wNleu_00639	CDS	930	gshB	6.3.2.3	COG0189	Glutathione synthetase
+wNleu_00640	CDS	1032	murG	2.4.1.227	COG0707	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+wNleu_00641	CDS	393				hypothetical protein
+wNleu_00642	CDS	1374	lpd	1.8.1.4	COG1249	Dihydrolipoyl dehydrogenase
+wNleu_00643	CDS	432				hypothetical protein
+wNleu_00644	CDS	168				hypothetical protein
+wNleu_00645	CDS	123				hypothetical protein
+wNleu_00646	CDS	2376				hypothetical protein
+wNleu_00647	CDS	2340	pheT	6.1.1.20	COG0072	Phenylalanine--tRNA ligase beta subunit
+wNleu_00648	CDS	282				hypothetical protein
+wNleu_00649	CDS	726	atpB		COG0356	ATP synthase subunit a
+wNleu_00650	CDS	228	atpH_2			ATP synthase subunit c
+wNleu_00651	CDS	480	atpG_1			ATP synthase subunit b'
+wNleu_00652	CDS	477	atpF			ATP synthase subunit b
+wNleu_00653	CDS	1608				hypothetical protein
+wNleu_00654	CDS	1275	ctaA	1.3.-.-		Heme A synthase
+wNleu_00655	CDS	2067	accA1		COG4770	Acetyl-/propionyl-coenzyme A carboxylase alpha chain
+wNleu_00656	CDS	705				hypothetical protein
+wNleu_00657	CDS	1362	gltX1_2	6.1.1.17		Glutamate--tRNA ligase 1
+wNleu_00658	CDS	216				hypothetical protein
+wNleu_00659	CDS	618	lipB	2.3.1.181	COG0321	Octanoyltransferase
+wNleu_00660	CDS	234				hypothetical protein
+wNleu_00661	CDS	315				hypothetical protein
+wNleu_00662	CDS	717				hypothetical protein
+wNleu_00663	CDS	387				hypothetical protein
+wNleu_00664	CDS	2544				hypothetical protein
+wNleu_00665	CDS	1176	murJ		COG0728	putative lipid II flippase MurJ
+wNleu_00666	CDS	309				hypothetical protein
+wNleu_00667	tRNA	76				tRNA-His(gtg)
+wNleu_00668	CDS	2088	mnmG			tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+wNleu_00669	CDS	1782				hypothetical protein
+wNleu_00670	CDS	366				hypothetical protein
+wNleu_00671	CDS	681				hypothetical protein
+wNleu_00672	CDS	816				hypothetical protein
+wNleu_00673	CDS	372				hypothetical protein
+wNleu_00674	CDS	1071				hypothetical protein
+wNleu_00675	CDS	1419				hypothetical protein
+wNleu_00676	CDS	225				hypothetical protein
+wNleu_00677	CDS	1818				hypothetical protein
+wNleu_00678	CDS	1485				hypothetical protein
+wNleu_00679	CDS	471				hypothetical protein
+wNleu_00680	CDS	495				hypothetical protein
+wNleu_00681	CDS	168				hypothetical protein
+wNleu_00682	CDS	492				hypothetical protein
+wNleu_00683	CDS	798				hypothetical protein
+wNleu_00684	CDS	489				hypothetical protein
+wNleu_00685	CDS	1221				hypothetical protein
+wNleu_00686	CDS	2055				hypothetical protein
+wNleu_00687	CDS	144				hypothetical protein
+wNleu_00688	CDS	102				hypothetical protein
+wNleu_00689	CDS	300				hypothetical protein
+wNleu_00690	CDS	225				hypothetical protein
+wNleu_00691	CDS	1707	argS	6.1.1.19		Arginine--tRNA ligase
+wNleu_00692	CDS	219				hypothetical protein
+wNleu_00693	CDS	1710			COG1132	putative ABC transporter ATP-binding protein
+wNleu_00694	CDS	1119	ftsW	2.4.1.129		putative peptidoglycan glycosyltransferase FtsW
+wNleu_00695	CDS	717	ubiE	2.1.1.163	COG2226	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE
+wNleu_00696	CDS	879	lipA	2.8.1.8		Lipoyl synthase
+wNleu_00697	CDS	315	rpmB		COG0227	50S ribosomal protein L28
+wNleu_00698	CDS	342				hypothetical protein
+wNleu_00699	CDS	201	iscX		COG2975	Protein IscX
+wNleu_00700	tRNA	87				tRNA-Leu(taa)
+wNleu_00701	CDS	615	rpsD		COG0522	30S ribosomal protein S4
+wNleu_00702	CDS	2142	tktA	2.2.1.1	COG0021	Transketolase 1
+wNleu_00703	CDS	588				hypothetical protein
+wNleu_00704	CDS	1230				hypothetical protein
+wNleu_00705	CDS	759	pstB	7.3.2.1		Phosphate import ATP-binding protein PstB
+wNleu_00706	CDS	786	dapB	1.17.1.8	COG0289	4-hydroxy-tetrahydrodipicolinate reductase
+wNleu_00707	CDS	1047				hypothetical protein
+wNleu_00708	CDS	993				hypothetical protein
+wNleu_00709	CDS	180				hypothetical protein
+wNleu_00710	CDS	810	znuB		COG1108	High-affinity zinc uptake system membrane protein ZnuB
+wNleu_00711	CDS	357				hypothetical protein
+wNleu_00712	CDS	867	ispE	2.7.1.148	COG1947	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase
+wNleu_00713	CDS	3435	addA	3.6.4.12		ATP-dependent helicase/nuclease subunit A
+wNleu_00714	CDS	675				hypothetical protein
+wNleu_00715	CDS	231				hypothetical protein
+wNleu_00716	CDS	597				hypothetical protein
+wNleu_00717	tRNA	84				tRNA-Leu(caa)
+wNleu_00718	CDS	1452	dnaB	3.6.4.12	COG0305	Replicative DNA helicase
+wNleu_00719	CDS	675	pyrF	4.1.1.23	COG0284	Orotidine 5'-phosphate decarboxylase
+wNleu_00720	CDS	777				hypothetical protein
+wNleu_00721	CDS	1200				hypothetical protein
+wNleu_00722	CDS	642	artM		COG1126	Arginine transport ATP-binding protein ArtM
+wNleu_00723	CDS	648	artQ		COG0765	Arginine transport system permease protein ArtQ
+wNleu_00724	CDS	735	artP		COG0834	Arginine-binding extracellular protein ArtP
+wNleu_00725	CDS	456	argR		COG1438	Arginine repressor
+wNleu_00726	CDS	762	tatC		COG0805	Sec-independent protein translocase protein TatC
+wNleu_00727	CDS	1098	gap	1.2.1.12	COG0057	Glyceraldehyde-3-phosphate dehydrogenase
+wNleu_00728	CDS	201				hypothetical protein
+wNleu_00729	CDS	534				hypothetical protein
+wNleu_00730	CDS	858				hypothetical protein
+wNleu_00731	CDS	1176	cca	2.7.7.72		CCA-adding enzyme
+wNleu_00732	CDS	927				hypothetical protein
+wNleu_00733	CDS	1119	ychF		COG0012	Ribosome-binding ATPase YchF
+wNleu_00734	CDS	1026	idiA		COG1840	Iron deficiency-induced protein A
+wNleu_00735	CDS	885	pyrB	2.1.3.2		Aspartate carbamoyltransferase
+wNleu_00736	CDS	756	lepB	3.4.21.89	COG0681	Signal peptidase I
+wNleu_00737	CDS	1854	hscA		COG0443	Chaperone protein HscA
+wNleu_00738	CDS	459	hscB		COG1076	Co-chaperone protein HscB 
+wNleu_00739	CDS	414	iscA		COG0316	Iron-binding protein IscA
+wNleu_00740	CDS	384	iscU		COG0822	Iron-sulfur cluster assembly scaffold protein IscU
+wNleu_00741	CDS	912	ftsY		COG0552	Signal recognition particle receptor FtsY
+wNleu_00742	CDS	1344	radA	3.6.4.-	COG1066	DNA repair protein RadA
+wNleu_00743	CDS	327				IS110 family transposase ISWen2
+wNleu_00744	CDS	651				IS110 family transposase ISWen2
+wNleu_00745	CDS	729	fbiB	6.3.2.34		Bifunctional F420 biosynthesis protein FbiB
+wNleu_00746	CDS	513				hypothetical protein
+wNleu_00747	CDS	798	purL_1	6.3.5.3	COG0046	Phosphoribosylformylglycinamidine synthase
+wNleu_00748	CDS	1251				hypothetical protein
+wNleu_00749	CDS	183				hypothetical protein
+wNleu_00750	CDS	378	rplS		COG0335	50S ribosomal protein L19
+wNleu_00751	CDS	711	trmD	2.1.1.228	COG0336	tRNA (guanine-N(1)-)-methyltransferase
+wNleu_00752	CDS	723	purC	6.3.2.6	COG0152	Phosphoribosylaminoimidazole-succinocarboxamide synthase
+wNleu_00753	CDS	1038	purM	6.3.3.1		Phosphoribosylformylglycinamidine cyclo-ligase
+wNleu_00754	CDS	294				hypothetical protein
+wNleu_00755	CDS	279				hypothetical protein
+wNleu_00756	CDS	717	tlyC		COG1253	Hemolysin C
+wNleu_00757	CDS	942	hemE	4.1.1.37	COG0407	Uroporphyrinogen decarboxylase
+wNleu_00758	CDS	1194	aatA	2.6.1.1	COG0436	Aspartate/prephenate aminotransferase
+wNleu_00759	CDS	489				hypothetical protein
+wNleu_00760	CDS	192				hypothetical protein
+wNleu_00761	CDS	1218				hypothetical protein
+wNleu_00762	CDS	1242				hypothetical protein
+wNleu_00763	CDS	147				hypothetical protein
+wNleu_00764	CDS	573	ruvA	3.6.4.12	COG0632	Holliday junction ATP-dependent DNA helicase RuvA
+wNleu_00765	CDS	981	ruvB	3.6.4.12	COG2255	Holliday junction ATP-dependent DNA helicase RuvB
+wNleu_00766	CDS	510		3.2.2.-	COG2094	Putative 3-methyladenine DNA glycosylase
+wNleu_00767	CDS	1386	purF	2.4.2.14	COG0034	Amidophosphoribosyltransferase
+wNleu_00768	CDS	1104	mrdB	2.4.1.129	COG0772	Peptidoglycan glycosyltransferase MrdB
+wNleu_00769	CDS	1467	mrpD		COG0651	Na(+)/H(+) antiporter subunit D
+wNleu_00770	CDS	315				hypothetical protein
+wNleu_00771	CDS	456				hypothetical protein
+wNleu_00772	CDS	786	ptlF		COG3504	Type IV secretion system protein PtlF
+wNleu_00773	CDS	597	rnhB	3.1.26.4	COG0164	Ribonuclease HII
+wNleu_00774	CDS	981	mraY	2.7.8.13	COG0472	Phospho-N-acetylmuramoyl-pentapeptide-transferase
+wNleu_00775	CDS	543	coq7	1.14.99.60	COG2941	3-demethoxyubiquinol 3-hydroxylase
+wNleu_00776	CDS	522	dsbB			Disulfide bond formation protein B
+wNleu_00777	CDS	1326	der			GTPase Der
+wNleu_00778	CDS	210				hypothetical protein
+wNleu_00779	CDS	264				hypothetical protein
+wNleu_00780	CDS	135				hypothetical protein
+wNleu_00781	CDS	528				hypothetical protein
+wNleu_00782	CDS	150				hypothetical protein
+wNleu_00783	CDS	372	ligA_2	6.5.1.2	COG0272	DNA ligase
+wNleu_00784	CDS	1521	ligA_3	6.5.1.2	COG0272	DNA ligase
+wNleu_00785	CDS	861				hypothetical protein
+wNleu_00786	CDS	354				hypothetical protein
+wNleu_00787	CDS	810				hypothetical protein
+wNleu_00788	CDS	225				hypothetical protein
+wNleu_00789	CDS	621				hypothetical protein
+wNleu_00790	CDS	1026				IS110 family transposase ISWpi14
+wNleu_00791	CDS	588				hypothetical protein
+wNleu_00792	CDS	621				hypothetical protein
+wNleu_00793	CDS	921				hypothetical protein
+wNleu_00794	CDS	234				hypothetical protein
+wNleu_00795	CDS	492				hypothetical protein
+wNleu_00796	CDS	945				hypothetical protein
+wNleu_00797	CDS	210				hypothetical protein
+wNleu_00798	CDS	147				hypothetical protein
+wNleu_00799	CDS	213				hypothetical protein
+wNleu_00800	CDS	567				hypothetical protein
+wNleu_00801	CDS	1206	proP_2			Proline/betaine transporter
+wNleu_00802	CDS	411	tadA	3.5.4.33	COG0590	tRNA-specific adenosine deaminase
+wNleu_00803	CDS	315				hypothetical protein
+wNleu_00804	CDS	1614	pyrG	6.3.4.2	COG0504	CTP synthase
+wNleu_00805	CDS	321				hypothetical protein
+wNleu_00806	CDS	516	yrdA		COG0663	Protein YrdA
+wNleu_00807	CDS	1242	smc_2			Chromosome partition protein Smc
+wNleu_00808	CDS	2661	valS	6.1.1.9	COG0525	Valine--tRNA ligase
+wNleu_00809	CDS	981	ftsH_2	3.4.24.-		ATP-dependent zinc metalloprotease FtsH
+wNleu_00810	CDS	489	ftsH_3	3.4.24.-		ATP-dependent zinc metalloprotease FtsH
+wNleu_00811	CDS	1089	smc_3			Chromosome partition protein Smc
+wNleu_00812	CDS	651				hypothetical protein
+wNleu_00813	CDS	276				hypothetical protein
+wNleu_00814	CDS	693				hypothetical protein
+wNleu_00815	CDS	1395				hypothetical protein
+wNleu_00816	CDS	1797	lepA	3.6.5.-	COG0481	Elongation factor 4
+wNleu_00817	CDS	375				hypothetical protein
+wNleu_00818	CDS	999	bfmBAB	1.2.4.4	COG0022	2-oxoisovalerate dehydrogenase subunit beta
+wNleu_00819	CDS	1101	ftsH_4	3.4.24.-	COG0465	ATP-dependent zinc metalloprotease FtsH
+wNleu_00820	CDS	474				hypothetical protein
+wNleu_00821	CDS	303			COG3385	IS4 family transposase ISWosp5
+wNleu_00822	CDS	258			COG3385	IS4 family transposase ISWosp9
+wNleu_00823	CDS	270			COG3385	IS4 family transposase ISWosp7
+wNleu_00824	CDS	270			COG3385	IS4 family transposase ISWosp5
+wNleu_00825	CDS	318				hypothetical protein
+wNleu_00826	CDS	360				hypothetical protein
+wNleu_00827	CDS	264				hypothetical protein
+wNleu_00828	CDS	219				hypothetical protein
+wNleu_00829	CDS	2001				hypothetical protein
+wNleu_00830	CDS	822				hypothetical protein
+wNleu_00831	CDS	885	era		COG1159	GTPase Era
+wNleu_00832	CDS	1056	cydB	7.1.1.7	COG1294	Cytochrome bd-I ubiquinol oxidase subunit 2
+wNleu_00833	CDS	1443	cydA	1.10.3.-	COG1271	Cytochrome bd ubiquinol oxidase subunit 1
+wNleu_00834	CDS	612	sodB	1.15.1.1		Superoxide dismutase [Fe]
+wNleu_00835	CDS	1272		3.4.24.-	COG0612	putative zinc protease
+wNleu_00836	CDS	1914				hypothetical protein
+wNleu_00837	CDS	807	ygfZ			tRNA-modifying protein YgfZ
+wNleu_00838	CDS	291	groS		COG0234	10 kDa chaperonin
+wNleu_00839	CDS	1650	groL5			60 kDa chaperonin 5
+wNleu_00840	CDS	504				hypothetical protein
+wNleu_00841	CDS	1344	alsT_1		COG1115	Amino-acid carrier protein AlsT
+wNleu_00842	CDS	2670				hypothetical protein
+wNleu_00843	CDS	597	yhdE	3.6.1.9	COG0424	dTTP/UTP pyrophosphatase
+wNleu_00844	CDS	264	infA			Translation initiation factor IF-1
+wNleu_00845	CDS	2475				hypothetical protein
+wNleu_00846	CDS	501	pld_2	3.1.4.4		Phospholipase D
+wNleu_00847	CDS	543				hypothetical protein
+wNleu_00848	CDS	132				hypothetical protein
+wNleu_00849	CDS	705	rnc	3.1.26.3		Ribonuclease 3
+wNleu_00850	CDS	1077	pyrD	1.3.5.2	COG0167	Dihydroorotate dehydrogenase (quinone)
+wNleu_00851	tRNA	73				tRNA-Cys(gca)
+wNleu_00852	CDS	897	fbaB	4.1.2.13	COG1830	Fructose-bisphosphate aldolase class 1
+wNleu_00853	CDS	1011				hypothetical protein
+wNleu_00854	CDS	2307	clpA		COG0542	ATP-dependent Clp protease ATP-binding subunit ClpA
+wNleu_00855	CDS	1227	cshA	3.6.4.13	COG0513	ATP-dependent RNA helicase CshA
+wNleu_00856	CDS	252	cspA		COG1278	Cold shock protein CspA
+wNleu_00857	CDS	1335	pmbA	3.4.-.-	COG0312	Metalloprotease PmbA
+wNleu_00858	CDS	873	atpG_2		COG0224	ATP synthase gamma chain
+wNleu_00859	tRNA	75				tRNA-Arg(tct)
+wNleu_00860	CDS	951				hypothetical protein
+wNleu_00861	CDS	1530	murF	6.3.2.10		UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+wNleu_00862	CDS	783				hypothetical protein
+wNleu_00863	CDS	258				hypothetical protein
+wNleu_00864	CDS	369			COG0537	putative HIT-like protein
+wNleu_00865	CDS	354	ndhC	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit 3
+wNleu_00866	CDS	507	nuoB	7.1.1.-	COG0377	NADH-quinone oxidoreductase subunit B
+wNleu_00867	CDS	573	nqo5	7.1.1.-	COG0852	NADH-quinone oxidoreductase chain 5
+wNleu_00868	CDS	948	mdh	1.1.1.37	COG0039	Malate dehydrogenase
+wNleu_00869	CDS	114				hypothetical protein
+wNleu_00870	CDS	789	ycfH	3.1.-.-	COG0084	putative metal-dependent hydrolase YcfH
+wNleu_00871	CDS	489	rppH	3.6.1.-	COG0494	RNA pyrophosphohydrolase
+wNleu_00872	CDS	747				hypothetical protein
+wNleu_00873	CDS	318	rsfS			Ribosomal silencing factor RsfS
+wNleu_00874	CDS	1251	tyrS	6.1.1.1	COG0162	Tyrosine--tRNA ligase
+wNleu_00875	CDS	786	sfnG	1.14.14.35		FMNH(2)-dependent dimethylsulfone monooxygenase
+wNleu_00876	CDS	141				hypothetical protein
+wNleu_00877	CDS	270				hypothetical protein
+wNleu_00878	CDS	654				IS110 family transposase ISOt5
+wNleu_00879	CDS	1728				hypothetical protein
+wNleu_00880	CDS	2487				hypothetical protein
+wNleu_00881	CDS	1497				hypothetical protein
+wNleu_00882	CDS	435				hypothetical protein
+wNleu_00883	CDS	402				hypothetical protein
+wNleu_00884	CDS	135				hypothetical protein
+wNleu_00885	CDS	624				hypothetical protein
+wNleu_00886	CDS	738				hypothetical protein
+wNleu_00887	CDS	327				hypothetical protein
+wNleu_00888	CDS	1590	murE	6.3.2.7		UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase
+wNleu_00889	CDS	1212	aar	5.1.1.1	COG0626	L-alanine/L-glutamate racemase
+wNleu_00890	CDS	285	bolA		COG0271	DNA-binding transcriptional regulator BolA
+wNleu_00891	CDS	1956	dnaK		COG0443	Chaperone protein DnaK
+wNleu_00892	CDS	1758	rne	3.1.26.12	COG1530	Ribonuclease E
+wNleu_00893	CDS	201	rpmG		COG0267	50S ribosomal protein L33
+wNleu_00894	CDS	276				hypothetical protein
+wNleu_00895	CDS	771	znuA		COG4531	High-affinity zinc uptake system protein ZnuA
+wNleu_00896	CDS	741	znuC	7.2.2.-	COG1121	Zinc import ATP-binding protein ZnuC
+wNleu_00897	CDS	1431	ubiB	2.7.-.-	COG0661	putative protein kinase UbiB
+wNleu_00898	CDS	255				hypothetical protein
+wNleu_00899	CDS	792	map	3.4.11.18	COG0024	Methionine aminopeptidase
+wNleu_00900	CDS	1242	proP_3			Proline/betaine transporter
+wNleu_00901	CDS	882	rsmH	2.1.1.199	COG0275	Ribosomal RNA small subunit methyltransferase H
+wNleu_00902	CDS	306				hypothetical protein
+wNleu_00903	CDS	300				hypothetical protein
+wNleu_00904	CDS	612	rplY			50S ribosomal protein L25
+wNleu_00905	CDS	549	pth	3.1.1.29	COG0193	Peptidyl-tRNA hydrolase
+wNleu_00906	CDS	963				IS481 family transposase ISWpi4
+wNleu_00907	CDS	1149	ubiL	1.14.13.-	COG0654	Ubiquinone hydroxylase UbiL
+wNleu_00908	CDS	630				hypothetical protein
+wNleu_00909	CDS	1014	apbC		COG0489	Iron-sulfur cluster carrier protein
+wNleu_00910	CDS	534				hypothetical protein
+wNleu_00911	CDS	294				hypothetical protein
+wNleu_00912	CDS	2817				hypothetical protein
+wNleu_00913	CDS	3204	purL_2	6.3.5.3		Phosphoribosylformylglycinamidine synthase subunit PurL
+wNleu_00914	CDS	513				hypothetical protein
+wNleu_00915	CDS	2796	uvrA			UvrABC system protein A
+wNleu_00916	CDS	201				hypothetical protein
+wNleu_00917	CDS	180				hypothetical protein
+wNleu_00918	CDS	345	atpC		COG0355	ATP synthase epsilon chain
+wNleu_00919	CDS	1452	atpD	7.1.2.2	COG0055	ATP synthase subunit beta
+wNleu_00920	CDS	1101				hypothetical protein
+wNleu_00921	CDS	138				hypothetical protein
+wNleu_00922	CDS	264				hypothetical protein
+wNleu_00923	rRNA	100				5S ribosomal RNA
+wNleu_00924	rRNA	2756				23S ribosomal RNA
+wNleu_00925	CDS	1077	COQ3_1	2.1.1.222		Ubiquinone biosynthesis O-methyltransferase, mitochondrial
+wNleu_00926	CDS	1785	nrdZ	1.17.4.1	COG0209	Vitamin B12-dependent ribonucleoside-diphosphate reductase
+wNleu_00927	CDS	1143	putA_1			Bifunctional protein PutA
+wNleu_00928	CDS	2586	acn	4.2.1.3	COG1048	Aconitate hydratase A
+wNleu_00929	CDS	516				hypothetical protein
+wNleu_00930	CDS	513	secB		COG1952	Protein-export protein SecB
+wNleu_00931	CDS	651				hypothetical protein
+wNleu_00932	CDS	696	dnaQ	2.7.7.7	COG0847	DNA polymerase III subunit epsilon
+wNleu_00933	CDS	609	ypmQ		COG1999	SCO1 protein 
+wNleu_00934	CDS	2388	gyrB	5.6.2.2		DNA gyrase subunit B
+wNleu_00935	CDS	180				hypothetical protein
+wNleu_00936	CDS	255				hypothetical protein
+wNleu_00937	CDS	114				hypothetical protein
+wNleu_00938	CDS	708	fucA	4.1.2.17		L-fuculose phosphate aldolase
+wNleu_00939	CDS	618				hypothetical protein
+wNleu_00940	CDS	585	OSGEPL1	2.3.1.234		tRNA N6-adenosine threonylcarbamoyltransferase, mitochondrial
+wNleu_00941	CDS	1131				hypothetical protein
+wNleu_00942	CDS	990	nrdB	1.17.4.1	COG0208	Ribonucleoside-diphosphate reductase subunit beta
+wNleu_00943	CDS	339	bamE			Outer membrane protein assembly factor BamE
+wNleu_00944	CDS	660				hypothetical protein
+wNleu_00945	CDS	336				hypothetical protein
+wNleu_00946	CDS	363				hypothetical protein
+wNleu_00947	CDS	1083				hypothetical protein
+wNleu_00948	CDS	945				hypothetical protein
+wNleu_00949	CDS	330				hypothetical protein
+wNleu_00950	CDS	375				hypothetical protein
+wNleu_00951	CDS	132				hypothetical protein
+wNleu_00952	CDS	930				hypothetical protein
+wNleu_00953	CDS	912				hypothetical protein
+wNleu_00954	CDS	585				hypothetical protein
+wNleu_00955	CDS	918				hypothetical protein
+wNleu_00956	CDS	234				hypothetical protein
+wNleu_00957	CDS	276				hypothetical protein
+wNleu_00958	CDS	156				hypothetical protein
+wNleu_00959	CDS	729				hypothetical protein
+wNleu_00960	CDS	210				hypothetical protein
+wNleu_00961	CDS	348				hypothetical protein
+wNleu_00962	CDS	2301				hypothetical protein
+wNleu_00963	CDS	258				hypothetical protein
+wNleu_00964	CDS	291				hypothetical protein
+wNleu_00965	CDS	237				hypothetical protein
+wNleu_00966	CDS	507				hypothetical protein
+wNleu_00967	CDS	300	gpFI_4			Putative prophage major tail sheath protein
+wNleu_00968	CDS	1596				hypothetical protein
+wNleu_00969	CDS	3096				hypothetical protein
+wNleu_00970	CDS	438	rnhA	3.1.26.4	COG0328	Ribonuclease HI
+wNleu_00971	CDS	888	ctaB	2.5.1.141	COG0109	Protoheme IX farnesyltransferase
+wNleu_00972	CDS	1551	ctaD	1.9.3.1	COG0843	Cytochrome c oxidase subunit 1
+wNleu_00973	CDS	765	ctaC	1.9.3.1	COG1622	Cytochrome c oxidase subunit 2
+wNleu_00974	CDS	693	psd	4.1.1.65	COG0688	Phosphatidylserine decarboxylase proenzyme
+wNleu_00975	CDS	771				hypothetical protein
+wNleu_00976	CDS	1344	alsT_2		COG1115	Amino-acid carrier protein AlsT
+wNleu_00977	CDS	1467	alsT_3		COG1115	Amino-acid carrier protein AlsT
+wNleu_00978	CDS	576	plsY	2.3.1.275	COG0344	Glycerol-3-phosphate acyltransferase
+wNleu_00979	CDS	279				hypothetical protein
+wNleu_00980	CDS	1605				hypothetical protein
+wNleu_00981	CDS	897	zitB		COG1230	Zinc transporter ZitB
+wNleu_00982	tRNA	74				tRNA-Val(gac)
+wNleu_00983	CDS	1431				hypothetical protein
+wNleu_00984	CDS	867				hypothetical protein
+wNleu_00985	CDS	927	prs	2.7.6.1	COG0462	Ribose-phosphate pyrophosphokinase
+wNleu_00986	CDS	354	GATC	6.3.5.-		Glutamyl-tRNA(Gln) amidotransferase subunit C, chloroplastic/mitochondrial
+wNleu_00987	CDS	1263	tolB		COG0823	Tol-Pal system protein TolB
+wNleu_00988	CDS	1668	rnj1	3.1.-.-		Ribonuclease J 1
+wNleu_00989	CDS	1119	dnaJ		COG0484	Chaperone protein DnaJ
+wNleu_00990	tRNA	78				tRNA-Arg(acg)
+wNleu_00991	CDS	927				hypothetical protein
+wNleu_00992	CDS	411				hypothetical protein
+wNleu_00993	CDS	324				hypothetical protein
+wNleu_00994	CDS	600	ahpC	1.11.1.15	COG0450	Alkyl hydroperoxide reductase C
+wNleu_00995	CDS	939	trxB	1.8.1.9	COG0492	Thioredoxin reductase
+wNleu_00996	CDS	312				hypothetical protein
+wNleu_00997	CDS	1233				hypothetical protein
+wNleu_00998	CDS	840	xerC		COG4974	Tyrosine recombinase XerC
+wNleu_00999	CDS	1371	lpd3	1.8.1.4	COG1249	Dihydrolipoyl dehydrogenase 3
+wNleu_01000	CDS	1110	bamB		COG1520	Outer membrane protein assembly factor BamB
+wNleu_01001	CDS	294				hypothetical protein
+wNleu_01002	CDS	252				hypothetical protein
+wNleu_01003	tRNA	89				tRNA-Ser(gga)
+wNleu_01004	CDS	510				hypothetical protein
+wNleu_01005	CDS	1395	fumC	4.2.1.2	COG0114	Fumarate hydratase class II
+wNleu_01006	CDS	1023	cgtA	3.6.5.-		GTPase Obg/CgtA
+wNleu_01007	CDS	1275	eno	4.2.1.11		Enolase
+wNleu_01008	CDS	249				hypothetical protein
+wNleu_01009	CDS	1617	murC	6.3.2.8		UDP-N-acetylmuramate--L-alanine ligase
+wNleu_01010	CDS	675	rlpA	4.2.2.-		Endolytic peptidoglycan transglycosylase RlpA
+wNleu_01011	CDS	1422				hypothetical protein
+wNleu_01012	CDS	801				hypothetical protein
+wNleu_01013	CDS	234				hypothetical protein
+wNleu_01014	CDS	1215				hypothetical protein
+wNleu_01015	CDS	567				hypothetical protein
+wNleu_01016	CDS	1149	gpFI_5			Putative prophage major tail sheath protein
+wNleu_01017	CDS	507				hypothetical protein
+wNleu_01018	CDS	201				hypothetical protein
+wNleu_01019	CDS	315	relG	3.1.-.-	COG2026	Toxin RelG
+wNleu_01020	CDS	258				hypothetical protein
+wNleu_01021	CDS	2577				hypothetical protein
+wNleu_01022	CDS	255				hypothetical protein
+wNleu_01023	CDS	897	ankX_1	2.7.1.-	COG0666	Phosphocholine transferase AnkX
+wNleu_01024	CDS	1164	mdtL			Multidrug resistance protein MdtL
+wNleu_01025	CDS	816				hypothetical protein
+wNleu_01026	CDS	3327				hypothetical protein
+wNleu_01027	CDS	723				hypothetical protein
+wNleu_01028	CDS	759	ftsQ			Cell division protein FtsQ
+wNleu_01029	CDS	948	ddlB	6.3.2.4	COG1181	D-alanine--D-alanine ligase B
+wNleu_01030	CDS	375			COG1146	Ferredoxin 1
+wNleu_01031	CDS	1089				hypothetical protein
+wNleu_01032	CDS	690	tpiA	5.3.1.1	COG0149	Triosephosphate isomerase
+wNleu_01033	tRNA	74				tRNA-Thr(tgt)
+wNleu_01034	CDS	861	rsmA	2.1.1.182		Ribosomal RNA small subunit methyltransferase A
+wNleu_01035	CDS	1485	guaB	1.1.1.205	COG0516	Inosine-5'-monophosphate dehydrogenase
+wNleu_01036	CDS	1401				hypothetical protein
+wNleu_01037	CDS	921	glpX	3.1.3.11	COG1494	Fructose-1,6-bisphosphatase class 2
+wNleu_01038	CDS	447				hypothetical protein
+wNleu_01039	CDS	777				hypothetical protein
+wNleu_01040	CDS	2775	ppdK	2.7.9.1	COG0574	Pyruvate, phosphate dikinase
+wNleu_01041	CDS	375	parB		COG1475	putative chromosome-partitioning protein ParB
+wNleu_01042	CDS	330	spo0J		COG1475	Stage 0 sporulation protein J
+wNleu_01043	CDS	843	parA			Chromosome partitioning protein ParA
+wNleu_01044	CDS	2481	rcsC_2	2.7.13.3		Sensor histidine kinase RcsC
+wNleu_01045	CDS	825	hemF	1.3.3.3	COG0408	Oxygen-dependent coproporphyrinogen-III oxidase
+wNleu_01046	CDS	798				hypothetical protein
+wNleu_01047	CDS	351				hypothetical protein
+wNleu_01048	tRNA	73				tRNA-Glu(ttc)
+wNleu_01049	CDS	525				hypothetical protein
+wNleu_01050	CDS	1182				hypothetical protein
+wNleu_01051	CDS	1638	metG	6.1.1.10		Methionine--tRNA ligase
+wNleu_01052	CDS	441				hypothetical protein
+wNleu_01053	CDS	1176	COQ3_2	2.1.1.222		Ubiquinone biosynthesis O-methyltransferase, mitochondrial
+wNleu_01054	CDS	1740	dnaG	2.7.7.-		DNA primase
+wNleu_01055	CDS	141				hypothetical protein
+wNleu_01056	CDS	429				IS66 family transposase ISWen3
+wNleu_01057	CDS	357	grxD		COG0278	Glutaredoxin 4
+wNleu_01058	CDS	219			COG0271	putative protein RP812
+wNleu_01059	CDS	1323	tme	1.1.1.40	COG0280	NADP-dependent malic enzyme
+wNleu_01060	CDS	543	pgsA	2.7.8.5	COG0558	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+wNleu_01061	CDS	450				hypothetical protein
+wNleu_01062	CDS	489				hypothetical protein
+wNleu_01063	CDS	708	bamD		COG4105	Outer membrane protein assembly factor BamD
+wNleu_01064	CDS	741			COG0217	putative transcriptional regulatory protein
+wNleu_01065	CDS	1281				hypothetical protein
+wNleu_01066	CDS	471				hypothetical protein
+wNleu_01067	CDS	381				hypothetical protein
+wNleu_01068	CDS	1083	ribD		COG0117	Riboflavin biosynthesis protein RibD
+wNleu_01069	CDS	1200				Deoxyguanosinetriphosphate triphosphohydrolase-like protein
+wNleu_01070	CDS	462	erpA		COG0316	Iron-sulfur cluster insertion protein ErpA
+wNleu_01071	CDS	696	lolD	3.6.3.-	COG1136	Lipoprotein-releasing system ATP-binding protein LolD
+wNleu_01072	CDS	165				hypothetical protein
+wNleu_01073	CDS	699				hypothetical protein
+wNleu_01074	CDS	1137	iscS_2	2.8.1.7		Cysteine desulfurase IscS
+wNleu_01075	CDS	165				hypothetical protein
+wNleu_01076	CDS	432				hypothetical protein
+wNleu_01077	CDS	1563				hypothetical protein
+wNleu_01078	CDS	129				hypothetical protein
+wNleu_01079	CDS	1314				hypothetical protein
+wNleu_01080	CDS	213				hypothetical protein
+wNleu_01081	CDS	339			COG3039	IS5 family transposase ISCaa8
+wNleu_01082	CDS	285				IS481 family transposase ISWpi4
+wNleu_01083	CDS	186				hypothetical protein
+wNleu_01084	CDS	621				hypothetical protein
+wNleu_01085	CDS	312				hypothetical protein
+wNleu_01086	CDS	177				hypothetical protein
+wNleu_01087	CDS	879	folD			Bifunctional protein FolD protein
+wNleu_01088	CDS	681	ubiX	2.5.1.129	COG0163	Flavin prenyltransferase UbiX
+wNleu_01089	CDS	267				hypothetical protein
+wNleu_01090	CDS	1284				hypothetical protein
+wNleu_01091	CDS	1179	argD_2	2.6.1.11	COG4992	Acetylornithine aminotransferase
+wNleu_01092	CDS	1173	nuoD	7.1.1.-	COG0649	NADH-quinone oxidoreductase subunit D
+wNleu_01093	CDS	1155				hypothetical protein
+wNleu_01094	CDS	792				hypothetical protein
+wNleu_01095	CDS	336				hypothetical protein
+wNleu_01096	CDS	255				hypothetical protein
+wNleu_01097	CDS	465				hypothetical protein
+wNleu_01098	CDS	369				hypothetical protein
+wNleu_01099	CDS	510				hypothetical protein
+wNleu_01100	CDS	312				hypothetical protein
+wNleu_01101	CDS	1005				hypothetical protein
+wNleu_01102	CDS	372				hypothetical protein
+wNleu_01103	CDS	480				hypothetical protein
+wNleu_01104	CDS	1188				hypothetical protein
+wNleu_01105	CDS	306	ihfA		COG0776	Integration host factor subunit alpha
+wNleu_01106	CDS	327				hypothetical protein
+wNleu_01107	CDS	597				hypothetical protein
+wNleu_01108	CDS	2478	leuS	6.1.1.4		Leucine--tRNA ligase
+wNleu_01109	CDS	636				hypothetical protein
+wNleu_01110	CDS	1488				hypothetical protein
+wNleu_01111	CDS	960				hypothetical protein
+wNleu_01112	CDS	1227	mtaB	2.8.4.5	COG0621	Threonylcarbamoyladenosine tRNA methylthiotransferase MtaB
+wNleu_01113	CDS	1470	gatA	6.3.5.7		Glutamyl-tRNA(Gln) amidotransferase subunit A
+wNleu_01114	CDS	594				hypothetical protein
+wNleu_01115	CDS	501				hypothetical protein
+wNleu_01116	CDS	642	tal	2.2.1.2	COG0176	Transaldolase
+wNleu_01117	CDS	936				hypothetical protein
+wNleu_01118	CDS	2661	secA		COG0653	Protein translocase subunit SecA
+wNleu_01119	CDS	195				hypothetical protein
+wNleu_01120	CDS	270			COG3039	IS5 family transposase ISCaa2
+wNleu_01121	CDS	1866				hypothetical protein
+wNleu_01122	CDS	1344				hypothetical protein
+wNleu_01123	CDS	123				hypothetical protein
+wNleu_01124	CDS	1350				hypothetical protein
+wNleu_01125	CDS	1479	ubiD	4.1.1.98	COG0043	3-octaprenyl-4-hydroxybenzoate carboxy-lyase
+wNleu_01126	CDS	1071				hypothetical protein
+wNleu_01127	CDS	153				hypothetical protein
+wNleu_01128	CDS	759				hypothetical protein
+wNleu_01129	CDS	597				hypothetical protein
+wNleu_01130	CDS	690				hypothetical protein
+wNleu_01131	CDS	831	ubiA	2.5.1.39	COG0382	4-hydroxybenzoate octaprenyltransferase
+wNleu_01132	CDS	399	rbfA			Ribosome-binding factor A
+wNleu_01133	CDS	2325	infB			Translation initiation factor IF-2
+wNleu_01134	CDS	1572	nusA		COG0195	Transcription termination/antitermination protein NusA
+wNleu_01135	CDS	441				hypothetical protein
+wNleu_01136	CDS	276				hypothetical protein
+wNleu_01137	CDS	558	dcd	3.5.4.13	COG0717	dCTP deaminase
+wNleu_01138	CDS	180				hypothetical protein
+wNleu_01139	CDS	1017	sphX		COG0226	Protein SphX
+wNleu_01140	CDS	1239				hypothetical protein
+wNleu_01141	CDS	1461	trkI		COG0168	Trk system potassium uptake protein TrkI
+wNleu_01142	CDS	132				hypothetical protein
+wNleu_01143	CDS	279				hypothetical protein
+wNleu_01144	CDS	249	pvuIIR	3.1.21.4		Type-2 restriction enzyme PvuII
+wNleu_01145	CDS	651	pdxH	1.4.3.5	COG0259	Pyridoxine/pyridoxamine 5'-phosphate oxidase
+wNleu_01146	CDS	1050	mutM	4.2.99.18		Formamidopyrimidine-DNA glycosylase
+wNleu_01147	tRNA	74				tRNA-Thr(ggt)
+wNleu_01148	CDS	1527	pccB	6.4.1.3	COG4799	Propionyl-CoA carboxylase beta chain
+wNleu_01149	CDS	138				hypothetical protein
+wNleu_01150	CDS	306				hypothetical protein
+wNleu_01151	CDS	681	rpe	5.1.3.1		Ribulose-phosphate 3-epimerase
+wNleu_01152	CDS	429				hypothetical protein
+wNleu_01153	CDS	831	dapD	2.3.1.117		2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase
+wNleu_01154	CDS	285				hypothetical protein
+wNleu_01155	CDS	372				hypothetical protein
+wNleu_01156	CDS	1050				hypothetical protein
+wNleu_01157	CDS	444				hypothetical protein
+wNleu_01158	CDS	564	rlmE	2.1.1.166	COG0293	Ribosomal RNA large subunit methyltransferase E
+wNleu_01159	CDS	576				hypothetical protein
+wNleu_01160	CDS	1224	bepC			Outer membrane efflux protein BepC
+wNleu_01161	CDS	459	rplM		COG0102	50S ribosomal protein L13
+wNleu_01162	CDS	456	rpsI		COG0103	30S ribosomal protein S9
+wNleu_01163	CDS	312			COG0776	DNA-binding protein HRL53
+wNleu_01164	CDS	708	pdxJ	2.6.99.2	COG0854	Pyridoxine 5'-phosphate synthase
+wNleu_01165	CDS	615				hypothetical protein
+wNleu_01166	rRNA	1501				16S ribosomal RNA
+wNleu_01167	CDS	378				hypothetical protein
+wNleu_01168	CDS	1236				hypothetical protein
+wNleu_01169	CDS	1173				hypothetical protein
+wNleu_01170	CDS	816				hypothetical protein
+wNleu_01171	CDS	786	fabI	1.3.1.9	COG0623	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI
+wNleu_01172	CDS	1509	secD		COG0342	Protein translocase subunit SecD
+wNleu_01173	CDS	1425				hypothetical protein
+wNleu_01174	CDS	708	coaE	2.7.1.24	COG0237	Dephospho-CoA kinase
+wNleu_01175	CDS	1179	rnd_1	3.1.13.5	COG0349	Ribonuclease D
+wNleu_01176	CDS	243				hypothetical protein
+wNleu_01177	CDS	1947				hypothetical protein
+wNleu_01178	CDS	108				hypothetical protein
+wNleu_01179	CDS	1341				hypothetical protein
+wNleu_01180	CDS	525				hypothetical protein
+wNleu_01181	CDS	183				hypothetical protein
+wNleu_01182	CDS	114				hypothetical protein
+wNleu_01183	CDS	714				hypothetical protein
+wNleu_01184	CDS	1563	guaA	6.3.5.2		GMP synthase [glutamine-hydrolyzing]
+wNleu_01185	CDS	921	algA		COG0662	Alginate biosynthesis protein AlgA
+wNleu_01186	CDS	129				hypothetical protein
+wNleu_01187	CDS	1230	lolE		COG4591	Lipoprotein-releasing system transmembrane protein LolE
+wNleu_01188	CDS	732				hypothetical protein
+wNleu_01189	CDS	1221				hypothetical protein
+wNleu_01190	CDS	1293				hypothetical protein
+wNleu_01191	CDS	234				hypothetical protein
+wNleu_01192	CDS	1740	recJ	3.1.-.-	COG0608	Single-stranded-DNA-specific exonuclease RecJ
+wNleu_01193	CDS	339				hypothetical protein
+wNleu_01194	CDS	270				hypothetical protein
+wNleu_01195	CDS	1917				hypothetical protein
+wNleu_01196	CDS	339				IS982 family transposase ISWpi16
+wNleu_01197	CDS	102				hypothetical protein
+wNleu_01198	CDS	468				IS982 family transposase ISWpi16
+wNleu_01199	CDS	297			COG3039	IS5 family transposase ISCaa8
+wNleu_01200	CDS	1914	uvrB		COG0556	UvrABC system protein B
+wNleu_01201	CDS	405				hypothetical protein
+wNleu_01202	CDS	1179				hypothetical protein
+wNleu_01203	CDS	195				hypothetical protein
+wNleu_01204	CDS	1470				hypothetical protein
+wNleu_01205	CDS	561				hypothetical protein
+wNleu_01206	CDS	1167				hypothetical protein
+wNleu_01207	CDS	801				hypothetical protein
+wNleu_01208	CDS	336				hypothetical protein
+wNleu_01209	CDS	255				hypothetical protein
+wNleu_01210	CDS	465				hypothetical protein
+wNleu_01211	CDS	528				hypothetical protein
+wNleu_01212	CDS	672	tenA	3.5.99.2	COG0819	Aminopyrimidine aminohydrolase
+wNleu_01213	CDS	660				hypothetical protein
+wNleu_01214	CDS	828	ctaE	1.9.3.1	COG1845	Cytochrome c oxidase subunit 3
+wNleu_01215	CDS	489	ruvC	3.1.22.4	COG0817	Crossover junction endodeoxyribonuclease RuvC
+wNleu_01216	CDS	468		3.1.-.-	COG0816	Putative pre-16S rRNA nuclease
+wNleu_01217	CDS	822	ykfA	3.4.16.-	COG1619	putative murein peptide carboxypeptidase
+wNleu_01218	CDS	282				hypothetical protein
+wNleu_01219	CDS	579				hypothetical protein
+wNleu_01220	CDS	405				IS481 family transposase ISWpi4
+wNleu_01221	CDS	135				hypothetical protein
+wNleu_01222	CDS	855				hypothetical protein
+wNleu_01223	CDS	852				hypothetical protein
+wNleu_01224	CDS	1905	htpG		COG0326	Chaperone protein HtpG
+wNleu_01225	CDS	351				hypothetical protein
+wNleu_01226	CDS	2550	mutS		COG0249	DNA mismatch repair protein MutS
+wNleu_01227	CDS	630	truB	5.4.99.25		tRNA pseudouridine synthase B
+wNleu_01228	CDS	273	rpsO			30S ribosomal protein S15
+wNleu_01229	CDS	2274	pnp	2.7.7.8	COG1185	Polyribonucleotide nucleotidyltransferase
+wNleu_01230	CDS	2664	sucA	1.2.4.2	COG0567	2-oxoglutarate dehydrogenase E1 component
+wNleu_01231	CDS	156				hypothetical protein
+wNleu_01232	CDS	795				hypothetical protein
+wNleu_01233	CDS	336				hypothetical protein
+wNleu_01234	CDS	255				hypothetical protein
+wNleu_01235	CDS	465				hypothetical protein
+wNleu_01236	CDS	483				hypothetical protein
+wNleu_01237	CDS	504				hypothetical protein
+wNleu_01238	CDS	150				hypothetical protein
+wNleu_01239	CDS	291				hypothetical protein
+wNleu_01240	CDS	897				hypothetical protein
+wNleu_01241	CDS	132				hypothetical protein
+wNleu_01242	CDS	438				hypothetical protein
+wNleu_01243	CDS	324			COG3385	IS4 family transposase ISWosp2
+wNleu_01244	CDS	363	tnpA	3.1.-.-		Transposase for transposon Tn5
+wNleu_01245	CDS	642				hypothetical protein
+wNleu_01246	CDS	1539	pepA	3.4.11.10		cytosol aminopeptidase
+wNleu_01247	CDS	1242				hypothetical protein
+wNleu_01248	CDS	1278	purA	6.3.4.4	COG0104	Adenylosuccinate synthetase
+wNleu_01249	CDS	180				hypothetical protein
+wNleu_01250	CDS	315				hypothetical protein
+wNleu_01251	CDS	129				hypothetical protein
+wNleu_01252	CDS	831	yqfL	2.7.11.32	COG1806	Putative pyruvate, phosphate dikinase regulatory protein
+wNleu_01253	CDS	711	ccmC		COG0755	Heme exporter protein C
+wNleu_01254	CDS	291				hypothetical protein
+wNleu_01255	CDS	345				hypothetical protein
+wNleu_01256	CDS	246				hypothetical protein
+wNleu_01257	CDS	1239	ftsA		COG0849	Cell division protein FtsA
+wNleu_01258	CDS	540	def	3.5.1.88		Peptide deformylase
+wNleu_01259	CDS	801				hypothetical protein
+wNleu_01260	CDS	882				hypothetical protein
+wNleu_01261	CDS	1197				hypothetical protein
+wNleu_01262	CDS	705				hypothetical protein
+wNleu_01263	CDS	1020			COG3177	putative protein
+wNleu_01264	CDS	1083	aaeA			p-hydroxybenzoic acid efflux pump subunit AaeA
+wNleu_01265	CDS	324	trxA		COG0526	Thioredoxin
+wNleu_01266	tRNA	77				tRNA-Met(cat)
+wNleu_01267	CDS	657		1.-.-.-	COG5424	putative oxidoreductase CT_610
+wNleu_01268	CDS	399	folB	4.1.2.25	COG1539	Dihydroneopterin aldolase
+wNleu_01269	CDS	1209				hypothetical protein
+wNleu_01270	CDS	1338				hypothetical protein
+wNleu_01271	CDS	738				hypothetical protein
+wNleu_01272	CDS	1008	tsaD	2.3.1.234	COG0533	tRNA N6-adenosine threonylcarbamoyltransferase
+wNleu_01273	CDS	1425				hypothetical protein
+wNleu_01274	CDS	375				hypothetical protein
+wNleu_01275	CDS	1371			COG2239	Magnesium transporter MgtE
+wNleu_01276	CDS	1023	prfB		COG1186	Peptide chain release factor RF2
+wNleu_01277	CDS	1986				hypothetical protein
+wNleu_01278	CDS	261				hypothetical protein
+wNleu_01279	CDS	1278	glyA	2.1.2.1		Serine hydroxymethyltransferase
+wNleu_01280	CDS	1131				hypothetical protein
+wNleu_01281	CDS	192				hypothetical protein
+wNleu_01282	CDS	636				hypothetical protein
+wNleu_01283	CDS	1908	putA_2		COG0506	Bifunctional protein PutA
+wNleu_01284	CDS	345	gdx_1			Guanidinium exporter
+wNleu_01285	CDS	315	gdx_2			Guanidinium exporter
+wNleu_01286	CDS	1107	dacF	3.4.16.4	COG1686	D-alanyl-D-alanine carboxypeptidase DacF
+wNleu_01287	CDS	513				hypothetical protein
+wNleu_01288	CDS	1302				hypothetical protein
+wNleu_01289	tRNA	72				tRNA-Gly(tcc)
+wNleu_01290	tRNA	85				tRNA-Tyr(gta)
+wNleu_01291	CDS	1092	carA	6.3.5.5	COG0505	Carbamoyl-phosphate synthase small chain
+wNleu_01292	CDS	435				hypothetical protein
+wNleu_01293	CDS	480				hypothetical protein
+wNleu_01294	CDS	369				hypothetical protein
+wNleu_01295	CDS	1251	ltrA		COG3344	Group II intron-encoded protein LtrA
+wNleu_01296	CDS	1365	ankX_2	2.7.1.-	COG0666	Phosphocholine transferase AnkX
+wNleu_01297	CDS	522				hypothetical protein
+wNleu_01298	CDS	927				hypothetical protein
+wNleu_01299	CDS	1332				hypothetical protein
+wNleu_01300	CDS	366	pvuIIM	2.1.1.113		Modification methylase PvuII
+wNleu_01301	CDS	429				hypothetical protein
+wNleu_01302	CDS	678				IS110 family transposase ISWpi13
+wNleu_01303	CDS	477				IS110 family transposase ISWpi13
+wNleu_01304	CDS	504			COG3385	IS4 family transposase ISWpi18
+wNleu_01305	CDS	150				hypothetical protein
+wNleu_01306	CDS	387			COG3385	IS4 family transposase ISWpi18
+wNleu_01307	CDS	630				hypothetical protein
+wNleu_01308	CDS	735			COG3385	IS4 family transposase ISWosp2
+wNleu_01309	CDS	264				hypothetical protein
+wNleu_01310	CDS	798				hypothetical protein
+wNleu_01311	CDS	1035				hypothetical protein
+wNleu_01312	CDS	549				hypothetical protein
+wNleu_01313	tRNA	74				tRNA-Gly(gcc)
+wNleu_01314	CDS	621	rnd_2	3.1.13.5		Ribonuclease D
+wNleu_01315	CDS	1161	tufA		COG0050	Elongation factor Tu
+wNleu_01316	CDS	486				hypothetical protein
+wNleu_01317	CDS	504				hypothetical protein
+wNleu_01318	CDS	483				hypothetical protein
+wNleu_01319	CDS	714				hypothetical protein
+wNleu_01320	CDS	162				hypothetical protein
+wNleu_01321	CDS	198				hypothetical protein
+wNleu_01322	CDS	429				IS630 family transposase ISWpi11
+wNleu_01323	CDS	102				hypothetical protein
+wNleu_01324	CDS	759				hypothetical protein
+wNleu_01325	CDS	273			COG3385	IS4 family transposase ISWosp8
+wNleu_01326	CDS	237			COG3385	IS4 family transposase ISWosp8
+wNleu_01327	CDS	255				hypothetical protein
+wNleu_01328	CDS	372				hypothetical protein
+wNleu_01329	CDS	417				hypothetical protein
+wNleu_01330	CDS	342			COG3039	IS5 family transposase ISWpi1
+wNleu_01331	CDS	123				hypothetical protein
+wNleu_01332	CDS	195				hypothetical protein
+wNleu_01333	CDS	507				hypothetical protein
+wNleu_01334	CDS	219				hypothetical protein
+wNleu_01335	CDS	255				hypothetical protein
+wNleu_01336	CDS	258				hypothetical protein
+wNleu_01337	CDS	282	lipA2	2.8.1.8	COG0320	Lipoyl synthase 2
+wNleu_01338	CDS	294				IS66 family transposase ISWen3
+wNleu_01339	CDS	132				hypothetical protein

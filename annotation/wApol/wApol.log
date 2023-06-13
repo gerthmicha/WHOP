@@ -1,0 +1,477 @@
+[14:31:57] This is prokka 1.14.6
+[14:31:57] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[14:31:57] Homepage is https://github.com/tseemann/prokka
+[14:31:57] Local time is Fri Mar  4 14:31:57 2022
+[14:31:57] You are gerth
+[14:31:57] Operating system is linux
+[14:31:57] You have BioPerl 1.007002
+[14:31:57] System has 64 cores.
+[14:31:57] Will use maximum of 8 cores.
+[14:31:57] Annotating as >>> Bacteria <<<
+[14:31:57] Re-using existing --outdir annotation/wApol
+[14:31:57] Using filename prefix: wApol.XXX
+[14:31:57] Setting HMMER_NCPU=1
+[14:31:57] Writing log to: annotation/wApol/wApol.log
+[14:31:57] Command: /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/prokka --outdir annotation/wApol --force --prefix wApol --locustag wApol --cpus 8 --genus Wolbachia --species sp. --strain wApol genome_fastas/wApol.fas
+[14:31:57] Appending to PATH: /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin
+[14:31:57] Looking for 'aragorn' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/aragorn
+[14:31:57] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[14:31:57] Looking for 'barrnap' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/barrnap
+[14:31:57] Determined barrnap version is 000009 from 'barrnap 0.9'
+[14:31:57] Looking for 'blastp' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/blastp
+[14:31:57] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[14:31:57] Looking for 'cmpress' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/cmpress
+[14:31:57] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[14:31:57] Looking for 'cmscan' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/cmscan
+[14:31:57] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[14:31:57] Looking for 'egrep' - found /bin/egrep
+[14:31:57] Looking for 'find' - found /usr/bin/find
+[14:31:57] Looking for 'grep' - found /bin/grep
+[14:31:57] Looking for 'hmmpress' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/hmmpress
+[14:31:57] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[14:31:57] Looking for 'hmmscan' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/hmmscan
+[14:31:57] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[14:31:57] Looking for 'java' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/java
+[14:31:57] Looking for 'makeblastdb' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/makeblastdb
+[14:31:58] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[14:31:58] Looking for 'minced' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/minced
+[14:31:58] Determined minced version is 004002 from 'minced 0.4.2'
+[14:31:58] Looking for 'parallel' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/parallel
+[14:31:59] Determined parallel version is 20211022 from 'GNU parallel 20211022'
+[14:31:59] Looking for 'prodigal' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/prodigal
+[14:31:59] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[14:31:59] Looking for 'prokka-genbank_to_fasta_db' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/prokka-genbank_to_fasta_db
+[14:31:59] Looking for 'sed' - found /bin/sed
+[14:31:59] Looking for 'tbl2asn' - found /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/bin/tbl2asn
+[14:31:59] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[14:31:59] Using genetic code table 11.
+[14:31:59] Loading and checking input file: genome_fastas/wApol.fas
+[14:31:59] Wrote 373 contigs totalling 1445964 bp.
+[14:31:59] Predicting tRNAs and tmRNAs
+[14:31:59] Running: aragorn -l -gc11  -w annotation\/wApol\/wApol\.fna
+[14:31:59] 1 tRNA-Lys c[5534,5607] 34 (ttt)
+[14:31:59] 2 tRNA-Ala [5771,5846] 34 (tgc)
+[14:31:59] 1 tRNA-Ile c[18872,18948] 35 (gat)
+[14:31:59] 1 tRNA-Gln c[996,1070] 33 (ttg)
+[14:31:59] 1 tRNA-Ser [5611,5699] 36 (gga)
+[14:31:59] 1 tRNA-Met c[5006,5082] 35 (cat)
+[14:31:59] 1 tRNA-Arg [2307,2381] 35 (tct)
+[14:31:59] 1 tRNA-Thr c[2367,2440] 34 (tgt)
+[14:31:59] 1 tRNA-Trp c[11972,12045] 34 (cca)
+[14:31:59] 1 tRNA-Arg [6969,7044] 36 (ccg)
+[14:31:59] 1 tRNA-Leu [1736,1823] 35 (gag)
+[14:31:59] 1 tRNA-Leu c[2893,2975] 35 (tag)
+[14:31:59] 1 tRNA-His [8727,8802] 34 (gtg)
+[14:31:59] 1 tRNA-Leu c[2696,2779] 34 (caa)
+[14:31:59] 1 tRNA-Pro c[429,502] 35 (tgg)
+[14:31:59] 1 tRNA-Met [6653,6726] 34 (cat)
+[14:31:59] 1 tRNA-Leu [7620,7706] 35 (taa)
+[14:31:59] 1 tRNA-Val [3664,3738] 35 (tac)
+[14:31:59] 1 tRNA-Leu [5115,5200] 35 (cag)
+[14:31:59] 1 tRNA-Cys [978,1050] 34 (gca)
+[14:31:59] 1 tRNA-Cys [3109,3182] 34 (gca)
+[14:31:59] 1 tRNA-Phe c[82,155] 34 (gaa)
+[14:31:59] 1 tRNA-Asp c[504,578] 35 (gtc)
+[14:31:59] 1 tRNA-Ser c[216,305] 36 (tga)
+[14:31:59] 1 tRNA-Thr [59,132] 34 (ggt)
+[14:31:59] 1 tRNA-Phe [892,965] 34 (gaa)
+[14:31:59] 1 tmRNA* c[1768,2103] 195,245 ANDNFAASGNEFRVAA*
+[14:31:59] 1 tRNA-Leu [1652,1735] 34 (caa)
+[14:31:59] 1 tRNA-Arg [1395,1470] 36 (acg)
+[14:31:59] 1 tRNA-Met c[89,162] 35 (cat)
+[14:31:59] 2 tRNA-Gly [1394,1467] 34 (gcc)
+[14:31:59] 1 tRNA-Tyr [1361,1445] 36 (gta)
+[14:31:59] 2 tRNA-Gly [1449,1521] 34 (tcc)
+[14:31:59] 1 tRNA-Thr c[7,80] 35 (tgt)
+[14:31:59] 1 tRNA-Val c[1046,1119] 34 (gac)
+[14:31:59] Found 35 tRNAs
+[14:31:59] Predicting Ribosomal RNAs
+[14:31:59] Running Barrnap with 8 threads
+[14:32:00] 1 WQMQ01000004.1 6611 5S ribosomal RNA
+[14:32:00] 2 WQMQ01000004.1 6785 23S ribosomal RNA
+[14:32:00] 3 WQMQ01000035.1 369 16S ribosomal RNA
+[14:32:00] Found 3 rRNAs
+[14:32:00] Skipping ncRNA search, enable with --rfam if desired.
+[14:32:00] Total of 37 tRNA + rRNA features
+[14:32:00] Searching for CRISPR repeats
+[14:32:00] Found 0 CRISPRs
+[14:32:00] Predicting coding sequences
+[14:32:00] Contigs total 1445964 bp, so using single mode
+[14:32:00] Running: prodigal -i annotation\/wApol\/wApol\.fna -c -m -g 11 -p single -f sco -q
+[14:32:01] Excluding CDS which overlaps existing RNA (tRNA) at WQMQ01000005.1:1061..1396 on - strand
+[14:32:02] Excluding CDS which overlaps existing RNA (rRNA) at WQMQ01000035.1:805..927 on + strand
+[14:32:02] Excluding CDS which overlaps existing RNA (tRNA) at WQMQ01000038.1:5361..6653 on + strand
+[14:32:02] Excluding CDS which overlaps existing RNA (tRNA) at WQMQ01000123.1:9..161 on - strand
+[14:32:02] Excluding CDS which overlaps existing RNA (tRNA) at WQMQ01000139.1:173..298 on - strand
+[14:32:02] Excluding CDS which overlaps existing RNA (tRNA) at WQMQ01000329.1:124..1104 on - strand
+[14:32:02] Found 1803 CDS
+[14:32:02] Connecting features back to sequences
+[14:32:02] Not using genus-specific database. Try --usegenus to enable it.
+[14:32:02] Annotating CDS, please be patient.
+[14:32:02] Will use 8 CPUs for similarity searching.
+[14:32:03] There are still 1803 unannotated CDS left (started with 1803)
+[14:32:03] Will use blast to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/IS with 8 CPUs
+[14:32:03] Running: cat annotation\/wApol\/wApol\.IS\.tmp\.47595\.faa | parallel --gnu --plain -j 8 --block 22641 --recstart '>' --pipe blastp -query - -db /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/wApol\/wApol\.IS\.tmp\.47595\.blast 2> /dev/null
+[14:32:10] Deleting unwanted file: annotation/wApol/wApol.IS.tmp.47595.faa
+[14:32:10] Deleting unwanted file: annotation/wApol/wApol.IS.tmp.47595.blast
+[14:32:10] There are still 1776 unannotated CDS left (started with 1803)
+[14:32:10] Will use blast to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/AMR with 8 CPUs
+[14:32:10] Running: cat annotation\/wApol\/wApol\.AMR\.tmp\.47595\.faa | parallel --gnu --plain -j 8 --block 22351 --recstart '>' --pipe blastp -query - -db /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/wApol\/wApol\.AMR\.tmp\.47595\.blast 2> /dev/null
+[14:32:18] Deleting unwanted file: annotation/wApol/wApol.AMR.tmp.47595.faa
+[14:32:18] Deleting unwanted file: annotation/wApol/wApol.AMR.tmp.47595.blast
+[14:32:18] There are still 1776 unannotated CDS left (started with 1803)
+[14:32:18] Will use blast to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/sprot with 8 CPUs
+[14:32:18] Running: cat annotation\/wApol\/wApol\.sprot\.tmp\.47595\.faa | parallel --gnu --plain -j 8 --block 22351 --recstart '>' --pipe blastp -query - -db /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/wApol\/wApol\.sprot\.tmp\.47595\.blast 2> /dev/null
+[14:32:30] Modify product: Probable lipid II flippase MurJ => putative lipid II flippase MurJ
+[14:32:30] Modify product: Probable peptidoglycan D,D-transpeptidase FtsI => putative peptidoglycan D,D-transpeptidase FtsI
+[14:32:30] Modify product: UPF0176 protein lpg2838 => hypothetical protein
+[14:32:31] Modify product: Probable ribonucleotide transport ATP-binding protein mkl => putative ribonucleotide transport ATP-binding protein mkl
+[14:32:31] Modify product: Probable transcriptional regulatory protein aq_1575 => putative transcriptional regulatory protein
+[14:32:31] Modify product: GTP-binding protein TypA/BipA homolog => GTP-binding protein TypA/BipA 
+[14:32:31] Modify product: Cytochrome b561 homolog 2 => Cytochrome b561 
+[14:32:31] Modify product: Uncharacterized HIT-like protein HP_0404 => putative HIT-like protein
+[14:32:31] Modify product: Uncharacterized metal-dependent hydrolase YcfH => putative metal-dependent hydrolase YcfH
+[14:32:31] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[14:32:31] Modify product: UPF0335 protein CCNA_03428 => hypothetical protein
+[14:32:31] Modify product: UPF0053 protein HI_0107 => hypothetical protein
+[14:32:31] Modify product: SCO1 protein homolog => SCO1 protein 
+[14:32:31] Modify product: Probable murein peptide carboxypeptidase => putative murein peptide carboxypeptidase
+[14:32:31] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[14:32:31] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[14:32:31] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[14:32:31] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[14:32:31] Modify product: Uncharacterized oxidoreductase YciK => putative oxidoreductase YciK
+[14:32:31] Modify product: Probable peptidoglycan glycosyltransferase FtsW => putative peptidoglycan glycosyltransferase FtsW
+[14:32:31] Modify product: Probable peptidoglycan D,D-transpeptidase FtsI => putative peptidoglycan D,D-transpeptidase FtsI
+[14:32:31] Modify product: UPF0758 protein => hypothetical protein
+[14:32:31] Modify product: UPF0053 inner membrane protein YoaE => hypothetical protein
+[14:32:31] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[14:32:31] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[14:32:31] Modify product: Uncharacterized protein RP812 => putative protein RP812
+[14:32:31] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[14:32:31] Modify product: Probable cytosol aminopeptidase => putative cytosol aminopeptidase
+[14:32:31] Cleaned 28 /product names
+[14:32:31] Deleting unwanted file: annotation/wApol/wApol.sprot.tmp.47595.faa
+[14:32:31] Deleting unwanted file: annotation/wApol/wApol.sprot.tmp.47595.blast
+[14:32:32] There are still 1065 unannotated CDS left (started with 1803)
+[14:32:32] Will use hmmer3 to search against /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/hmm/HAMAP.hmm with 8 CPUs
+[14:32:32] Running: cat annotation\/wApol\/wApol\.HAMAP\.hmm\.tmp\.47595\.faa | parallel --gnu --plain -j 8 --block 10331 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /media/red/Wolbachia_phylogeny_new/.snakemake/conda/8cd680523f41e5449a78b29be8f1b505/db/hmm/HAMAP.hmm /dev/stdin > annotation\/wApol\/wApol\.HAMAP\.hmm\.tmp\.47595\.hmmer3 2> /dev/null
+[14:32:39] Deleting unwanted file: annotation/wApol/wApol.HAMAP.hmm.tmp.47595.faa
+[14:32:39] Deleting unwanted file: annotation/wApol/wApol.HAMAP.hmm.tmp.47595.hmmer3
+[14:32:39] Labelling remaining 937 proteins as 'hypothetical protein'
+[14:32:39] Possible /pseudo 'IS66 family transposase ISWen3' at WQMQ01000002.1 position 9382
+[14:32:39] Possible /pseudo 'Amidophosphoribosyltransferase' at WQMQ01000003.1 position 17330
+[14:32:39] Possible /pseudo 'Aminopyrimidine aminohydrolase' at WQMQ01000004.1 position 16827
+[14:32:39] Possible /pseudo 'UvrABC system protein C' at WQMQ01000005.1 position 8734
+[14:32:39] Possible /pseudo 'Glycine--tRNA ligase alpha subunit' at WQMQ01000005.1 position 12006
+[14:32:39] Possible /pseudo 'Signal recognition particle receptor FtsY' at WQMQ01000010.1 position 10345
+[14:32:39] Possible /pseudo 'Chaperone protein HscA' at WQMQ01000010.1 position 12379
+[14:32:39] Possible /pseudo 'Chaperone protein HscA' at WQMQ01000010.1 position 13058
+[14:32:39] Possible /pseudo 'Ribulose-phosphate 3-epimerase' at WQMQ01000011.1 position 1735
+[14:32:39] Possible /pseudo 'Amino-acid carrier protein AlsT' at WQMQ01000013.1 position 10751
+[14:32:39] Possible /pseudo 'IS256 family transposase ISWpi15' at WQMQ01000016.1 position 8876
+[14:32:39] Possible /pseudo 'IS5 family transposase ISCaa6' at WQMQ01000016.1 position 9638
+[14:32:39] Possible /pseudo 'Ribosomal RNA small subunit methyltransferase A' at WQMQ01000017.1 position 2921
+[14:32:39] Possible /pseudo 'ATP synthase subunit b' at WQMQ01000017.1 position 4985
+[14:32:39] Possible /pseudo 'Lon protease' at WQMQ01000021.1 position 4806
+[14:32:39] Possible /pseudo 'putative zinc protease' at WQMQ01000025.1 position 3293
+[14:32:39] Possible /pseudo 'putative zinc protease' at WQMQ01000026.1 position 7450
+[14:32:39] Possible /pseudo 'IS5 family transposase ISOt6' at WQMQ01000028.1 position 8400
+[14:32:39] Possible /pseudo 'Fumarate hydratase class II' at WQMQ01000029.1 position 2444
+[14:32:39] Possible /pseudo 'Fumarate hydratase class II' at WQMQ01000029.1 position 2631
+[14:32:39] Possible /pseudo 'Methionine--tRNA ligase' at WQMQ01000030.1 position 8852
+[14:32:39] Possible /pseudo 'Chromosomal replication initiator protein DnaA' at WQMQ01000031.1 position 1677
+[14:32:39] Possible /pseudo 'Competence protein ComM' at WQMQ01000031.1 position 3876
+[14:32:39] Possible /pseudo 'Competence protein ComM' at WQMQ01000031.1 position 4277
+[14:32:39] Possible /pseudo 'Succinate dehydrogenase flavoprotein subunit' at WQMQ01000035.1 position 7987
+[14:32:39] Possible /pseudo 'Succinate dehydrogenase flavoprotein subunit' at WQMQ01000035.1 position 8257
+[14:32:39] Possible /pseudo 'Chaperone protein DnaK' at WQMQ01000037.1 position 1263
+[14:32:39] Possible /pseudo 'Chaperone protein DnaK' at WQMQ01000037.1 position 1682
+[14:32:39] Possible /pseudo 'Ribonuclease E' at WQMQ01000039.1 position 1452
+[14:32:39] Possible /pseudo 'Threonylcarbamoyladenosine tRNA methylthiotransferase MtaB' at WQMQ01000042.1 position 2954
+[14:32:39] Possible /pseudo 'IS5 family transposase ISWpi1' at WQMQ01000043.1 position 2928
+[14:32:39] Possible /pseudo 'Arginine/agmatine antiporter' at WQMQ01000043.1 position 4955
+[14:32:39] Possible /pseudo 'Bifunctional protein PutA' at WQMQ01000044.1 position 993
+[14:32:39] Possible /pseudo 'Bifunctional protein PutA' at WQMQ01000044.1 position 1529
+[14:32:39] Possible /pseudo 'Bifunctional protein PutA' at WQMQ01000044.1 position 2671
+[14:32:39] Possible /pseudo 'Pyridoxine 5'-phosphate synthase' at WQMQ01000045.1 position 7468
+[14:32:39] Possible /pseudo 'Metalloprotease TldD' at WQMQ01000046.1 position 2274
+[14:32:39] Possible /pseudo 'Peptide chain release factor RF2' at WQMQ01000046.1 position 3510
+[14:32:39] Possible /pseudo 'Elongation factor G' at WQMQ01000064.1 position 447
+[14:32:39] Possible /pseudo 'Elongation factor G' at WQMQ01000064.1 position 779
+[14:32:39] Possible /pseudo 'Elongation factor Tu' at WQMQ01000064.1 position 1984
+[14:32:39] Possible /pseudo 'Elongation factor Tu' at WQMQ01000064.1 position 2835
+[14:32:39] Possible /pseudo '50S ribosomal protein L5' at WQMQ01000068.1 position 3349
+[14:32:39] Possible /pseudo '30S ribosomal protein S3' at WQMQ01000068.1 position 5286
+[14:32:39] Possible /pseudo 'Chaperone protein HscA' at WQMQ01000069.1 position 5661
+[14:32:39] Possible /pseudo 'DNA mismatch repair protein MutL' at WQMQ01000072.1 position 771
+[14:32:39] Possible /pseudo 'DNA mismatch repair protein MutL' at WQMQ01000072.1 position 1246
+[14:32:39] Possible /pseudo 'N5-carboxyaminoimidazole ribonucleotide mutase' at WQMQ01000072.1 position 2119
+[14:32:39] Possible /pseudo 'Lon protease' at WQMQ01000080.1 position 344
+[14:32:39] Possible /pseudo 'Lon protease' at WQMQ01000080.1 position 1070
+[14:32:39] Possible /pseudo 'Lon protease' at WQMQ01000080.1 position 1459
+[14:32:39] Possible /pseudo 'ATP-dependent Clp protease ATP-binding subunit ClpX' at WQMQ01000080.1 position 2696
+[14:32:39] Possible /pseudo 'ATP-dependent Clp protease ATP-binding subunit ClpX' at WQMQ01000080.1 position 3004
+[14:32:39] Possible /pseudo 'ATP-dependent Clp protease proteolytic subunit' at WQMQ01000080.1 position 3800
+[14:32:39] Possible /pseudo 'Propionyl-CoA carboxylase beta chain' at WQMQ01000083.1 position 695
+[14:32:39] Possible /pseudo 'GTPase Der' at WQMQ01000083.1 position 2261
+[14:32:39] Possible /pseudo 'GTPase Der' at WQMQ01000083.1 position 2820
+[14:32:39] Possible /pseudo 'Fumarate hydratase class II' at WQMQ01000085.1 position 2257
+[14:32:39] Possible /pseudo 'Fumarate hydratase class II' at WQMQ01000085.1 position 2439
+[14:32:39] Possible /pseudo 'DEAD-box ATP-dependent RNA helicase CshA' at WQMQ01000086.1 position 1567
+[14:32:39] Possible /pseudo 'ATP synthase gamma chain' at WQMQ01000086.1 position 4259
+[14:32:39] Possible /pseudo '3-oxoacyl-[acyl-carrier-protein] synthase 2' at WQMQ01000090.1 position 588
+[14:32:39] Possible /pseudo '3-oxoacyl-[acyl-carrier-protein] synthase 2' at WQMQ01000090.1 position 1206
+[14:32:39] Possible /pseudo 'NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic' at WQMQ01000090.1 position 4203
+[14:32:39] Possible /pseudo 'ATP-dependent Clp protease ATP-binding subunit ClpA' at WQMQ01000091.1 position 1426
+[14:32:39] Possible /pseudo 'Adenylosuccinate synthetase' at WQMQ01000093.1 position 846
+[14:32:39] Possible /pseudo 'Phosphoribosylamine--glycine ligase' at WQMQ01000095.1 position 527
+[14:32:39] Possible /pseudo 'Serine--tRNA ligase' at WQMQ01000095.1 position 1938
+[14:32:39] Possible /pseudo 'Chaperone protein HtpG' at WQMQ01000097.1 position 1294
+[14:32:39] Possible /pseudo 'Chaperone protein HtpG' at WQMQ01000097.1 position 1493
+[14:32:39] Possible /pseudo 'Chaperone protein HtpG' at WQMQ01000097.1 position 1962
+[14:32:39] Possible /pseudo 'Transcription termination factor Rho' at WQMQ01000104.1 position 1717
+[14:32:39] Possible /pseudo 'Transcription termination factor Rho' at WQMQ01000104.1 position 2092
+[14:32:39] Possible /pseudo 'Transcription termination factor Rho' at WQMQ01000104.1 position 2581
+[14:32:39] Possible /pseudo 'UDP-N-acetylmuramate--L-alanine ligase' at WQMQ01000107.1 position 2407
+[14:32:39] Possible /pseudo 'Enolase' at WQMQ01000107.1 position 3664
+[14:32:39] Possible /pseudo 'Enolase' at WQMQ01000107.1 position 3898
+[14:32:39] Possible /pseudo 'Phosphoribosylformylglycinamidine synthase subunit PurL' at WQMQ01000115.1 position 2145
+[14:32:39] Possible /pseudo 'Phosphoribosylformylglycinamidine synthase subunit PurL' at WQMQ01000115.1 position 2386
+[14:32:39] Possible /pseudo 'Guanylate kinase' at WQMQ01000120.1 position 1523
+[14:32:39] Possible /pseudo 'Succinate--CoA ligase [ADP-forming] subunit alpha' at WQMQ01000121.1 position 1077
+[14:32:39] Possible /pseudo 'Succinate--CoA ligase [ADP-forming] subunit beta' at WQMQ01000121.1 position 2558
+[14:32:39] Possible /pseudo 'Uridylate kinase' at WQMQ01000123.1 position 3525
+[14:32:39] Possible /pseudo 'Succinate dehydrogenase flavoprotein subunit' at WQMQ01000128.1 position 342
+[14:32:39] Possible /pseudo 'Succinate dehydrogenase flavoprotein subunit' at WQMQ01000128.1 position 774
+[14:32:39] Possible /pseudo 'Ribonuclease HII' at WQMQ01000128.1 position 2708
+[14:32:39] Possible /pseudo 'Deoxyguanosinetriphosphate triphosphohydrolase-like protein' at WQMQ01000130.1 position 1580
+[14:32:39] Possible /pseudo 'Ribulose-phosphate 3-epimerase' at WQMQ01000132.1 position 1342
+[14:32:39] Possible /pseudo 'Polyribonucleotide nucleotidyltransferase' at WQMQ01000132.1 position 3039
+[14:32:39] Possible /pseudo 'Phospho-N-acetylmuramoyl-pentapeptide-transferase' at WQMQ01000134.1 position 1674
+[14:32:39] Possible /pseudo 'Elongation factor 4' at WQMQ01000135.1 position 2189
+[14:32:39] Possible /pseudo 'Elongation factor 4' at WQMQ01000135.1 position 2826
+[14:32:39] Possible /pseudo 'ATP-dependent protease ATPase subunit HslU' at WQMQ01000136.1 position 1963
+[14:32:39] Possible /pseudo 'DNA ligase' at WQMQ01000162.1 position 882
+[14:32:39] Possible /pseudo 'DNA ligase' at WQMQ01000162.1 position 1397
+[14:32:39] Possible /pseudo 'DNA ligase' at WQMQ01000162.1 position 2274
+[14:32:39] Possible /pseudo '3-oxoacyl-[acyl-carrier-protein] synthase 2' at WQMQ01000164.1 position 810
+[14:32:39] Possible /pseudo 'Glutamine--fructose-6-phosphate aminotransferase [isomerizing]' at WQMQ01000174.1 position 1624
+[14:32:39] Possible /pseudo '3-octaprenyl-4-hydroxybenzoate carboxy-lyase' at WQMQ01000180.1 position 1840
+[14:32:39] Possible /pseudo 'DNA-directed RNA polymerase subunit alpha' at WQMQ01000182.1 position 525
+[14:32:39] Possible /pseudo '30S ribosomal protein S11' at WQMQ01000182.1 position 1369
+[14:32:39] Possible /pseudo 'Adenylate kinase' at WQMQ01000182.1 position 2401
+[14:32:39] Possible /pseudo 'Alanine--tRNA ligase' at WQMQ01000186.1 position 1577
+[14:32:39] Possible /pseudo 'Ribosomal RNA large subunit methyltransferase E' at WQMQ01000190.1 position 490
+[14:32:39] Possible /pseudo 'Cell division protein FtsA' at WQMQ01000193.1 position 377
+[14:32:39] Possible /pseudo 'Riboflavin biosynthesis protein RibD' at WQMQ01000199.1 position 1336
+[14:32:39] Possible /pseudo 'Valine--tRNA ligase' at WQMQ01000204.1 position 1697
+[14:32:39] Possible /pseudo 'Phosphoglycerate kinase' at WQMQ01000210.1 position 804
+[14:32:39] Possible /pseudo 'Dihydropteroate synthase' at WQMQ01000246.1 position 1298
+[14:32:39] Possible /pseudo 'NADH-quinone oxidoreductase subunit H' at WQMQ01000249.1 position 761
+[14:32:39] Possible /pseudo 'DNA mismatch repair protein MutL' at WQMQ01000280.1 position 218
+[14:32:39] Possible /pseudo 'Oxygen-dependent coproporphyrinogen-III oxidase' at WQMQ01000284.1 position 612
+[14:32:39] Possible /pseudo 'Peptide chain release factor 1' at WQMQ01000294.1 position 279
+[14:32:39] Possible /pseudo 'Elongation factor Ts' at WQMQ01000307.1 position 927
+[14:32:39] Possible /pseudo 'DNA mismatch repair protein MutS' at WQMQ01000315.1 position 1048
+[14:32:39] Possible /pseudo 'Adenylate kinase' at WQMQ01000334.1 position 1043
+[14:32:39] Possible /pseudo 'lipid II flippase MurJ' at WQMQ01000338.1 position 712
+[14:32:39] Possible /pseudo 'RNA polymerase sigma factor RpoD' at WQMQ01000342.1 position 682
+[14:32:39] Possible /pseudo '4-hydroxy-tetrahydrodipicolinate synthase' at WQMQ01000373.1 position 599
+[14:32:39] Found 517 unique /gene codes.
+[14:32:39] Fixed 2 duplicate /gene - ctaG_1 ctaG_2
+[14:32:39] Fixed 2 duplicate /gene - atpF_1 atpF_2
+[14:32:39] Fixed 2 duplicate /gene - pvuIIM_1 pvuIIM_2
+[14:32:39] Fixed 5 duplicate /gene - adk_1 adk_2 adk_3 adk_4 adk_5
+[14:32:39] Fixed 3 duplicate /gene - tsf_1 tsf_2 tsf_3
+[14:32:39] Fixed 5 duplicate /gene - fusA_1 fusA_2 fusA_3 fusA_4 fusA_5
+[14:32:39] Fixed 2 duplicate /gene - rpsB_1 rpsB_2
+[14:32:39] Fixed 2 duplicate /gene - nth_1 nth_2
+[14:32:39] Fixed 4 duplicate /gene - murC_1 murC_2 murC_3 murC_4
+[14:32:39] Fixed 4 duplicate /gene - pgk_1 pgk_2 pgk_3 pgk_4
+[14:32:39] Fixed 2 duplicate /gene - ftsI_1 ftsI_2
+[14:32:39] Fixed 2 duplicate /gene - rpsS_1 rpsS_2
+[14:32:39] Fixed 2 duplicate /gene - tig_1 tig_2
+[14:32:39] Fixed 5 duplicate /gene - htpG_1 htpG_2 htpG_3 htpG_4 htpG_5
+[14:32:39] Fixed 3 duplicate /gene - pdxJ_1 pdxJ_2 pdxJ_3
+[14:32:39] Fixed 6 duplicate /gene - fabF_1 fabF_2 fabF_3 fabF_4 fabF_5 fabF_6
+[14:32:39] Fixed 2 duplicate /gene - purF_1 purF_2
+[14:32:39] Fixed 2 duplicate /gene - ybhL_1 ybhL_2
+[14:32:39] Fixed 3 duplicate /gene - dapA_1 dapA_2 dapA_3
+[14:32:39] Fixed 2 duplicate /gene - recG_1 recG_2
+[14:32:39] Fixed 2 duplicate /gene - mutM_1 mutM_2
+[14:32:39] Fixed 5 duplicate /gene - mutL_1 mutL_2 mutL_3 mutL_4 mutL_5
+[14:32:39] Fixed 2 duplicate /gene - rplM_1 rplM_2
+[14:32:39] Fixed 3 duplicate /gene - hscB_1 hscB_2 hscB_3
+[14:32:39] Fixed 2 duplicate /gene - fbaB_1 fbaB_2
+[14:32:39] Fixed 2 duplicate /gene - rplF_1 rplF_2
+[14:32:39] Fixed 2 duplicate /gene - elbB_1 elbB_2
+[14:32:39] Fixed 2 duplicate /gene - rpsE_1 rpsE_2
+[14:32:39] Fixed 2 duplicate /gene - sucC_1 sucC_2
+[14:32:39] Fixed 2 duplicate /gene - glyQ_1 glyQ_2
+[14:32:39] Fixed 2 duplicate /gene - coq7_1 coq7_2
+[14:32:39] Fixed 3 duplicate /gene - tldD_1 tldD_2 tldD_3
+[14:32:39] Fixed 2 duplicate /gene - aar_1 aar_2
+[14:32:39] Fixed 3 duplicate /gene - tuf_1 tuf_2 tuf_3
+[14:32:39] Fixed 2 duplicate /gene - rplO_1 rplO_2
+[14:32:39] Fixed 2 duplicate /gene - rplD_1 rplD_2
+[14:32:39] Fixed 2 duplicate /gene - GFM1_1 GFM1_2
+[14:32:39] Fixed 2 duplicate /gene - rplX_1 rplX_2
+[14:32:39] Fixed 2 duplicate /gene - tatA_1 tatA_2
+[14:32:39] Fixed 7 duplicate /gene - lon_1 lon_2 lon_3 lon_4 lon_5 lon_6 lon_7
+[14:32:39] Fixed 2 duplicate /gene - rplN_1 rplN_2
+[14:32:39] Fixed 3 duplicate /gene - hslU_1 hslU_2 hslU_3
+[14:32:39] Fixed 3 duplicate /gene - ribD_1 ribD_2 ribD_3
+[14:32:39] Fixed 2 duplicate /gene - tufA_1 tufA_2
+[14:32:39] Fixed 2 duplicate /gene - pyrD_1 pyrD_2
+[14:32:39] Fixed 3 duplicate /gene - lolE_1 lolE_2 lolE_3
+[14:32:39] Fixed 4 duplicate /gene - ftsY_1 ftsY_2 ftsY_3 ftsY_4
+[14:32:39] Fixed 3 duplicate /gene - kefC_1 kefC_2 kefC_3
+[14:32:39] Fixed 2 duplicate /gene - ftsZ_1 ftsZ_2
+[14:32:39] Fixed 2 duplicate /gene - valS_1 valS_2
+[14:32:39] Fixed 6 duplicate /gene - fumC_1 fumC_2 fumC_3 fumC_4 fumC_5 fumC_6
+[14:32:39] Fixed 2 duplicate /gene - bcr_1 bcr_2
+[14:32:39] Fixed 3 duplicate /gene - rlmE_1 rlmE_2 rlmE_3
+[14:32:39] Fixed 2 duplicate /gene - mrpA_1 mrpA_2
+[14:32:39] Fixed 3 duplicate /gene - prfA_1 prfA_2 prfA_3
+[14:32:39] Fixed 3 duplicate /gene - mutS_1 mutS_2 mutS_3
+[14:32:39] Fixed 3 duplicate /gene - comM_1 comM_2 comM_3
+[14:32:39] Fixed 2 duplicate /gene - typA_1 typA_2
+[14:32:39] Fixed 3 duplicate /gene - argS_1 argS_2 argS_3
+[14:32:39] Fixed 2 duplicate /gene - rpsM_1 rpsM_2
+[14:32:39] Fixed 2 duplicate /gene - rnhA_1 rnhA_2
+[14:32:39] Fixed 2 duplicate /gene - gph_1 gph_2
+[14:32:39] Fixed 2 duplicate /gene - rplC_1 rplC_2
+[14:32:39] Fixed 4 duplicate /gene - alaS_1 alaS_2 alaS_3 alaS_4
+[14:32:39] Fixed 2 duplicate /gene - nqo3_1 nqo3_2
+[14:32:39] Fixed 5 duplicate /gene - rho_1 rho_2 rho_3 rho_4 rho_5
+[14:32:39] Fixed 2 duplicate /gene - dsbB_1 dsbB_2
+[14:32:39] Fixed 3 duplicate /gene - dnaG_1 dnaG_2 dnaG_3
+[14:32:39] Fixed 2 duplicate /gene - clpA_1 clpA_2
+[14:32:39] Fixed 3 duplicate /gene - ubiD_1 ubiD_2 ubiD_3
+[14:32:39] Fixed 6 duplicate /gene - ligA_1 ligA_2 ligA_3 ligA_4 ligA_5 ligA_6
+[14:32:39] Fixed 2 duplicate /gene - adiC_1 adiC_2
+[14:32:39] Fixed 2 duplicate /gene - cydB_1 cydB_2
+[14:32:39] Fixed 2 duplicate /gene - rpsG_1 rpsG_2
+[14:32:39] Fixed 3 duplicate /gene - rpoD_1 rpoD_2 rpoD_3
+[14:32:39] Fixed 3 duplicate /gene - rne_1 rne_2 rne_3
+[14:32:39] Fixed 2 duplicate /gene - rplP_1 rplP_2
+[14:32:39] Fixed 3 duplicate /gene - iscU_1 iscU_2 iscU_3
+[14:32:39] Fixed 2 duplicate /gene - miaB_1 miaB_2
+[14:32:39] Fixed 2 duplicate /gene - ileS_1 ileS_2
+[14:32:39] Fixed 3 duplicate /gene - erpA_1 erpA_2 erpA_3
+[14:32:39] Fixed 2 duplicate /gene - rpsJ_1 rpsJ_2
+[14:32:39] Fixed 2 duplicate /gene - virB4_1 virB4_2
+[14:32:39] Fixed 2 duplicate /gene - rpsI_1 rpsI_2
+[14:32:39] Fixed 2 duplicate /gene - dnaB_1 dnaB_2
+[14:32:39] Fixed 2 duplicate /gene - gltA_1 gltA_2
+[14:32:39] Fixed 3 duplicate /gene - proP_1 proP_2 proP_3
+[14:32:39] Fixed 2 duplicate /gene - atpH_1 atpH_2
+[14:32:39] Fixed 6 duplicate /gene - purL_1 purL_2 purL_3 purL_4 purL_5 purL_6
+[14:32:39] Fixed 2 duplicate /gene - rplB_1 rplB_2
+[14:32:39] Fixed 2 duplicate /gene - pmbA_1 pmbA_2
+[14:32:39] Fixed 2 duplicate /gene - gpsA_1 gpsA_2
+[14:32:39] Fixed 3 duplicate /gene - nuoH_1 nuoH_2 nuoH_3
+[14:32:39] Fixed 2 duplicate /gene - acoB_1 acoB_2
+[14:32:39] Fixed 3 duplicate /gene - lolD_1 lolD_2 lolD_3
+[14:32:39] Fixed 2 duplicate /gene - mrpG_1 mrpG_2
+[14:32:39] Fixed 3 duplicate /gene - purD_1 purD_2 purD_3
+[14:32:39] Fixed 3 duplicate /gene - hslV_1 hslV_2 hslV_3
+[14:32:39] Fixed 3 duplicate /gene - mtaB_1 mtaB_2 mtaB_3
+[14:32:39] Fixed 3 duplicate /gene - rpsK_1 rpsK_2 rpsK_3
+[14:32:39] Fixed 2 duplicate /gene - ftsA_1 ftsA_2
+[14:32:39] Fixed 4 duplicate /gene - prfB_1 prfB_2 prfB_3 prfB_4
+[14:32:39] Fixed 2 duplicate /gene - pdxH_1 pdxH_2
+[14:32:39] Fixed 3 duplicate /gene - clpP_1 clpP_2 clpP_3
+[14:32:39] Fixed 2 duplicate /gene - sodB_1 sodB_2
+[14:32:39] Fixed 3 duplicate /gene - atpG_1 atpG_2 atpG_3
+[14:32:39] Fixed 2 duplicate /gene - nuoD_1 nuoD_2
+[14:32:39] Fixed 2 duplicate /gene - gmk_1 gmk_2
+[14:32:39] Fixed 3 duplicate /gene - serS_1 serS_2 serS_3
+[14:32:39] Fixed 3 duplicate /gene - iscS_1 iscS_2 iscS_3
+[14:32:39] Fixed 3 duplicate /gene - murE_1 murE_2 murE_3
+[14:32:39] Fixed 2 duplicate /gene - rsmA_1 rsmA_2
+[14:32:39] Fixed 2 duplicate /gene - rlpA_1 rlpA_2
+[14:32:39] Fixed 6 duplicate /gene - sdhA_1 sdhA_2 sdhA_3 sdhA_4 sdhA_5 sdhA_6
+[14:32:39] Fixed 2 duplicate /gene - xthA_1 xthA_2
+[14:32:39] Fixed 3 duplicate /gene - cshA_1 cshA_2 cshA_3
+[14:32:39] Fixed 2 duplicate /gene - rplR_1 rplR_2
+[14:32:39] Fixed 2 duplicate /gene - algC_1 algC_2
+[14:32:39] Fixed 2 duplicate /gene - pepA_1 pepA_2
+[14:32:39] Fixed 2 duplicate /gene - sucD_1 sucD_2
+[14:32:39] Fixed 4 duplicate /gene - dnaA_1 dnaA_2 dnaA_3 dnaA_4
+[14:32:39] Fixed 4 duplicate /gene - clpX_1 clpX_2 clpX_3 clpX_4
+[14:32:39] Fixed 4 duplicate /gene - rpe_1 rpe_2 rpe_3 rpe_4
+[14:32:39] Fixed 2 duplicate /gene - grpE_1 grpE_2
+[14:32:39] Fixed 3 duplicate /gene - rpoA_1 rpoA_2 rpoA_3
+[14:32:39] Fixed 2 duplicate /gene - rpsL_1 rpsL_2
+[14:32:39] Fixed 3 duplicate /gene - metG_1 metG_2 metG_3
+[14:32:39] Fixed 2 duplicate /gene - tenA_1 tenA_2
+[14:32:39] Fixed 5 duplicate /gene - putA_1 putA_2 putA_3 putA_4 putA_5
+[14:32:39] Fixed 2 duplicate /gene - argD_1 argD_2
+[14:32:39] Fixed 4 duplicate /gene - pyrH_1 pyrH_2 pyrH_3 pyrH_4
+[14:32:39] Fixed 3 duplicate /gene - alsT_1 alsT_2 alsT_3
+[14:32:39] Fixed 2 duplicate /gene - purE_1 purE_2
+[14:32:39] Fixed 2 duplicate /gene - pld_1 pld_2
+[14:32:39] Fixed 2 duplicate /gene - coaD_1 coaD_2
+[14:32:39] Fixed 2 duplicate /gene - miaA_1 miaA_2
+[14:32:39] Fixed 7 duplicate /gene - hscA_1 hscA_2 hscA_3 hscA_4 hscA_5 hscA_6 hscA_7
+[14:32:39] Fixed 3 duplicate /gene - hemF_1 hemF_2 hemF_3
+[14:32:39] Fixed 3 duplicate /gene - ltrA_1 ltrA_2 ltrA_3
+[14:32:39] Fixed 3 duplicate /gene - ndhB_1 ndhB_2 ndhB_3
+[14:32:39] Fixed 5 duplicate /gene - pnp_1 pnp_2 pnp_3 pnp_4 pnp_5
+[14:32:39] Fixed 2 duplicate /gene - rcsC_1 rcsC_2
+[14:32:39] Fixed 4 duplicate /gene - lepA_1 lepA_2 lepA_3 lepA_4
+[14:32:39] Fixed 2 duplicate /gene - rpoZ_1 rpoZ_2
+[14:32:39] Fixed 2 duplicate /gene - nifS_1 nifS_2
+[14:32:39] Fixed 4 duplicate /gene - mraY_1 mraY_2 mraY_3 mraY_4
+[14:32:39] Fixed 3 duplicate /gene - rplE_1 rplE_2 rplE_3
+[14:32:39] Fixed 4 duplicate /gene - der_1 der_2 der_3 der_4
+[14:32:39] Fixed 3 duplicate /gene - pccB_1 pccB_2 pccB_3
+[14:32:39] Fixed 3 duplicate /gene - rnhB_1 rnhB_2 rnhB_3
+[14:32:39] Fixed 3 duplicate /gene - purA_1 purA_2 purA_3
+[14:32:39] Fixed 2 duplicate /gene - rnd_1 rnd_2
+[14:32:39] Fixed 2 duplicate /gene - uvrC_1 uvrC_2
+[14:32:39] Fixed 2 duplicate /gene - ispB_1 ispB_2
+[14:32:39] Fixed 3 duplicate /gene - acpP_1 acpP_2 acpP_3
+[14:32:39] Fixed 5 duplicate /gene - dnaK_1 dnaK_2 dnaK_3 dnaK_4 dnaK_5
+[14:32:39] Fixed 2 duplicate /gene - rpsN_1 rpsN_2
+[14:32:39] Fixed 3 duplicate /gene - murJ_1 murJ_2 murJ_3
+[14:32:39] Fixed 2 duplicate /gene - infB_1 infB_2
+[14:32:39] Fixed 2 duplicate /gene - gatA_1 gatA_2
+[14:32:39] Fixed 4 duplicate /gene - eno_1 eno_2 eno_3 eno_4
+[14:32:39] Fixed 3 duplicate /gene - rpsC_1 rpsC_2 rpsC_3
+[14:32:39] Fixed 162 colliding /gene names.
+[14:32:39] Adding /locus_tag identifiers
+[14:32:39] Assigned 1841 locus_tags to CDS and RNA features.
+[14:32:39] Writing outputs to annotation/wApol/
+[14:32:40] Generating annotation statistics file
+[14:32:40] Generating Genbank and Sequin files
+[14:32:40] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z annotation\/wApol\/wApol\.err -i annotation\/wApol\/wApol\.fsa 2> /dev/null
+[14:32:43] Deleting unwanted file: annotation/wApol/errorsummary.val
+[14:32:43] Deleting unwanted file: annotation/wApol/wApol.dr
+[14:32:43] Deleting unwanted file: annotation/wApol/wApol.fixedproducts
+[14:32:43] Deleting unwanted file: annotation/wApol/wApol.ecn
+[14:32:43] Deleting unwanted file: annotation/wApol/wApol.val
+[14:32:43] Repairing broken .GBK output that tbl2asn produces...
+[14:32:43] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < annotation\/wApol\/wApol\.gbf > annotation\/wApol\/wApol\.gbk
+[14:32:43] Deleting unwanted file: annotation/wApol/wApol.gbf
+[14:32:43] Output files:
+[14:32:43] annotation/wApol/wApol.tsv
+[14:32:43] annotation/wApol/wApol.tbl
+[14:32:43] annotation/wApol/wApol.fsa
+[14:32:43] annotation/wApol/wApol.fna
+[14:32:43] annotation/wApol/wApol.txt
+[14:32:43] annotation/wApol/wApol.log
+[14:32:43] annotation/wApol/wApol.err
+[14:32:43] annotation/wApol/wApol.sqn
+[14:32:43] annotation/wApol/wApol.gbk
+[14:32:43] annotation/wApol/wApol.gff
+[14:32:43] annotation/wApol/wApol.ffn
+[14:32:43] annotation/wApol/wApol.faa
+[14:32:43] Annotation finished successfully.
+[14:32:43] Walltime used: 0.77 minutes
+[14:32:43] If you use this result please cite the Prokka paper:
+[14:32:43] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[14:32:43] Type 'prokka --citation' for more details.
+[14:32:43] Thank you, come again.

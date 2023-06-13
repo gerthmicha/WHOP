@@ -1,0 +1,7 @@
+organism: Wolbachia sp. wVulC 
+contigs: 10
+bases: 1663741
+CDS: 1773
+rRNA: 3
+tRNA: 35
+tmRNA: 1
