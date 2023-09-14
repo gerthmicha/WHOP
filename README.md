@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/652663873.svg)](https://zenodo.org/badge/latestdoi/652663873)
+
 # WHOP
 
 **W**olbachia p**H**yl**O**geny **P**ipeline
